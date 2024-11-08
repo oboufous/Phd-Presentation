@@ -1,0 +1,344 @@
+\documentclass[first=blue,second=blue,logo=yellowexcELEC,usenames,dvipsnames, aspectratio=169, handout]{aaltoslides169}
+%\documentclass[first=blue,second=blue,logo=blueexc]{aaltoslides}
+% \documentclass[handout]{beamer}        % to compile 2x2 handouts
+
+%\usepackage{beamerthemesplit}
+\usepackage[orientation=landscape,size=custom,width=16,height=9,debug]{beamerposter}
+
+\usefonttheme[onlymath]{serif}
+
+\setbeamercovered{transparent}
+\setbeamertemplate{caption}[numbered]
+\usepackage{caption}
+\usepackage{multirow, makecell}
+\usepackage{xfrac} %for different types of fraction
+\usepackage{amsmath,amssymb}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage{arydshln}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{tabulary}
+\usepackage{tabularray}
+\usepackage{bbm}
+\usepackage{pifont}
+\setbeamercovered{dynamic}
+\usepackage{dsfont}
+\usepackage{scrextend}
+ \usepackage{appendixnumberbeamer}
+\usepackage{bm}
+\usepackage{gensymb}
+\usepackage{subfig}
+\usepackage{colortbl}
+%\usepackage{subcaption}
+%\usepackage{makecell}
+\usepackage{cancel}
+\usepackage{xcolor}
+
+%\usepackage{ulem}
+\newcommand{\soutthick}[1]{%
+    \renewcommand{\ULthickness}{2.4pt}%
+       \sout{#1}%
+    \renewcommand{\ULthickness}{.4pt}% Resetting to ulem default
+}
+
+% ======= This is for custom footnotes
+\newcommand{\customfootnotetext}[2]{{% Group to localize change to footnote
+  \renewcommand{\thefootnote}{#1}% Update footnote counter representation
+  \footnotetext[0]{#2}}}% Print footnote text
+
+\usepackage{environ}
+\usepackage{tikz}
+\usetikzlibrary{fadings}
+\usetikzlibrary{matrix}
+\usetikzlibrary{chains}
+\usetikzlibrary{positioning}
+\usetikzlibrary{fit,shapes.geometric}
+\usetikzlibrary{arrows, patterns}
+\usepackage{tcolorbox}
+\usepackage{multimedia}
+\usepackage{hyperref}
+
+
+\colorlet{shadecolor}{gray!40}
+
+
+
+\tikzstyle{observation} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.5cm,text centered]
+\tikzstyle{binG} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.5cm,text centered, draw=green,thick, fill=green!10]
+\tikzstyle{binB} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.5cm,text centered, draw=red,thick, fill=red!10]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{crossout} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.5cm,text centered, pattern=north west lines]
+
+\tikzset{
+	invisible/.style={opacity=0},
+	visible on/.style={alt={#1{}{invisible}}},
+	alt/.code args={<#1>#2#3}{%
+		\alt<#1>{\pgfkeysalso{#2}}{\pgfkeysalso{#3}} % \pgfkeysalso doesn't change the path
+	},
+}
+
+\usetikzlibrary{shapes.arrows}
+
+
+\tikzset{
+    myarrow/.style={
+        draw=aaltoblue,
+        fill=aaltoblue!70!white,
+        single arrow,
+        minimum height=5.5ex,
+        single arrow head extend=1ex
+    }
+}
+\newcommand{\arrowup}{%
+\tikz [baseline=-0.5ex]{\node [myarrow,rotate=90] {};}
+}
+\newcommand{\arrowdown}{%
+\tikz [baseline=-1ex]{\node [myarrow,rotate=-90] {};}
+}
+
+
+
+\newcounter{nodemarkers}
+\newcommand<>\circletext[1]{%
+	\tikz[overlay,remember picture] 
+	\node (marker-\arabic{nodemarkers}-a) at (0,1.5ex) {};%
+	#1%
+	\tikz[overlay,remember picture]
+	\node (marker-\arabic{nodemarkers}-b) at (0,0){};%
+	\tikz[overlay,remember picture,inner sep=2pt]
+	\node#2[draw,green,ellipse,fit=(marker-\arabic{nodemarkers}-a.center) (marker-\arabic{nodemarkers}-b.center)] {};%
+	\stepcounter{nodemarkers}%
+}
+
+
+
+\everymath{\displaystyle}
+
+
+ 
+\changefontsizes{8pt}
+
+\usepackage{mathtools}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\setlength{\leftmargini}{0.45cm}
+\setlength{\leftmarginii}{0.35cm}
+
+ \def\tr{\mathop{\mathrm{tr}}}
+ 
+\setbeamertemplate{section in toc}[square]
+\setbeamertemplate{subsection in toc}[square]
+\setbeamerfont{section number projected}{size=\large}
+\setbeamercolor{section number projected}{bg=aaltoblue,fg=white}
+
+\newcommand\aaltofootertext[3]{\def\footfrow{#1}\def\footsrow{#2}\def\foottrow{#3}}
+\aaltofootertext{Alpine Game Theory Symposium}{June 2023}{\insertframenumber/\inserttotalframenumber}
+
+% Syntax: \colorboxed[<color model>]{<color specification>}{<math formula>}
+\newcommand*{\colorboxed}{}
+\def\colorboxed#1#{%
+  \colorboxedAux{#1}%
+}
+\newcommand*{\colorboxedAux}[3]{%
+  % #1: optional argument for color model
+  % #2: color specification
+  % #3: formula
+  \begingroup
+    \colorlet{cb@saved}{.}%
+    \color#1{#2}%
+    \boxed{%
+      \color{cb@saved}%
+      #3%
+    }%
+  \endgroup
+}
+
+\newtcolorbox{adbox}[1][\hspace{-0.3cm} \textbf{Advertisement}]{
+colback=white,
+colbacktitle=aaltoblue!10!white,
+coltitle=aaltoblue,
+colframe=aaltoblue,
+boxrule=1pt,
+titlerule=0pt,
+arc=5pt,
+title={\strut#1}
+}
+
+
+
+\usepackage{pgfplots}
+
+%\mode<presentation>{\usetheme{Warsaw}}
+
+%\makeatletter
+%\def\th@mystyle{%
+%    \normalfont % body font
+%    \setbeamercolor{block title example}{bg=orange,fg=white}
+%    \setbeamercolor{block body example}{bg=orange!20,fg=black}
+%    \def\inserttheoremblockenv{exampleblock}
+%  }
+%\makeatother
+%\theoremstyle{mystyle}
+\newtheorem*{remark}{Remark}
+
+
+
+
+%List of packages
+%\usepackage{amsmath}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Metadata %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hypersetup
+{
+	%Separate multiple authors by comma
+	pdfauthor={Omar Boufous},
+	colorlinks=false
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title related %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setbeamertemplate{subsection in toc}[default]
+
+%The contact for one of the authors MUST be embedded on the title (see below)
+\title[]{Constrained Correlated Equilibria}
+%Subtitle (if needed)
+\subtitle{}
+%For LICENSE, we suggest CC-BY-SA, but you are free to choose your own as long
+%as the LICENSE you choose is AT LEAST as permissive as CC-BY-SA
+\date[2023]{\small June, 2023\\ \vspace{1cm} {{ \small 2023 Alpine Game Theory Symposium, Grenoble}}}
+\author[Boufous\hspace{0.2cm} {\includegraphics[height=0.2cm, keepaspectratio]{8015.png}}]{\texorpdfstring{Omar Boufous$^{1,2}$, Rachid El Azouzi$^2$, Mikaël Touati$^1$, Eitan Altman$^{2,3}$ and Mustapha Bouhtou$^1$}{}}
+\institute[Orange]{$^1$ Orange, Châtillon, France\\$^2$ CERI/LIA, Université d’Avignon, Avignon, France\\$^3$ INRIA Sophia Antipolis, France}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Presentation begins here %%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Related Work}
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{center}
+\textbf{Correlated Equilibria and Extensions} 
+\end{center}
+\begin{itemize}\setlength{\itemsep}{-0.1cm}
+    \setlength{\itemindent}{.2in}
+    \item Correlated equilibria defined in (Aumann, 1974) and (Aumann, 1987)
+    \item A second proof of existence and a generalization to infinite games is in (Hart \& Schmeidler, 1989)
+    \item The concept was extended to extensive games (Von Stengel \& Forges, 2008) and to allow communications between players (Forges, 2020)  
+    \item Other variants are presented in (Brandenburger \& Dekel, 1992) and (Grant \& Stauber, 2022)
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{center}
+\textbf{Generaliazd Nash Equilibria} 
+\end{center}
+\begin{itemize}\setlength{\itemsep}{-0.1cm}
+    \setlength{\itemindent}{.2in}
+    \item (Debreu, 1952) defines the concept of generalized equilibrium 
+    \item (Arrow \& Debreu, 1954) presents a proof of existence of the generalized equilibrium
+    \item (Rosen, 1965) shows the existence and uniqueness of a generalized Nash equilibrium in games with shared or coupled constraints under appropriate assumptions on utilities and the feasible set of joint strategies
+\end{itemize}
+\end{column}
+\end{columns}
+\vspace{1cm}
+
+\begin{center}
+\noindent $\rightarrow$ The combination of constraints and correlation has not yet been studied in the literature    
+\end{center}
+
+\end{frame}
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Approach \& Contribution}
+\vspace{0.3cm}
+
+Consider constraints on the social welfare $SW = \Sigma_{i\in\mathcal{N}} u_i$ for the game of Chicken\\
+\vspace{-0.3cm}
+\begin{columns}
+\begin{column}{0.37\textwidth}
+    \begin{table}
+    \resizebox{3cm}{!}{%
+    \begin{tabular}{c|c|c}
+     & \multicolumn{1}{c|}{\textbf{P}}  & \textbf{A} \\ \hline
+    \textbf{P} & \multicolumn{1}{c|}{8, 8} & 3, 10  \\ \hline
+    \textbf{A} & \multicolumn{1}{c|}{10, 3} & 0, 0
+    \end{tabular}}
+    \caption*{\textcolor{aaltoblue}{Table:} Game of Chicken.}
+    \end{table}
+\end{column}
+\begin{column}{0.63\textwidth}  %%<--- here
+\vspace{0.25cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[scale=0.27]{figures/P12.png}
+  \caption*{\textcolor{aaltoblue}{Figure:} Utilities for $SW \geq 12$}
+  \label{fig:test1}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[scale=0.27]{figures/P13.png}
+  \caption*{\textcolor{aaltoblue}{Figure:} Utilities for $SW \geq 13$}
+  \label{fig:test2}
+\end{minipage}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{column}
+\end{columns}
+\vspace{-0.2cm}
+In this work, we
+\begin{itemize}\setlength{\itemsep}{-0.1cm}
+    \setlength{\itemindent}{.2in}
+    \item define and characterize a new solution concept called constrained correlated equilibrium
+    \item show a relation between constrained and unconstrained correlated equilibria
+    \item show sufficient conditions of existence of a constrained correlated equilibrium
+    \item characterize the set of constrained correlated equilibrium distributions
+    \item study the constrained equilibrium distributions of the mixed extension of the game
+\end{itemize}
+
+\end{frame}
+% new slide ===========================================================
+\begin{frame}
+\frametitle{References}
+\vspace{0.1cm}
+
+{ \small R. J. Aumann. Subjectivity and correlation in randomized strategies. Journal of Mathematical Economics, 1(1):67–96, 1974.}
+\vspace{0.1cm}
+
+{\small R. J. Aumann. Correlated equilibrium as an expression of bayesian rationality. Econometrica: Journal of the Econometric Society, pages 1–18, 1987. }
+\vspace{0.1cm}
+
+{ \small S. Hart \& D. Schmeidler. Existence of correlated equilibria. Mathematics of Operations Research, 14(1):18–25, 1989.}
+\vspace{0.1cm}
+
+{ \small B. Von Stengel \& F. Forges. Extensive-form correlated equilibrium: Definition and computational complexity. Mathematics of Operations Research, 33(4):1002–1022, 2008.}
+\vspace{0.1cm}
+
+{ \small F. Forges. Correlated equilibria and communication in games. Complex Social and Behavioral Systems: Game Theory and Agent-Based Models, pages 107–
+118, 2020.}
+\vspace{0.1cm}
+
+{\small A. Brandenburger, E. Dekel, and John Geanakoplos. Correlated equilibrium with generalized information structures. Games and Economic Behavior, 4(2):182–201, 1992.}
+\vspace{0.1cm}
+
+{\small S. Grant and R. Stauber. Delegation and ambiguity in correlated equilibrium. Games and Economic Behavior, 132:487–509, 2022.}
+\vspace{0.1cm}
+
+{\small G. Debreu. A social equilibrium existence theorem. Proceedings of the National Academy of Sciences, 38(10):886–893, 1952.}
+\vspace{0.1cm}
+
+{\small K. J. Arrow and G Debreu. Existence of an equilibrium for a competitive economy. Econometrica: Journal of the Econometric Society, pages 265–290, 1954.}
+\vspace{0.1cm}
+
+{\small J. B. Rosen. Existence and Uniqueness of Equilibrium Points for Concave N-Person Games. Econometrica, 33(3):520, 1965.}
+
+\end{frame}
+\end{document}
