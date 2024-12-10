@@ -1,0 +1,298 @@
+\documentclass[first=blue,second=blue,logo=yellowexcELEC,usenames,dvipsnames, aspectratio=169]{aaltoslides169}
+%\documentclass[first=blue,second=blue,logo=blueexc]{aaltoslides}
+% \documentclass[handout]{beamer}        % to compile 2x2 handouts
+
+%\usepackage{beamerthemesplit}
+\usepackage[orientation=landscape,size=custom,width=16,height=9,debug]{beamerposter} 
+
+
+\usefonttheme[onlymath]{serif}
+
+\setbeamercovered{transparent}
+\setbeamertemplate{caption}[numbered]
+
+\usepackage{amsmath,amssymb}
+\usepackage{biblatex}
+\addbibresource{bibliography_admission_ecc2018.bib}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage{arydshln}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{pifont}
+\usepackage{scrextend}
+\usepackage{bm}
+\usepackage{amsfonts}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{gensymb}
+\usepackage{subfig}
+
+\usepackage{environ}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetikzlibrary{fadings}
+\usetikzlibrary{matrix}
+\usetikzlibrary{chains}
+\usetikzlibrary{positioning}
+\usetikzlibrary{fit,shapes.geometric}
+\usetikzlibrary{arrows, patterns}
+\usepackage{tcolorbox}
+\usepackage{multimedia}
+\usepackage{hyperref}
+
+
+\tikzstyle{observation} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.5cm,text centered]
+\tikzstyle{binG} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.5cm,text centered, draw=green,thick, fill=green!10]
+\tikzstyle{binB} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.5cm,text centered, draw=red,thick, fill=red!10]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{crossout} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.5cm,text centered, pattern=north west lines]
+
+\tikzset{
+	invisible/.style={opacity=0},
+	visible on/.style={alt={#1{}{invisible}}},
+	alt/.code args={<#1>#2#3}{%
+		\alt<#1>{\pgfkeysalso{#2}}{\pgfkeysalso{#3}} % \pgfkeysalso doesn't change the path
+	},
+}
+
+\usetikzlibrary{shapes.arrows}
+
+
+\tikzset{
+    myarrow/.style={
+        draw=aaltoblue,
+        fill=aaltoblue!70!white,
+        single arrow,
+        minimum height=5.5ex,
+        single arrow head extend=1ex
+    }
+}
+\newcommand{\arrowup}{%
+\tikz [baseline=-0.5ex]{\node [myarrow,rotate=90] {};}
+}
+\newcommand{\arrowdown}{%
+\tikz [baseline=-1ex]{\node [myarrow,rotate=-90] {};}
+}
+
+
+
+\newcounter{nodemarkers}
+\newcommand<>\circletext[1]{%
+	\tikz[overlay,remember picture] 
+	\node (marker-\arabic{nodemarkers}-a) at (0,1.5ex) {};%
+	#1%
+	\tikz[overlay,remember picture]
+	\node (marker-\arabic{nodemarkers}-b) at (0,0){};%
+	\tikz[overlay,remember picture,inner sep=2pt]
+	\node#2[draw,green,ellipse,fit=(marker-\arabic{nodemarkers}-a.center) (marker-\arabic{nodemarkers}-b.center)] {};%
+	\stepcounter{nodemarkers}%
+}
+
+
+
+\everymath{\displaystyle}
+
+
+ 
+\changefontsizes{8pt}
+
+\usepackage{mathtools}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\setlength{\leftmargini}{0.45cm}
+\setlength{\leftmarginii}{0.35cm}
+
+ \def\tr{\mathop{\mathrm{tr}}}
+ 
+\setbeamertemplate{section in toc}[square]
+\setbeamertemplate{subsection in toc}[square]
+\setbeamerfont{section number projected}{size=\large}
+\setbeamercolor{section number projected}{bg=aaltoblue,fg=white}
+
+\newcommand\aaltofootertext[3]{\def\footfrow{#1}\def\footsrow{#2}\def\foottrow{#3}}
+\aaltofootertext{Omar Boufous}{September 2020}{\insertframenumber/\inserttotalframenumber}
+
+% Syntax: \colorboxed[<color model>]{<color specification>}{<math formula>}
+\newcommand*{\colorboxed}{}
+\def\colorboxed#1#{%
+  \colorboxedAux{#1}%
+}
+\newcommand*{\colorboxedAux}[3]{%
+  % #1: optional argument for color model
+  % #2: color specification
+  % #3: formula
+  \begingroup
+    \colorlet{cb@saved}{.}%
+    \color#1{#2}%
+    \boxed{%
+      \color{cb@saved}%
+      #3%
+    }%
+  \endgroup
+}
+
+\newtcolorbox{adbox}[1][\hspace{-0.3cm} \textbf{Advertisement}]{
+colback=white,
+colbacktitle=aaltoblue!10!white,
+coltitle=aaltoblue,
+colframe=aaltoblue,
+boxrule=1pt,
+titlerule=0pt,
+arc=5pt,
+title={\strut#1}
+}
+
+
+
+\usepackage{pgfplots}
+
+%\mode<presentation>{\usetheme{Warsaw}}
+
+%\makeatletter
+%\def\th@mystyle{%
+%    \normalfont % body font
+%    \setbeamercolor{block title example}{bg=orange,fg=white}
+%    \setbeamercolor{block body example}{bg=orange!20,fg=black}
+%    \def\inserttheoremblockenv{exampleblock}
+%  }
+%\makeatother
+%\theoremstyle{mystyle}
+\newtheorem*{remark}{Remark}
+
+
+
+
+%List of packages
+%\usepackage{amsmath}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Metadata %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hypersetup
+{
+	%Separate multiple authors by comma
+	pdfauthor={Omar Boufous},
+	pdftitle={ECC presentation},
+	pdfsubject={ECC presentation},
+	pdfkeywords={ECC, presentation},
+	colorlinks=false
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title related %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setbeamertemplate{subsection in toc}[default]
+
+%The contact for one of the authors MUST be embedded on the title (see below)
+\title[]{Deep Reinforcement Learning for Complete\\Coverage Path Planning in Unknown Environments}
+%Subtitle (if needed)
+\subtitle{}
+%For LICENSE, we suggest CC-BY-SA, but you are free to choose your own as long
+%as the LICENSE you choose is AT LEAST as permissive as CC-BY-SA
+\date[2020]{September 10$^{th}$, 2020\\ \vspace{1cm} {Master of Science Thesis\\}}
+\author[Boufous \hspace{0.2cm} {\includegraphics[height=0.2cm, keepaspectratio]{8015.png}}]{\texorpdfstring{Omar Boufous}{}}
+\institute[Aalto University]{School of Electrical Engineering and Computer Science, KTH Royal Institute of Technology.\\School of Science, Aalto University.\\Institut Mines Telecom Atlantique.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Presentation begins here %%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+
+% new slide ===========================================================
+\begin{frame}[t]
+\frametitle{State-of-the-art}
+
+X
+
+\end{frame}
+
+% new slide ===========================================================
+\begin{frame}[t]
+\frametitle{Motivation}
+\begin{itemize}\itemsep 0.3cm
+\item Planning, on the fly, a path from a starting position such that the \textbf{robot covers every point in an initially unknown spatial environment}.
+\item Currently,
+\begin{itemize}\itemsep 0.1cm
+\item Finding an optimal path that visits every node in a graph exactly once is \textbf{NP-hard problem}.
+\item \textbf{Approximate and heuristic solutions} are usually used for the complete coverage path planning task.
+\item Most methods rely on the \textbf{a priori knowledge of the map of the environment} and cope with unknown obstacles detected by range sensors.
+\end{itemize}
+\item Objectives:
+\begin{itemize}\itemsep 0.1cm
+\item \textbf{Partially or completely unknown environments} (i.e. exploration task).
+\item Cover as close to 100\% of the land as possible.
+\item Avoid double coverage of areas.
+\item Avoid obstacles and impassable areas.
+\item Be as efficient as possible, i.e., keep costs to a minimum to prevent unnecessary, wastage of time and resources
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+% new slide ===========================================================
+\begin{frame}[t]
+\frametitle{Contributions}
+
+
+\end{frame}
+
+% new slide ===========================================================
+\begin{frame}[t]
+
+\begin{center}
+	Part 1 : Learning Correlated Equilibria
+\end{center}
+
+\end{frame}
+
+% new slide ===========================================================
+\begin{frame}[t]
+\frametitle{Motivation}
+
+
+\end{frame}
+
+% new slide ===========================================================
+\begin{frame}[t]
+
+\begin{center}
+	Part 2 : Constrained Correlated Equilibria
+\end{center}
+
+\end{frame}
+
+% new slide ===========================================================
+\begin{frame}[t]
+\frametitle{Motivation}
+
+
+\end{frame}
+
+% new slide ===========================================================
+\frame{\frametitle{Thank you!}
+\vspace{-0.31cm}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[scale=0.299]{figures/questions} \\[-0.6cm]
+\textbf{Questions?} 
+\end{center}
+\end{column}
+\begin{column}{6.1cm}
+  \begin{flushright}
+    \textbf{For more information:}\\[0.1cm]
+    {\footnotesize
+    \textcolor{blue}{\url{omar.boufous@aalto.fi}}} 
+   
+ \vskip0.5cm
+  \end{flushright}
+\end{column}
+\end{columns}
+}
+
+% ===================================================================
+%
+% That's all folks! 
+%
+% ===================================================================
+\end{document}

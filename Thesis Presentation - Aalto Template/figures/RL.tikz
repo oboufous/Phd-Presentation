@@ -1,0 +1,52 @@
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,261.6875); %set diagram left start at 0, and has height of 261.6875
+%uncomment if require: \path (0,261.6875); %set diagram left start at 0, and has height of 261.6875
+
+
+%Rounded Rect [id:dp031055189867893462] 
+\draw   (280.3,54.96) .. controls (280.3,49.46) and (284.76,45) .. (290.26,45) -- (350.34,45) .. controls (355.84,45) and (360.3,49.46) .. (360.3,54.96) -- (360.3,84.84) .. controls (360.3,90.34) and (355.84,94.8) .. (350.34,94.8) -- (290.26,94.8) .. controls (284.76,94.8) and (280.3,90.34) .. (280.3,84.84) -- cycle ;
+%Straight Lines [id:da09368797378201132] 
+\draw    (360.3,69.8) -- (470.02,69.8) -- (470.02,185.52) -- (402.3,185.79) ;
+\draw [shift={(400.3,185.8)}, rotate = 359.77] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da4687996675964947] 
+\draw    (199.5,189.6) -- (160.3,189.6) -- (160.9,64.8) -- (278.3,64.01) ;
+\draw [shift={(280.3,64)}, rotate = 539.62] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Rounded Rect [id:dp9317062839066619] 
+\draw   (240.3,170.76) .. controls (240.3,165.26) and (244.76,160.8) .. (250.26,160.8) -- (390.34,160.8) .. controls (395.84,160.8) and (400.3,165.26) .. (400.3,170.76) -- (400.3,200.64) .. controls (400.3,206.14) and (395.84,210.6) .. (390.34,210.6) -- (250.26,210.6) .. controls (244.76,210.6) and (240.3,206.14) .. (240.3,200.64) -- cycle ;
+%Straight Lines [id:da6537393047958295] 
+\draw    (199.5,180.6) -- (170.3,180.6) -- (170.9,74.8) -- (278.3,74.01) ;
+\draw [shift={(280.3,74)}, rotate = 539.5799999999999] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da9701511939295926] 
+\draw    (239.9,180.6) -- (201.5,180.6) ;
+\draw [shift={(199.5,180.6)}, rotate = 360] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da8932385159401783] 
+\draw    (239.9,189.6) -- (201.5,189.6) ;
+\draw [shift={(199.5,189.6)}, rotate = 360] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da7215986480210546] 
+\draw  [dash pattern={on 0.84pt off 2.51pt}]  (199.5,169.2) -- (199.5,202) ;
+
+% Text Node
+\draw (278,178.64) node [anchor=north west][inner sep=0.75pt]   [align=left] {Envrionment};
+% Text Node
+\draw (299,61.64) node [anchor=north west][inner sep=0.75pt]   [align=left] {Agent};
+% Text Node
+\draw (142.43,86.81) node  [font=\footnotesize]  {${\textstyle State}$};
+% Text Node
+\draw (173,105.2) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize]  {$Reward$};
+% Text Node
+\draw (213,166.2) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$R_{t+1}$};
+% Text Node
+\draw (213.9,193) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$S_{t+1}$};
+% Text Node
+\draw (189,119.2) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize]  {$R_{t}$};
+% Text Node
+\draw (137,95.2) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize]  {$S_{t}$};
+% Text Node
+\draw (472,109.2) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize]  {$Action$};
+% Text Node
+\draw (485,123.2) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize]  {$A_{t}$};
+
+
+\end{tikzpicture}

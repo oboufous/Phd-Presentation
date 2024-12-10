@@ -1,0 +1,46 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{CCP}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f91da08e753e2e080103d949202c5624}{%
+           family={S.X.\bibnamedelimi Yang},
+           familyi={S\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           given={C.\bibnamedelimi Luo},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f91da08e753e2e080103d949202c5624}
+      \strng{fullhash}{f91da08e753e2e080103d949202c5624}
+      \strng{bibnamehash}{f91da08e753e2e080103d949202c5624}
+      \strng{authorbibnamehash}{f91da08e753e2e080103d949202c5624}
+      \strng{authornamehash}{f91da08e753e2e080103d949202c5624}
+      \strng{authorfullhash}{f91da08e753e2e080103d949202c5624}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A neural network approach to complete coverage path planning}
+      \field{year}{2004}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

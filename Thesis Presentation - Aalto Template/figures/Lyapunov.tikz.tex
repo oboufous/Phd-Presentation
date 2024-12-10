@@ -1,0 +1,51 @@
+\pgfkeys{/pgf/number format/.cd,1000 sep={\,}}
+\pgfplotsset{every tick label/.append style={font=\small}}
+\begin{tikzpicture}
+\begin{axis}
+[height=7cm,
+width=8.8cm,
+legend style={font=\footnotesize},
+legend columns={-1},
+legend pos=north east,
+legend cell align={left}, 
+smooth,
+point meta=explicit,
+ylabel shift = 1 pt,
+%cycle list={{blue},{dashed}},
+minor tick num=1,
+ylabel style={yshift=-0.03cm},
+axis equal=false,
+line width=0.7pt,
+no markers,
+grid=major,
+grid style={dashed,gray!30},        % but don't show the grid or the tick for the `extra ticks'
+        extra x tick style={
+        grid=none,
+        major tick length=0pt,},
+x label style={at={(axis description cs:0.5,-0.07)}},
+y label style={at={(axis description cs:-0.01,0.5)}},
+%xmajorgrids,
+%ymajorgrids,
+xmin=0,
+xmax=100,
+ymin=0,
+ymax=1500,
+xlabel=Iterations~(k),ylabel=Accumulations - $N_i$]
+%\addplot[color=red,mark=none]  coordinates {(0,4.45) (1400,4.45) };
+%\addlegendentry{reference}
+%\addplot+[black] table [x expr=\thisrowno{0}/20, y=x, col sep=comma] {figures/results/avg_median/kalman/position.csv};
+\addplot+[blue] table [x=k, y=N1, col sep=comma] {figures/results/Lyapunov-controller.csv};
+\addplot+[black] table [x=k, y=N2, col sep=comma] {figures/results/Lyapunov-controller.csv};
+\addplot+[orange] table [x=k, y=N3, col sep=comma] {figures/results/Lyapunov-controller.csv};
+\addplot+[mark=none, dashed, blue] coordinates {(0,571) (100,571)};
+\addplot+[mark=none, dashed, black] coordinates {(0,500) (100,500)};
+\addplot+[mark=none, dashed, orange] coordinates {(0,411) (100,411)};
+\addplot+[mark=none, dotted, blue] coordinates {(0,1333) (100,1333)};
+\addplot+[mark=none, dotted, black] coordinates {(0,1125) (100,1125)};
+\addplot+[mark=none, dotted, orange] coordinates {(0,1400) (100,1400)};
+\addlegendentry{$N_1$}
+\addlegendentry{$N_2$}
+\addlegendentry{$N_3$}
+%\addlegendentry{$ref$}
+\end{axis}
+\end{tikzpicture}
