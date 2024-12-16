@@ -1,8 +1,9 @@
-\documentclass[first=blue,second=blue,logo=yellowexcELEC,usenames,dvipsnames, aspectratio=169]{aaltoslides169}
+\documentclass[handout,first=blue,second=blue,logo=yellowexcELEC,usenames,dvipsnames, aspectratio=169]{aaltoslides169}
 %\documentclass[first=blue,second=blue,logo=blueexc]{aaltoslides}
-% \documentclass[handout]{beamer}        % to compile 2x2 handouts
+%\documentclass[handout]{beamer}        % to compile 2x2 handouts
 
 %\usepackage{beamerthemesplit}
+
 \usepackage[orientation=landscape,size=custom,width=16,height=9,debug]{beamerposter} 
 
 \usefonttheme[onlymath]{serif}
@@ -26,6 +27,9 @@
 \usepackage{siunitx}
 \usepackage{gensymb}
 \usepackage{subfig}
+\usepackage{makecell}
+\usepackage{xfrac}
+\usepackage{cancel}
 
 \usepackage{environ}
 \usepackage{tikz}
@@ -39,6 +43,46 @@
 \usepackage{tcolorbox}
 \usepackage{multimedia}
 \usepackage{hyperref}
+\usepackage{tcolorbox}
+
+
+\usepackage[utf8]{inputenc}
+%Load useful packages
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+%\usepackage{subcaption}
+\usepackage{subfiles}
+\usepackage{url}
+\usepackage{amsmath,ulem}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\newtheorem{proposition}{Proposition}
+%\usetheme{AnnArbor}
+\setbeamertemplate{caption}[numbered]
+\usepackage{lipsum}
+\newcommand{\ie}{\emph{i.e., }}
+\newcommand{\blue}{\textcolor{blue}}
+\newcommand\xdownarrow[1][2ex]{%
+   \mathrel{\rotatebox{90}{$\xleftarrow{\rule{#1}{0pt}}$}}
+}
+%\usepackage[usenames,dvipsnames]{color}
+%\pgfplotsset{compat=1.13}
+
+\usepackage{makecell}
+\usepackage{colortbl} % for cell coloring 
+\usepackage{multirow}
+
+
+
+
+
+% packages necessary for the danger sign
+\usepackage{stackengine}
+\usepackage{scalerel}
+\newcommand\dangersign[1][2ex]{%
+  \renewcommand\stacktype{L}%
+  \scaleto{\stackon[1.3pt]{\color{red}$\triangle$}{\tiny\bfseries !}}{#1}%
+}
 
 
 \tikzstyle{observation} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.5cm,text centered]
@@ -57,7 +101,6 @@
 
 \usetikzlibrary{shapes.arrows}
 
-
 \tikzset{
     myarrow/.style={
         draw=aaltoblue,
@@ -74,8 +117,6 @@
 \tikz [baseline=-1ex]{\node [myarrow,rotate=-90] {};}
 }
 
-
-
 \newcounter{nodemarkers}
 \newcommand<>\circletext[1]{%
 	\tikz[overlay,remember picture] 
@@ -88,12 +129,8 @@
 	\stepcounter{nodemarkers}%
 }
 
-
-
 \everymath{\displaystyle}
 
-
- 
 \changefontsizes{8pt}
 
 \usepackage{mathtools}
@@ -104,7 +141,7 @@
 \setlength{\leftmarginii}{0.35cm}
 
  \def\tr{\mathop{\mathrm{tr}}}
- 
+  
 \setbeamertemplate{section in toc}[square]
 \setbeamertemplate{subsection in toc}[square]
 \setbeamerfont{section number projected}{size=\large}
@@ -142,8 +179,6 @@ titlerule=0pt,
 arc=5pt,
 title={\strut#1}
 }
-
-
 
 \usepackage{pgfplots}
 
@@ -188,7 +223,13 @@ title={\strut#1}
 %as the LICENSE you choose is AT LEAST as permissive as CC-BY-SA
 \date[2020]{\today\\ \vspace{1cm} {PhD Defense\\}}
 \author[Boufous \hspace{0.2cm} {\includegraphics[height=0.2cm, keepaspectratio]{8015.png}}]{\texorpdfstring{Omar Boufous}{}}
-\institute[Aalto University]{School of Electrical Engineering and Computer Science, KTH Royal Institute of Technology.\\School of Science, Aalto University.\\Institut Mines Telecom Atlantique.}
+\institute[Orange]{Orange, Châtillon, France\\CERI/LIA, Université d’Avignon, Avignon, France\\INRIA Sophia Antipolis, France}
+
+
+
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%% Presentation begins here %%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -196,6 +237,11 @@ title={\strut#1}
 \begin{frame}
 	\titlepage
 \end{frame}
+
+
+
+
+
 
 % new slide ===========================================================
 \begin{frame}[t]
@@ -221,6 +267,188 @@ title={\strut#1}
 	\end{itemize}
 	\item \textbf{Conclusion}
 \end{itemize}
+
+\end{frame}
+
+
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Outline}
+
+\begin{enumerate}
+    \item \textbf{Background \& Preliminaries}
+    \begin{enumerate}
+        \item Related work \& problem definition
+        \item Highlight of contributions
+        \item Notations \& model
+    \end{enumerate}
+    \item \textbf{Correlated Equilibria \& Properties}
+    \begin{enumerate}
+        \item Extended Game \& Correlated Strategies
+        \item Coupled Constraints in the Extended Game
+    \end{enumerate}
+    \item \textbf{Constrained Correlated Equilibrium Strategies}
+    \begin{enumerate}
+        \item Definition \& Example
+        \item Alternative Characterizations
+    \end{enumerate}
+    \item \textbf{Existence Conditions \& Constrained Equilibria of the Mixed Extension}
+    \item \textbf{Example of an Application of Constrained Correlated Equilibria} 
+    \item \textbf{Conclusions \& Perspectives}
+\end{enumerate}
+
+\end{frame}
+
+
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Outline}
+
+\begin{enumerate}
+    \item \textbf{Background \& Preliminaries}
+    \begin{enumerate}
+        \item Related work \& problem definition
+        \item Highlight of contributions
+        \item Notations \& model
+    \end{enumerate}
+    \item \textbf{Correlated Equilibria \& Properties}
+    \begin{enumerate}
+        \item Extended Game \& Correlated Strategies
+        \item Coupled Constraints in the Extended Game
+    \end{enumerate}
+    \item \textbf{Constrained Correlated Equilibrium Strategies}
+    \begin{enumerate}
+        \item Definition \& Example
+        \item Alternative Characterizations
+    \end{enumerate}
+    \item \textbf{Existence Conditions \& Constrained Equilibria of the Mixed Extension}
+    \item \textbf{Example of an Application of Constrained Correlated Equilibria} 
+    \item \textbf{Conclusions \& Perspectives}
+\end{enumerate}
+
+\end{frame}
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Problem \& Related work}
+
+\textbf{Correlated Equilibria}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}\setlength{\itemsep}{-0.1cm}
+    \setlength{\itemindent}{.2in}
+    \item Defined in (Aumann, 1974) and (Aumann, 1987)
+    \item A second proof of existence and a generalization to infinite games in (Hart \& Schmeidler, 1989)
+    \item Defined for the extensive form in (Von Stengel \& Forges, 2008)   
+    \item Other extensions in (Forges, 2020), (Brandenburger \& Dekel, 1992) and (Grant \& Stauber, 2022)
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Constraints \& Generalized Equilibria}
+\begin{itemize}\setlength{\itemsep}{-0.1cm}
+    \setlength{\itemindent}{.2in}
+    \item (Debreu, 1952) defines the concept of generalized equilibrium
+    \item (Arrow \& Debreu, 1954) shows a proof of existence
+    \item (Rosen, 1965) considers coupled constraints and shows the existence and uniqueness of equilibria in concave games
+    \item Many other theoretical and applied contributions.
+    %under appropriate assumptions on utilities and the feasible set of joint strategies
+\end{itemize}
+
+\vspace{0.5cm}
+
+\noindent $\Rightarrow$ A solution concept combining \textbf{correlation and constraints has not yet been studied} in the literature \\
+\noindent $\Rightarrow$ We consider this problem for \textbf{finite non-cooperative games} and \textbf{propose a solution}
+
+\end{frame}
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Related work}
+
+%%%%%%%%%%%%%%%%%%
+\begin{tabular}{cc}
+    \dangersign[7ex] & While working on this topic, another paper dealing with the same issue came out \\
+    \quad & The author contacted us
+\end{tabular}
+%%%%%%%%%%%%%%%%%%
+\vspace{0.5cm}
+
+
+%{ \huge \setfont{frc}{Dear authors,\\ We came across your paper on Constrained Correlated Equilibria.\\ We are also working on the same topic!} }
+
+
+\end{frame}
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Highlights of the Contributions}
+
+\begin{enumerate}
+    \item \underline{\textbf{Arbitrary constraints and arbitrary correlation device}}
+    \begin{enumerate}
+    \item \textbf{Characterizations of Equilibrium Strategies}
+    \begin{itemize}
+    \setlength{\itemindent}{1em}
+        \item Definition derived from the generalized Nash equilibrium and correlated equilibrium
+        \item Alternative characterizations of constrained correlated strategies
+    \end{itemize}
+    \item \textbf{Properties and relationship to (unconstrained) Correlated Equilibria}
+    \begin{itemize}
+    \setlength{\itemindent}{1em}
+        \item A feasible correlated equilibrium is a constrained correlated equilibrium 
+        \item The set of constrained correlated equilibrium distributions may not be convex
+        \item There exist constrained correlated equilibrium distributions outside the set of correlated equilibrium distributions
+    \end{itemize}
+\end{enumerate}
+\item \underline{\textbf{Constraints on probability distributions}}
+\begin{enumerate}
+    \item \textbf{Characterization of constrained correlated equilibrium distributions}
+    \begin{itemize}
+    \setlength{\itemindent}{1em}
+        \item Closed-form expression of the set of constrained correlated equilibrium distribution
+    \end{itemize}
+    \item \textbf{Sufficient Conditions of Existence}
+    \begin{itemize}
+    \setlength{\itemindent}{1em}
+        \item There does not always exist a constrained correlated equilibrium in finite games
+        \item The existence of a constrained correlated equilibrium 
+    \end{itemize}
+    \item \textbf{Constrained correlated equilibrium distributions of the mixed extension of a game}
+    \begin{itemize}
+    \setlength{\itemindent}{1em}
+        \item The set of constrained correlated equilibrium distribution of $\Delta G$ is included in the set of constrained correlated equilibrium of $G$
+    \end{itemize}
+\end{enumerate}
+
+\end{enumerate}
+
+\end{frame}
+
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Problem \& Related work}
+
+\textbf{Correlated Equilibria}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}\setlength{\itemsep}{-0.1cm}
+    \setlength{\itemindent}{.2in}
+    \item Defined in (Aumann, 1974) and (Aumann, 1987)
+    \item A second proof of existence and a generalization to infinite games in (Hart \& Schmeidler, 1989)
+    \item Defined for the extensive form in (Von Stengel \& Forges, 2008)   
+    \item Other extensions in (Forges, 2020), (Brandenburger \& Dekel, 1992) and (Grant \& Stauber, 2022)
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Constraints \& Generalized Equilibria}
+\begin{itemize}\setlength{\itemsep}{-0.1cm}
+    \setlength{\itemindent}{.2in}
+    \item (Debreu, 1952) defines the concept of generalized equilibrium
+    \item (Arrow \& Debreu, 1954) shows a proof of existence
+    \item (Rosen, 1965) considers coupled constraints and shows the existence and uniqueness of equilibria in concave games
+    \item Many other theoretical and applied contributions.
+    %under appropriate assumptions on utilities and the feasible set of joint strategies
+\end{itemize}
+
+\vspace{0.5cm}
+
+\noindent $\Rightarrow$ A solution concept combining \textbf{correlation and constraints has not yet been studied} in the literature \\
+\noindent $\Rightarrow$ We consider this problem for \textbf{finite non-cooperative games} and \textbf{propose a solution}
 
 \end{frame}
 
@@ -258,15 +486,223 @@ X
 \begin{frame}[t]
 \frametitle{Contributions}
 
+\end{frame}
+
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Background \& Context}
+ 
+\textbf{Correlated Equilibria}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}\setlength{\itemsep}{-0.1cm}
+    \setlength{\itemindent}{.2in}
+    \item A \textbf{generalization} of Nash equilibria (Aumann, 74)(Aumann, 87) resulting from Bayesian rationality 
+    \item A solution concept with appealing \textbf{computational properties} 
+    \item \textbf{Regret-learning} dynamics naturally lead to correlated equilibria (Hart \& Mas-Colell, 00) 
+    \item Many other theoretical and applied contributions in engineering, economics, etc. 
+    %\item A second proof of existence and a generalization to infinite games in 
+    \item Extensions to extensive form (Von Stengel \& Forges, 08) and infinite games (Hart \& Schmeidler, 89) 
+    \item Other generalizations in (Forges, 20), (Brandenburger \& Dekel, 92) and (Grant \& Stauber, 22) 
+\end{itemize}
+
+\textbf{Constraints in Games}
+
+\begin{itemize}\setlength{\itemsep}{-0.1cm}
+    \setlength{\itemindent}{.2in}
+    \item Generalized Nash equilibrium problem (Facchinei, et al., 07) (Fischer, et al., 14) 
+    \item (Debreu, 52) defines the concept of generalized equilibrium 
+    \item A proof of existence is presented in (Arrow \& Debreu, 54) 
+    \item (Rosen, 65) shows existence and uniqueness of equilibria in concave games with coupled constraints 
+    %under appropriate assumptions on utilities and the feasible set of joint strategies
+    \item (Bernasconi et al., 23) introduces the concept of constrained Phi-equilibrium 
+\end{itemize}
+\vspace{0.2cm}
+
+In this work,
+\vspace{-0.1cm}
+\begin{itemize}\setlength{\itemsep}{-0.1cm}
+    \setlength{\itemindent}{.2in}
+    \item We \textbf{define} and \textbf{characterize} a new solution concept called \textbf{constrained correlated equilibrium} 
+    \item Several characterizations of equilibrium strategies and study their properties
+    \begin{itemize}\setlength{\itemsep}{-0.1cm}
+    \setlength{\itemindent}{.4in}
+        \item sufficient \textbf{conditions} of \textbf{existence} in case of \textbf{constraints on probability distributions over action profiles} 
+        \item characterization by \textbf{canonical correlation devices} 
+        \item linearly constrained correlated equilibrium problem $\rightarrow $ \textbf{MILP}
+    \end{itemize}
+    %and characterize the equilibrium distributions 
+    %\item study the equilibrium distributions when allowing randomization over correlated strategy profiles
+\end{itemize}
+
 
 \end{frame}
 
 % new slide ===========================================================
+\begin{frame}
+\frametitle{Model \& Definitions}
+\vspace{0.3cm}
+
+\begin{columns}
+\begin{column}{0.56\textwidth}
+\; \quad Finite non-cooperative game  $G  = (\mathcal{N}, (\mathcal{A}_i)_{i \in \mathcal{N}}, (u_i)_{i \in \mathcal{N}})$ 
+\begin{itemize}
+\setlength{\itemindent}{2.5em}
+\setlength\itemsep{-0.35em}
+\item Set of players $\mathcal{N}$  
+\item Action set $\mathcal{A}_i$ for each $i \in \mathcal{N}$  
+\item Utility function $u_i : {\scriptscriptstyle \prod\limits_{i \in \mathcal{N}}}\mathcal{A}_i = \mathcal{A} \rightarrow \mathbb{R}$  
+\end{itemize}
+\end{column}
+\begin{column}{0.46\textwidth}  %%<--- here
+Correlation device  $d = (\Omega, (\mathcal{P}_i)_{i \in \mathcal{N}}, \bm{q})$ 
+\begin{itemize}
+\setlength{\itemindent}{1.2em}
+\setlength\itemsep{-0.35em}
+\item A sample space $\Omega$  
+\item Partition $\mathcal{P}_i$ of $\Omega$  for each $i \in \mathcal{N}$   
+\item Probability distribution $\bm{q}$ over $\Omega$  $\textcolor{white}{{\scriptscriptstyle \prod\limits_{i \in \mathcal{N}}}}$  
+\end{itemize}
+\end{column}
+\end{columns}
+\vspace{0.2cm}
+Player \textbf{$i$'s set of strategies} is $\mathcal{S}_{i, d} = \{ f_i : \Omega \rightarrow \mathcal{A}_i \text{  s.t. }  f_i \text{ is } \mathcal{P}_i\text{-measurable} \}$ and the \textbf{set of strategy profiles} is $\mathcal{S}_{d} = \mathcal{S}_{1, d} \times  ... \times \mathcal{S}_{n, d}$. 
+\vspace{-0cm}
+\begin{block}{Definition 1 -- Correlated equilibrium (Aumann, 1974)} 
+\vspace{-0.1cm}
+A correlated equilibrium of $G$ is a pair $(d, \bm{\alpha}^*)$ where $\bm{\alpha}^* : \Omega \rightarrow \mathcal{A}$ is a correlated strategy profile such that  
+\vspace{-0.2cm}
+\begin{align}
+\forall i \in \mathcal{N}, \forall \alpha_i^\prime : \Omega \rightarrow \mathcal{A}_i \quad  \sum_{\omega\in \Omega} \bm{q}(\omega) u_i(\bm{\alpha}^*_i(\omega), \bm{\alpha}^*_{-i}(\omega)) \geq  \sum_{\omega\in \Omega} \bm{q}(\omega) u_i(\alpha^\prime_i(\omega), \bm{\alpha}^*_{-i}(\omega))
+\end{align}
+\end{block}
+\vspace{-0.1cm} 
+Given a \textbf{constraint set} $\mathcal{R}_d \subseteq \mathcal{S}_d$, we define a constrained correlated equilibrium,
+\vspace{-0cm}
+\begin{block}{Definition 2 -- Constrained correlated equilibrium (Boufous et al., 2024)}%\textsuperscript{$2$}  
+\vspace{-0.1cm}
+A constrained correlated equilibrium of $G$ is a triplet $(d, \mathcal{R}_d, \bm{\alpha}^*)$ where $\bm{\alpha}^* : \Omega \rightarrow \mathcal{A}$ is a correlated strategy profile such that $\bm{\alpha}^*\in \mathcal{R}_d$ and 
+\vspace{-0.3cm}
+\begin{align}
+\forall i \in \mathcal{N}, \forall \alpha_i^\prime : \Omega \rightarrow \mathcal{A}_i \text{ s.t. } (\alpha_i^\prime, \bm{\alpha}^*_{-i}) \in \mathcal{R}_d \quad  \sum_{\omega\in \Omega} \bm{q}(\omega) u_i(\bm{\alpha}^*_i(\omega), \bm{\alpha}^*_{-i}(\omega)) \geq  \sum_{\omega\in \Omega} \bm{q}(\omega) u_i(\alpha^\prime_i(\omega), \bm{\alpha}^*_{-i}(\omega))
+\end{align} 
+\vspace{-0.1cm}
+\end{block} 
+\vspace{-0.1cm}
+%\customfootnotetext{$1$}{Aumann, R. J. (1974). {''\emph{Subjectivity and correlation in randomized strategies}''}. Journal of mathematical Economics.}
+%\customfootnotetext{$2$}{Boufous, O., El-Azouzi, R., Touati, M., Altman, E., Bouhtou, M., (2023). {''\emph{Constrained Correlated Equilibria}''}. ArXiv (to appear).}
+\end{frame}
+
+% new slide ===========================================================
+%===============================================================================
+\begin{frame}
+\frametitle{Example : a 2-by-2 Matrix Game}
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{center}
+{\textbf{Two-player game $G$}}
+\end{center}
+\end{column}
+\begin{column}{0.5\textwidth}  %%<--- here
+\begin{center}
+{\textbf{Correlation device $d$}}
+\end{center}
+\end{column}
+\end{columns}
+\begin{columns}
+\begin{column}{0.45\textwidth}
+\begin{table}
+\resizebox{3cm}{!}{%
+\begin{tabular}{c|c|c}
+ & \multicolumn{1}{c|}{$P$}  & $A$ \\ \hline
+$P$ & \multicolumn{1}{c|}{8, 8} & 3, 10  \\ \hline
+$A$ & \multicolumn{1}{c|}{10, 3} & 0, 0
+\end{tabular}}
+%\caption*{\textcolor{aaltoblue}{Table:} Utility matrix of the game of Chicken.}
+\end{table}
+\end{column}  
+\begin{column}{0.55\textwidth}  %%<--- here
+\vspace{-0.55cm}
+\begin{itemize}
+\setlength{\itemindent}{3em}
+\setlength\itemsep{-0.2em}
+    \item $\Omega = \{ H, M, L\}$
+    \item $\mathcal{P}_1 = \{ \{H\}, \{M, L\}\}$ and $\mathcal{P}_2 = \{ \{H, M\}, \{L\}\}$
+    \item $\bm{q}(H) = \bm{q}(M) = \bm{q}(L) = \sfrac{1}{3}$
+\end{itemize}
+
+\end{column}
+\end{columns} 
+\vspace{-0cm}
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{center}
+{\textbf{Game $G$ extended with correlation device $d$}}
+\end{center}
+\end{column}
+\begin{column}{0.5\textwidth}  %%<--- here
+\begin{center}
+\visible<3->{\textbf{Constrained extended game}}
+\end{center}
+\end{column}
+\end{columns}
+\vspace{-0.cm}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{center}
+    \begin{figure}[H]
+    \centering
+    \scalebox{0.8}{
+    \begin{tabular}{c|c|c|c|c}
+                & \makecell{${L\textcolor{white}{^c} \mapsto P}$\\${L^c\mapsto P}$}
+                & \makecell{${L\textcolor{white}{^c} \mapsto A}$\\${L^c \mapsto A}$}
+                & \makecell{${L\textcolor{white}{^c} \mapsto A}$\\${L^c \mapsto P}$}
+                & \makecell{${L\textcolor{white}{^c} \mapsto P}$\\${L^c \mapsto A}$}\\ \hline
+    \makecell{${H\textcolor{white}{^c} \mapsto P}$\\${H^c \mapsto P}$} &       $8, 8$            &           $3, 10$            &    $6.33, 8.67$        &      $4.67, 9.33$       \\ \hline
+    \makecell{${H\textcolor{white}{^c} \mapsto A}$\\${H^c \mapsto A}$} &   $10, 3$           &           $0, 0$           &       $6.67, 2$        &     $3.33, 1$ \\ \hline
+    \makecell{${H\textcolor{white}{^c} \mapsto A}$\\${H^c \mapsto P}$} &   $8.67, 6.33$        &      $2, 6.67$                &       \cellcolor{green!15}$7,7$             &       $3.67, 6$        \\ \hline
+    \makecell{${H\textcolor{white}{^c} \mapsto P}$\\${H^c \mapsto A}$}  &   $9.33, 4.67$        &       $1, 3.33$               &     $6, 3.67$          &     $4.33, 4.33$        \\
+    %$\begin{cases} \bm{H \mapsto A}\\ \bm{H^c \mapsto P}\end{cases}$ & b & c & d & e
+    \end{tabular}}
+    %\caption{Constrained extension of the game of Chicken.}
+  \label{fig:ConstrainedExtendedPayoff}
+\end{figure}
+\end{center}
+ 
+\end{column}
+\begin{column}{0.5\textwidth}  %%<--- here
+\begin{center}
+\begin{figure}[H]
+    \centering
+    \scalebox{0.8}{
+    \begin{tabular}{c|c|c|c|c}
+                & \makecell{${L\textcolor{white}{^c} \mapsto P}$\\${L^c\mapsto P}$}
+                & \makecell{${L\textcolor{white}{^c} \mapsto A}$\\${L^c \mapsto A}$}
+                & \makecell{${L\textcolor{white}{^c} \mapsto A}$\\${L^c \mapsto P}$}
+                & \makecell{${L\textcolor{white}{^c} \mapsto P}$\\${L^c \mapsto A}$}\\ \hline
+    \makecell{${H\textcolor{white}{^c} \mapsto P}$\\${H^c \mapsto P}$} &       $8, 8$            &           \cellcolor{green!15}$3, 10$            &    \cellcolor{gray!20}\textcolor{gray}{\xcancel{$6.33, 8.67$}}        &      \cellcolor{gray!20}\textcolor{gray}{\xcancel{$4.67, 9.33$}}       \\ \hline
+    \makecell{${H\textcolor{white}{^c} \mapsto A}$\\${H^c \mapsto A}$} &   \cellcolor{gray!20}\textcolor{gray}{\xcancel{$10, 3$}}           &           $0, 0$           &       $6.67, 2$        &     $3.33, 1$ \\ \hline
+    \makecell{${H\textcolor{white}{^c} \mapsto A}$\\${H^c \mapsto P}$} &   \cellcolor{gray!20}\textcolor{gray}{\xcancel{$8.67, 6.33$}}        &       \cellcolor{gray!20}\textcolor{gray}{\xcancel{$2, 6.67$}}                &       \cellcolor{green!15}$7,7$             &       $3.67, 6$        \\ \hline
+    \makecell{${H\textcolor{white}{^c} \mapsto P}$\\${H^c \mapsto A}$}  &   \cellcolor{gray!20}\textcolor{gray}{\xcancel{$9.33, 4.67$}}        &       $1, 3.33$               &     \cellcolor{gray!20}\textcolor{gray}{\xcancel{$6, 3.67$}}          &     \cellcolor{green!15}$4.33, 4.33$        \\
+    %$\begin{cases} \bm{H \mapsto A}\\ \bm{H^c \mapsto P}\end{cases}$ & b & c & d & e
+    \end{tabular}}
+    \end{figure}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+% new slide ===========================================================
 \begin{frame}[t]
 
+\vspace{1.7cm}
+\vspace*{\fill}
 \begin{center}
-	Part 1 : Learning Correlated Equilibria
+	{ \huge Part 1 : Learning Correlated Equilibria }
 \end{center}
+\vspace*{\fill}
 
 \end{frame}
 
@@ -280,9 +716,63 @@ X
 % new slide ===========================================================
 \begin{frame}[t]
 
+
+\vspace{1.7cm}
+\vspace*{\fill}
 \begin{center}
-	Part 2 : Constrained Correlated Equilibria
+	{ \huge Part 2 : Constrained Correlated Equilibria }
 \end{center}
+\vspace*{\fill}
+
+
+\end{frame}
+
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Properties of Constrained Correlated Equilibrium Strategies}
+
+%Given a finite non-cooperative game $G$, a correlation device $d$ and a set of feasible correlated strategies $\mathcal{R}_d$, we have,
+
+\vspace{0.3cm}
+
+Consider a finite non-cooperative game ${G}=(\mathcal{N},(\mathcal{A}_{i})_{i \in \mathcal{N}},(u_{i})_{i \in \mathcal{N}})$, a correlation device $d = (\Omega, (\mathcal{P}_i)_{i \in \mathcal{N}}, \bm{q})$ and a constraint set $\mathcal{R}_d \subset \mathcal{S}_d$.
+
+\vspace{0.8cm}
+
+\textcolor{aaltoblue}{\large Proposition 1} : If $(d, \bm{\alpha}^*)$ is a correlated equilibrium and $\bm{\alpha}^* \in \mathcal{R}_d$, then $(d,\mathcal{R}_d,\bm{\alpha}^*)$ is a constrained correlated equilibrium.
+
+\vspace{0.8cm}
+
+
+\textcolor{aaltoblue}{\large Proposition 2} :  If $\bm{\alpha}^* \in \mathcal{R}_d$ and for any $i \in \mathcal{N}$, for any $\alpha_i^\prime$ s.t. $(\alpha_i^\prime, \bm{\alpha}_{-i}) \in \mathcal{R}_d$, for any $\omega \in \Omega$
+    \vspace{0cm}
+    %%%%%%%%%%%%%%%%%%%%%
+    \begin{equation}\label{eq:perOutcomeStabilityCondition}
+        \sum_{\omega^{\prime} \in P_{i}(\omega)} \bm{q}(\omega^{\prime}) \left[u_{i}({\alpha}_i^*(\omega), \bm{\alpha}_{-i}^*(\omega)) - u_{i}(\alpha_i^\prime(\omega^\prime), \bm{\alpha}^*_{-i}(\omega^{\prime}))\right] \geq 0
+        \vspace{-0.1cm}
+    \end{equation}
+    %%%%%%%%%%%%%%%%%%%%%
+    then $(d,\mathcal{R}_d,\bm{\alpha}^*)$ is a constrained correlated equilibrium.
+
+\vspace{0.8cm}
+
+\textcolor{aaltoblue}{\large Proposition 3} :
+    The triplet $(d,\mathcal{R}_d,\bm{\alpha}^*)$ is a constrained correlated equilibrium if and only if $\bm{\alpha}^* \in \mathcal{R}_d$ and for any 
+    $i \in \mathcal{N}$, for any $\alpha^\prime_{i} \in \mathcal{S}_{i,d}$,
+    \vspace{-0cm}
+    %%%%%%%%%%%%%%%%%%%
+    \begin{equation}
+        \sum 
+        \limits_{\omega \in \Omega} 
+        \bm{q}(\omega) 
+        \left[ 
+        u_{i}({\alpha}_i^*(\omega), \bm{\alpha}_{-i}^*(\omega)) - u_{i}(\alpha^\prime_{i}(\omega), \bm{\alpha}^*_{-i}(\omega)) 
+        \right] 
+        \geq 0  
+        \; \text{ or } \;  (\alpha^\prime_{i}, \bm{\alpha}^*_{-i}) \notin \mathcal{R}_d
+    \end{equation}
+    %%%%%%%%%%%%%%%%%%%
+    %where ''$\lor$'' denotes the logical inclusive "or" that means that the formula is true when either or both of the arguments are true.
 
 \end{frame}
 
@@ -292,6 +782,15 @@ X
 
 
 \end{frame}
+
+% new slide ===========================================================
+\begin{frame}[t]
+\frametitle{Open Perspectives}
+
+X
+
+\end{frame}
+
 
 % new slide ===========================================================
 \frame{\frametitle{Thank you!}
@@ -307,7 +806,7 @@ X
   \begin{flushright}
     \textbf{For more information:}\\[0.1cm]
     {\footnotesize
-    \textcolor{blue}{\url{omar.boufous@aalto.fi}}} 
+    \textcolor{blue}{\url{omar.boufous@alumni.univ-avignon.fr}}} 
    
  \vskip0.5cm
   \end{flushright}
