@@ -5,7 +5,6 @@
 %\usepackage{beamerthemesplit}
 \usepackage[orientation=landscape,size=custom,width=16,height=9,debug]{beamerposter} 
 
-
 \usefonttheme[onlymath]{serif}
 
 \setbeamercovered{transparent}
@@ -112,7 +111,7 @@
 \setbeamercolor{section number projected}{bg=aaltoblue,fg=white}
 
 \newcommand\aaltofootertext[3]{\def\footfrow{#1}\def\footsrow{#2}\def\foottrow{#3}}
-\aaltofootertext{Omar Boufous}{September 2020}{\insertframenumber/\inserttotalframenumber}
+\aaltofootertext{Omar Boufous}{\today}{\insertframenumber/\inserttotalframenumber}
 
 % Syntax: \colorboxed[<color model>]{<color specification>}{<math formula>}
 \newcommand*{\colorboxed}{}
@@ -182,12 +181,12 @@ title={\strut#1}
 \setbeamertemplate{subsection in toc}[default]
 
 %The contact for one of the authors MUST be embedded on the title (see below)
-\title[]{Deep Reinforcement Learning for Complete\\Coverage Path Planning in Unknown Environments}
+\title[]{Correlated Equilibria \& Learning}
 %Subtitle (if needed)
 \subtitle{}
 %For LICENSE, we suggest CC-BY-SA, but you are free to choose your own as long
 %as the LICENSE you choose is AT LEAST as permissive as CC-BY-SA
-\date[2020]{September 10$^{th}$, 2020\\ \vspace{1cm} {Master of Science Thesis\\}}
+\date[2020]{\today\\ \vspace{1cm} {PhD Defense\\}}
 \author[Boufous \hspace{0.2cm} {\includegraphics[height=0.2cm, keepaspectratio]{8015.png}}]{\texorpdfstring{Omar Boufous}{}}
 \institute[Aalto University]{School of Electrical Engineering and Computer Science, KTH Royal Institute of Technology.\\School of Science, Aalto University.\\Institut Mines Telecom Atlantique.}
 
@@ -198,6 +197,32 @@ title={\strut#1}
 	\titlepage
 \end{frame}
 
+% new slide ===========================================================
+\begin{frame}[t]
+\frametitle{Table of Content}
+
+\begin{itemize}
+	\item \textbf{Introduction}
+	\item \textbf{Related Work}
+	\item \textbf{Part 1 : Learning Correlated Equilibria}
+	\begin{itemize}
+		\item The Learning Problem
+		\item CPRM Algorithm
+		\item Convergence Properties
+		\item Simulation Results
+	\end{itemize}
+	\item \textbf{Part 2 : Constrained Correlated Equilibria}
+	\begin{itemize}
+		\item Definition of Constrained Correlated Equilibria
+		\item Properties of Constrained Correlated Equilibrium Strategies
+		\item Constrained Correlated Equilibrium Distributions
+		\item Existence of Constrained Correlated Equilibria
+		\item Simulation Results
+	\end{itemize}
+	\item \textbf{Conclusion}
+\end{itemize}
+
+\end{frame}
 
 % new slide ===========================================================
 \begin{frame}[t]
