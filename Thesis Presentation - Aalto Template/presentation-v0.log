@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.16)  17 DEC 2024 00:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.16)  18 DEC 2024 13:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2010,33 +2010,21 @@ Package: subfiles 2020/02/14 v1.6 Multi-file projects (package)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/01/22  v 6.0
 ))
-(/usr/local/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box107
-\UL@hyphenbox=\box108
-\UL@skip=\skip126
-\UL@hook=\toks55
-\UL@height=\dimen347
-\UL@pe=\count510
-\UL@pixel=\dimen348
-\ULC@box=\box109
-Package: ulem 2019/11/18
-\ULdepth=\dimen349
-)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count511
-\calc@Bcount=\count512
-\calc@Adimen=\dimen350
-\calc@Bdimen=\dimen351
-\calc@Askip=\skip127
-\calc@Bskip=\skip128
+\calc@Acount=\count510
+\calc@Bcount=\count511
+\calc@Adimen=\dimen347
+\calc@Bdimen=\dimen348
+\calc@Askip=\skip126
+\calc@Bskip=\skip127
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count513
-\calc@Cskip=\skip129
+\calc@Ccount=\count512
+\calc@Cskip=\skip128
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
@@ -2045,19 +2033,19 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count514
-\l_MT_multwidth_dim=\dimen352
-\origjot=\skip130
-\l_MT_shortvdotswithinadjustabove_dim=\dimen353
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen354
-\l_MT_above_intertext_sep=\dimen355
-\l_MT_below_intertext_sep=\dimen356
-\l_MT_above_shortintertext_sep=\dimen357
-\l_MT_below_shortintertext_sep=\dimen358
-\xmathstrut@box=\box110
-\xmathstrut@dim=\dimen359
+\g_MT_multlinerow_int=\count513
+\l_MT_multwidth_dim=\dimen349
+\origjot=\skip129
+\l_MT_shortvdotswithinadjustabove_dim=\dimen350
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen351
+\l_MT_above_intertext_sep=\dimen352
+\l_MT_below_intertext_sep=\dimen353
+\l_MT_above_shortintertext_sep=\dimen354
+\l_MT_below_shortintertext_sep=\dimen355
+\xmathstrut@box=\box107
+\xmathstrut@dim=\dimen356
 )
-\c@proposition=\count515
+\c@proposition=\count514
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
@@ -2067,15 +2055,15 @@ File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-\everycr=\toks56
-\minrowclearance=\skip131
+\everycr=\toks55
+\minrowclearance=\skip130
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip132
-\multirow@cntb=\count516
-\multirow@dima=\skip133
-\bigstrutjot=\dimen360
+\multirow@colwidth=\skip131
+\multirow@cntb=\count515
+\multirow@dima=\skip132
+\bigstrutjot=\dimen357
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/stackengine/stackengine.sty
 Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
@@ -2083,33 +2071,33 @@ ways
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/listofitems/listofitems.sty
 (/usr/local/texlive/2020/texmf-dist/tex/generic/listofitems/listofitems.tex
-\loi_cnt_foreach_nest=\count517
-\loi_nestcnt=\count518
+\loi_cnt_foreach_nest=\count516
+\loi_nestcnt=\count517
 )
 Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified 
 sep char (CT)
 )
-\c@@stackindex=\count519
-\@boxshift=\skip134
-\stack@tmplength=\skip135
-\temp@stkl=\skip136
-\@stackedboxwidth=\skip137
-\@addedbox=\box111
-\@anchorbox=\box112
-\stackedbox=\box113
-\@centerbox=\box114
-\c@ROWcellindex@=\count520
+\c@@stackindex=\count518
+\@boxshift=\skip133
+\stack@tmplength=\skip134
+\temp@stkl=\skip135
+\@stackedboxwidth=\skip136
+\@addedbox=\box108
+\@anchorbox=\box109
+\stackedbox=\box110
+\@centerbox=\box111
+\c@ROWcellindex@=\count519
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/scalerel/scalerel.sty
 Package: scalerel 2016/12/29 v1.8 Routines for constrained scaling and stretchi
 ng of objects, relative to a reference object or in absolute terms
-\thesrwidth=\skip138
-\thesrheight=\skip139
-\srblobheight=\skip140
-\srblobdepth=\skip141
-\mnxsrwidth=\skip142
-\LMex=\skip143
-\LMpt=\skip144
+\thesrwidth=\skip137
+\thesrheight=\skip138
+\srblobheight=\skip139
+\srblobdepth=\skip140
+\mnxsrwidth=\skip141
+\LMex=\skip142
+\LMpt=\skip143
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryshapes.arrows.code.tex
@@ -2119,19 +2107,19 @@ File: tikzlibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 shapes.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))
-\c@nodemarkers=\count521
+\c@nodemarkers=\count520
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks57
-\t@pgfplots@tokb=\toks58
-\t@pgfplots@tokc=\toks59
-\pgfplots@tmpa=\dimen361
-\c@pgfplots@coordindex=\count522
-\c@pgfplots@scanlineindex=\count523
+\t@pgfplots@toka=\toks56
+\t@pgfplots@tokb=\toks57
+\t@pgfplots@tokc=\toks58
+\pgfplots@tmpa=\dimen358
+\c@pgfplots@coordindex=\count521
+\c@pgfplots@scanlineindex=\count522
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
 .code.tex))
@@ -2149,14 +2137,14 @@ liststructure.code.tex)
 liststructureext.code.tex)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 array.code.tex
-\c@pgfplotsarray@tmp=\count524
+\c@pgfplotsarray@tmp=\count523
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 matrix.code.tex)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
 shared.code.tex
-\c@pgfplotstable@counta=\count525
-\t@pgfplotstable@a=\toks60
+\c@pgfplotstable@counta=\count524
+\t@pgfplotstable@a=\toks59
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 deque.code.tex)
@@ -2168,7 +2156,7 @@ ta.code.tex))
 .code.tex)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
 s.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count526
+\c@pgfplotslibrarysurf@no=\count525
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
 .surfshading.pgfsys-pdftex.def)))
@@ -2200,16 +2188,16 @@ x)
 s/tikzlibrarydecorations.code.tex
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
 s.code.tex
-\pgfdecoratedcompleteddistance=\dimen362
-\pgfdecoratedremainingdistance=\dimen363
-\pgfdecoratedinputsegmentcompleteddistance=\dimen364
-\pgfdecoratedinputsegmentremainingdistance=\dimen365
-\pgf@decorate@distancetomove=\dimen366
-\pgf@decorate@repeatstate=\count527
-\pgfdecorationsegmentamplitude=\dimen367
-\pgfdecorationsegmentlength=\dimen368
+\pgfdecoratedcompleteddistance=\dimen359
+\pgfdecoratedremainingdistance=\dimen360
+\pgfdecoratedinputsegmentcompleteddistance=\dimen361
+\pgfdecoratedinputsegmentremainingdistance=\dimen362
+\pgf@decorate@distancetomove=\dimen363
+\pgf@decorate@repeatstate=\count526
+\pgfdecorationsegmentamplitude=\dimen364
+\pgfdecorationsegmentlength=\dimen365
 )
-\tikz@lib@dec@box=\box115
+\tikz@lib@dec@box=\box112
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarydecorations.pathmorphing.code.tex
@@ -2219,13 +2207,13 @@ brarydecorations.pathmorphing.code.tex))
 s/tikzlibrarydecorations.pathreplacing.code.tex
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
 brarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count528
-\pgfplots@xmin@reg=\dimen369
-\pgfplots@xmax@reg=\dimen370
-\pgfplots@ymin@reg=\dimen371
-\pgfplots@ymax@reg=\dimen372
-\pgfplots@zmin@reg=\dimen373
-\pgfplots@zmax@reg=\dimen374
+\pgfplots@numplots=\count527
+\pgfplots@xmin@reg=\dimen366
+\pgfplots@xmax@reg=\dimen367
+\pgfplots@ymin@reg=\dimen368
+\pgfplots@ymax@reg=\dimen369
+\pgfplots@zmin@reg=\dimen370
+\pgfplots@zmax@reg=\dimen371
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryplotmarks.code.tex
@@ -2236,14 +2224,18 @@ ks.code.tex
 File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
 Package hyperref Info: Option `colorlinks' set `false' on input line 213.
-\@quotelevel=\count529
-\@quotereset=\count530
+\@quotelevel=\count528
+\@quotereset=\count529
 
 
 LaTeX Warning: Unused global option(s):
     [handout,usenames,dvipsnames,aspectratio=169].
 
-(./presentation-v0.aux)
+(./presentation-v0.aux
+
+LaTeX Warning: Label `fig:test1' multiply defined.
+
+)
 \openout1 = `presentation-v0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 235.
@@ -2264,23 +2256,22 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 235.
 LaTeX Font Info:    ... okay on input line 235.
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
 235.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmss.fd
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count531
-\scratchdimen=\dimen375
-\scratchbox=\box116
-\nofMPsegments=\count532
-\nofMParguments=\count533
-\everyMPshowfont=\toks61
-\MPscratchCnt=\count534
-\MPscratchDim=\dimen376
-\MPnumerator=\count535
-\makeMPintoPDFobject=\count536
-\everyMPtoPDFconversion=\toks62
+\scratchcounter=\count530
+\scratchdimen=\dimen372
+\scratchbox=\box113
+\nofMPsegments=\count531
+\nofMParguments=\count532
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count533
+\MPscratchDim=\dimen373
+\MPnumerator=\count534
+\makeMPintoPDFobject=\count535
+\everyMPtoPDFconversion=\toks61
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -2325,7 +2316,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box117
+\AtBeginShipoutBox=\box114
 Package hyperref Info: Link coloring OFF on input line 235.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -2338,7 +2329,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count537
+\c@section@level=\count536
 )
 LaTeX Info: Redefining \ref on input line 235.
 LaTeX Info: Redefining \pageref on input line 235.
@@ -2466,192 +2457,336 @@ Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 239.
  [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./Aalto_EN_ELEC_13_RGB_y1.pdf>]
-LaTeX Font Info:    Calculating math sizes for size <7.30005> on input line 271
-.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.30005> on input line 271.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.11> on input line 271.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <3.65002> on input line 271.
+Overfull \vbox (22.72455pt too high) detected at line 310
+ []
+
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 271.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 310.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [2
+[2
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 300.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 341.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [3
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 329.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 359.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [4
 
 ]
+LaTeX Font Info:    Calculating math sizes for size <7.30005> on input line 374
+.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.30005> on input line 374.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.11> on input line 374.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <3.65002> on input line 374.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 360.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 374.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [5
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 377.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 402.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [6
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <6.66675> on input line 421
+LaTeX Font Info:    Calculating math sizes for size <6.66675> on input line 414
 .
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.66675> on input line 421.
+(Font)              <6.66675> on input line 414.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4.6667> on input line 421.
+(Font)              <4.6667> on input line 414.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <3.33337> on input line 421.
+(Font)              <3.33337> on input line 414.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6.66675> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 414.
+
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 421.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 414.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [7
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 453.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 462.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [8
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 461.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 474.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [9
 
 ]
+<./figures/probabilities_RM.pdf, id=117, 225.78052pt x 132.74393pt>
+File: ./figures/probabilities_RM.pdf Graphic file (type pdf)
+<use ./figures/probabilities_RM.pdf>
+Package pdftex.def Info: ./figures/probabilities_RM.pdf  used on input line 527
+.
+(pdftex.def)             Requested size: 124.17966pt x 73.00937pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 483.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 527.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [10
 
-]
+ <./figures/probabilities_RM.pdf>]
+File: ./figures/probabilities_RM.pdf Graphic file (type pdf)
+<use ./figures/probabilities_RM.pdf>
+Package pdftex.def Info: ./figures/probabilities_RM.pdf  used on input line 527
+.
+(pdftex.def)             Requested size: 124.17966pt x 73.00937pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 489.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 527.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [11
 
 ]
+<./figures/probabilities_PRM.pdf, id=164, 223.94968pt x 132.74393pt>
+File: ./figures/probabilities_PRM.pdf Graphic file (type pdf)
+<use ./figures/probabilities_PRM.pdf>
+Package pdftex.def Info: ./figures/probabilities_PRM.pdf  used on input line 55
+5.
+(pdftex.def)             Requested size: 123.1727pt x 73.00937pt.
+<./figures/probabilities_Blackwell.pdf, id=165, 434.95801pt x 150.60867pt>
+File: ./figures/probabilities_Blackwell.pdf Graphic file (type pdf)
+<use ./figures/probabilities_Blackwell.pdf>
+Package pdftex.def Info: ./figures/probabilities_Blackwell.pdf  used on input l
+ine 555.
+(pdftex.def)             Requested size: 239.22763pt x 82.835pt.
+
+Overfull \hbox (53.71512pt too wide) in paragraph at lines 555--555
+[] [] 
+ []
+
+File: ./figures/probabilities_RM.pdf Graphic file (type pdf)
+<use ./figures/probabilities_RM.pdf>
+Package pdftex.def Info: ./figures/probabilities_RM.pdf  used on input line 555
+.
+(pdftex.def)             Requested size: 124.17966pt x 73.00937pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 538.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 555.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [12
+[12
 
-]
-Overfull \vbox (15.98233pt too high) detected at line 593
+ <./figures/probabilities_PRM.pdf> <./figures/probabilities_Blackwell.pdf>]
+<./figures/regrets_PRM.pdf, id=214, 227.89441pt x 136.30824pt>
+File: ./figures/regrets_PRM.pdf Graphic file (type pdf)
+<use ./figures/regrets_PRM.pdf>
+Package pdftex.def Info: ./figures/regrets_PRM.pdf  used on input line 580.
+(pdftex.def)             Requested size: 125.3423pt x 74.96974pt.
+<./figures/regrets_Blackwell.pdf, id=215, 217.95628pt x 144.87726pt>
+File: ./figures/regrets_Blackwell.pdf Graphic file (type pdf)
+<use ./figures/regrets_Blackwell.pdf>
+Package pdftex.def Info: ./figures/regrets_Blackwell.pdf  used on input line 58
+0.
+(pdftex.def)             Requested size: 119.87631pt x 79.68272pt.
+<./figures/regrets_RM.pdf, id=216, 217.9593pt x 129.92941pt>
+File: ./figures/regrets_RM.pdf Graphic file (type pdf)
+<use ./figures/regrets_RM.pdf>
+Package pdftex.def Info: ./figures/regrets_RM.pdf  used on input line 580.
+(pdftex.def)             Requested size: 119.87798pt x 71.4614pt.
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 580.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+
+[13
+
+ <./figures/regrets_PRM.pdf> <./figures/regrets_Blackwell.pdf> <./figures/regre
+ts_RM.pdf>]
+<./figures/regrets_dynamic.pdf, id=304, 223.14267pt x 141.17242pt>
+File: ./figures/regrets_dynamic.pdf Graphic file (type pdf)
+<use ./figures/regrets_dynamic.pdf>
+Package pdftex.def Info: ./figures/regrets_dynamic.pdf  used on input line 667.
+
+(pdftex.def)             Requested size: 133.88663pt x 84.70409pt.
+<./figures/probabilities_long.pdf, id=305, 220.63629pt x 132.74393pt>
+File: ./figures/probabilities_long.pdf Graphic file (type pdf)
+<use ./figures/probabilities_long.pdf>
+Package pdftex.def Info: ./figures/probabilities_long.pdf  used on input line 6
+67.
+(pdftex.def)             Requested size: 132.38278pt x 79.64696pt.
+
+Overfull \vbox (7.67464pt too high) detected at line 667
  []
 
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 593.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 667.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
-[13
+[14
 
-]
-LaTeX Font Info:    Calculating math sizes for size <5.6> on input line 694.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.6> on input line 694.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <3.91998> on input line 694.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <2.8> on input line 694.
+ <./figures/regrets_dynamic.pdf> <./figures/probabilities_long.pdf>]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 694.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 679.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [14
+
+[15
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 694.
-(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [15
-
-]
-File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
-<use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 694.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 693.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [16
 
 ]
-File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
-<use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 707.
-(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [17
-
-]
-File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
-<use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 714.
-(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [18
-
-]
-File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
-<use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 728.
-(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [19
-
-]
-Overfull \vbox (14.41061pt too high) detected at line 777
+Overfull \vbox (15.98233pt too high) detected at line 748
  []
 
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 777.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 748.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
-[20
+[17
+
+]
+LaTeX Font Info:    Calculating math sizes for size <5.6> on input line 849.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.6> on input line 849.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <3.91998> on input line 849.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <2.8> on input line 849.
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 849.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [18
+
+]
+Overfull \vbox (5.8747pt too high) detected at line 898
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 898.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[19
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 784.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 932.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [20
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 953.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [21
 
 ]
+<figures/P12.png, id=407, 395.076pt x 346.896pt>
+File: figures/P12.png Graphic file (type png)
+<use figures/P12.png>
+Package pdftex.def Info: figures/P12.png  used on input line 992.
+(pdftex.def)             Requested size: 169.87936pt x 149.16237pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 792.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 992.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [22
 
+ <./figures/P12.png>]
+<figures/CCE_figures/P13.png, id=416, 658.46pt x 658.46pt>
+File: figures/CCE_figures/P13.png Graphic file (type png)
+<use figures/CCE_figures/P13.png>
+Package pdftex.def Info: figures/CCE_figures/P13.png  used on input line 1025.
+(pdftex.def)             Requested size: 138.28069pt x 138.28069pt.
+
+Overfull \hbox (6.82823pt too wide) in paragraph at lines 1025--1025
+ [][] 
+ []
+
+<figures/CCE_figures/P14.png, id=417, 658.46pt x 658.46pt>
+File: figures/CCE_figures/P14.png Graphic file (type png)
+<use figures/CCE_figures/P14.png>
+Package pdftex.def Info: figures/CCE_figures/P14.png  used on input line 1025.
+(pdftex.def)             Requested size: 138.28069pt x 138.28069pt.
+
+Overfull \hbox (6.82823pt too wide) in paragraph at lines 1025--1025
+ [][] 
+ []
+
+<figures/CCE_figures/P15.png, id=418, 658.46pt x 658.46pt>
+File: figures/CCE_figures/P15.png Graphic file (type png)
+<use figures/CCE_figures/P15.png>
+Package pdftex.def Info: figures/CCE_figures/P15.png  used on input line 1025.
+(pdftex.def)             Requested size: 138.28069pt x 138.28069pt.
+
+Overfull \hbox (6.82823pt too wide) in paragraph at lines 1025--1025
+ [][] 
+ []
+
+
+Overfull \vbox (2.86331pt too high) detected at line 1025
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1025.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[23
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:test1}) h
+as been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1025 \end{frame}
+                   <./figures/CCE_figures/P13.png> <./figures/CCE_figures/P14.p
+ng> <./figures/CCE_figures/P15.png>]
+Overfull \vbox (7.71695pt too high) detected at line 1076
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1076.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[24
+
 ]
-<figures/questions.jpg, id=201, 301.125pt x 401.5pt>
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1111.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [25
+
+]
+<figures/questions.jpg, id=443, 301.125pt x 401.5pt>
 File: figures/questions.jpg Graphic file (type jpg)
 <use figures/questions.jpg>
-Package pdftex.def Info: figures/questions.jpg  used on input line 815.
+Package pdftex.def Info: figures/questions.jpg  used on input line 1133.
 (pdftex.def)             Requested size: 90.03493pt x 120.04659pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 815.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1133.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [23
+ [26
 
  <./figures/questions.jpg>]
 \tf@nav=\write9
@@ -2663,54 +2798,73 @@ Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 815.
 \tf@snm=\write11
 \openout11 = `presentation-v0.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 822.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 822.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1140.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1140.
  (./presentation-v0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 822.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 822.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1140.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1140.
+
 Package rerunfilecheck Info: File `presentation-v0.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'presentation-v0.run.xml'.
 \openout1 = `presentation-v0.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49954 strings out of 480608
- 1157681 string characters out of 5903630
- 2065163 words of memory out of 5000000
- 64818 multiletter control sequences out of 15000+600000
- 756796 words of font info for 238 fonts, out of 8000000 for 9000
+ 50041 strings out of 480608
+ 1161151 string characters out of 5903630
+ 2053270 words of memory out of 5000000
+ 64885 multiletter control sequences out of 15000+600000
+ 759445 words of font info for 238 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,22n,117p,783b,936s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,22n,117p,783b,974s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/loca
-l/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020
-/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dis
+l/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/
+2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dis
 t/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/en
 c/dvips/lm/lm-mathex.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public
-/amsfonts/latxfont/line10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/p
-ublic/lm/lmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/l
-mmi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/t
-exlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020
-/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></usr/local/texlive/2020/texmf-di
-st/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
-e1/public/lm/lmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm
-/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss10.pfb>
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/loca
-l/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2
-020/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/texm
-f-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2020/texmf-dist/font
-s/type1/public/lm/lmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pub
-lic/lm/lmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy
-8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr
-/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam5.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb
-></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.
-pfb>
-Output written on presentation-v0.pdf (23 pages, 597554 bytes).
+/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.
+pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><
+/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.
+pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/
+local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texli
+ve/2020/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2020/tex
+mf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2020/texmf-dist/fon
+ts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/lm/lmmib10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/l
+mmib7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr5.pfb></
+usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2020/t
+exmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fo
+nts/type1/public/lm/lmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
+public/lm/lmss17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/
+lmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmssbx10.pf
+b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/lo
+cal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive
+/2020/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/public/lm/lmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publ
+ic/lm/lmtt8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
+/symbols/msam5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfo
+nts/symbols/msam7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msbm7.pfb>
+Output written on presentation-v0.pdf (26 pages, 1109233 bytes).
 PDF statistics:
- 297 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 561 PDF objects out of 1000 (max. 8388607)
+ 441 compressed objects within 5 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

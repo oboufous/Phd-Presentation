@@ -53,7 +53,7 @@
 %\usepackage{subcaption}
 \usepackage{subfiles}
 \usepackage{url}
-\usepackage{amsmath,ulem}
+\usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{mathtools}
 \newtheorem{proposition}{Proposition}
@@ -206,9 +206,9 @@ title={\strut#1}
 {
 	%Separate multiple authors by comma
 	pdfauthor={Omar Boufous},
-	pdftitle={ECC presentation},
-	pdfsubject={ECC presentation},
-	pdfkeywords={ECC, presentation},
+	pdftitle={PhD presentation},
+	pdfsubject={PhD presentation},
+	pdfkeywords={PhD presentation},
 	colorlinks=false
 }
 
@@ -243,93 +243,74 @@ title={\strut#1}
 
 
 
-% new slide ===========================================================
-\begin{frame}[t]
-\frametitle{Table of Content}
-
-\begin{itemize}
-	\item \textbf{Introduction}
-	\item \textbf{Related Work}
-	\item \textbf{Part 1 : Learning Correlated Equilibria}
-	\begin{itemize}
-		\item The Learning Problem
-		\item CPRM Algorithm
-		\item Convergence Properties
-		\item Simulation Results
-	\end{itemize}
-	\item \textbf{Part 2 : Constrained Correlated Equilibria}
-	\begin{itemize}
-		\item Definition of Constrained Correlated Equilibria
-		\item Properties of Constrained Correlated Equilibrium Strategies
-		\item Constrained Correlated Equilibrium Distributions
-		\item Existence of Constrained Correlated Equilibria
-		\item Simulation Results
-	\end{itemize}
-	\item \textbf{Conclusion}
-\end{itemize}
-
-\end{frame}
+%% new slide ===========================================================
+%\begin{frame}
+%\frametitle{Table of Content}
+%
+%\begin{itemize}
+%	\item \textbf{Introduction}
+%	\item \textbf{Related Work}
+%	\item \textbf{Part 1 : Learning Correlated Equilibria}
+%	\begin{itemize}
+%		\item The Learning Problem
+%		\item CPRM Algorithm
+%		\item Convergence Properties
+%		\item Simulation Results
+%	\end{itemize}
+%	\item \textbf{Part 2 : Constrained Correlated Equilibria}
+%	\begin{itemize}
+%		\item Definition of Constrained Correlated Equilibria
+%		\item Properties of Constrained Correlated Equilibrium Strategies
+%		\item Constrained Correlated Equilibrium Distributions
+%		\item Existence of Constrained Correlated Equilibria
+%		\item Simulation Results
+%	\end{itemize}
+%	\item \textbf{Conclusion}
+%\end{itemize}
+%
+%\end{frame}
 
 
 % new slide ===========================================================
 \begin{frame}
-\frametitle{Outline}
+\frametitle{Presentation Outline}
 
 \begin{enumerate}
     \item \textbf{Background \& Preliminaries}
-    \begin{enumerate}
+    \begin{enumerate}\setlength{\itemsep}{-0.05cm}
         \item Related work \& problem definition
         \item Highlight of contributions
         \item Notations \& model
     \end{enumerate}
     \item \textbf{Correlated Equilibria \& Properties}
-    \begin{enumerate}
+    \begin{enumerate}\setlength{\itemsep}{-0.05cm}
         \item Extended Game \& Correlated Strategies
         \item Coupled Constraints in the Extended Game
     \end{enumerate}
-    \item \textbf{Constrained Correlated Equilibrium Strategies}
-    \begin{enumerate}
-        \item Definition \& Example
-        \item Alternative Characterizations
-    \end{enumerate}
-    \item \textbf{Existence Conditions \& Constrained Equilibria of the Mixed Extension}
-    \item \textbf{Example of an Application of Constrained Correlated Equilibria} 
-    \item \textbf{Conclusions \& Perspectives}
-\end{enumerate}
-
-\end{frame}
-
-
-% new slide ===========================================================
-\begin{frame}
-\frametitle{Outline}
-
-\begin{enumerate}
-    \item \textbf{Background \& Preliminaries}
-    \begin{enumerate}
-        \item Related work \& problem definition
-        \item Highlight of contributions
-        \item Notations \& model
-    \end{enumerate}
-    \item \textbf{Correlated Equilibria \& Properties}
-    \begin{enumerate}
-        \item Extended Game \& Correlated Strategies
-        \item Coupled Constraints in the Extended Game
+    \item \textbf{Learning Correlated Equilibria}
+    \begin{enumerate}\setlength{\itemsep}{-0.05cm}
+        \item X
+        \item X
+        \item Simulation
     \end{enumerate}
     \item \textbf{Constrained Correlated Equilibrium Strategies}
-    \begin{enumerate}
+    \begin{enumerate}\setlength{\itemsep}{-0.05cm}
         \item Definition \& Example
         \item Alternative Characterizations
+	\item Definition of Constrained Correlated Equilibria
+	\item Properties of Constrained Correlated Equilibrium Strategies
+	\item Constrained Correlated Equilibrium Distributions
+	\item Existence of Constrained Correlated Equilibria
+	\item Simulation Results
     \end{enumerate}
-    \item \textbf{Existence Conditions \& Constrained Equilibria of the Mixed Extension}
-    \item \textbf{Example of an Application of Constrained Correlated Equilibria} 
-    \item \textbf{Conclusions \& Perspectives}
+     \item \textbf{Conclusions \& Perspectives}
+     \item \textbf{X}
 \end{enumerate}
 
 \end{frame}
 % new slide ===========================================================
 \begin{frame}
-\frametitle{Problem \& Related work}
+\frametitle{Related Work}
 
 \textbf{Correlated Equilibria}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -360,7 +341,8 @@ title={\strut#1}
 \end{frame}
 % new slide ===========================================================
 \begin{frame}
-\frametitle{Related work}
+\frametitle{Methodology}
+ 
 
 %%%%%%%%%%%%%%%%%%
 \begin{tabular}{cc}
@@ -375,116 +357,59 @@ title={\strut#1}
 
 
 \end{frame}
-% new slide ===========================================================
-\begin{frame}
-\frametitle{Highlights of the Contributions}
-
-\begin{enumerate}
-    \item \underline{\textbf{Arbitrary constraints and arbitrary correlation device}}
-    \begin{enumerate}
-    \item \textbf{Characterizations of Equilibrium Strategies}
-    \begin{itemize}
-    \setlength{\itemindent}{1em}
-        \item Definition derived from the generalized Nash equilibrium and correlated equilibrium
-        \item Alternative characterizations of constrained correlated strategies
-    \end{itemize}
-    \item \textbf{Properties and relationship to (unconstrained) Correlated Equilibria}
-    \begin{itemize}
-    \setlength{\itemindent}{1em}
-        \item A feasible correlated equilibrium is a constrained correlated equilibrium 
-        \item The set of constrained correlated equilibrium distributions may not be convex
-        \item There exist constrained correlated equilibrium distributions outside the set of correlated equilibrium distributions
-    \end{itemize}
-\end{enumerate}
-\item \underline{\textbf{Constraints on probability distributions}}
-\begin{enumerate}
-    \item \textbf{Characterization of constrained correlated equilibrium distributions}
-    \begin{itemize}
-    \setlength{\itemindent}{1em}
-        \item Closed-form expression of the set of constrained correlated equilibrium distribution
-    \end{itemize}
-    \item \textbf{Sufficient Conditions of Existence}
-    \begin{itemize}
-    \setlength{\itemindent}{1em}
-        \item There does not always exist a constrained correlated equilibrium in finite games
-        \item The existence of a constrained correlated equilibrium 
-    \end{itemize}
-    \item \textbf{Constrained correlated equilibrium distributions of the mixed extension of a game}
-    \begin{itemize}
-    \setlength{\itemindent}{1em}
-        \item The set of constrained correlated equilibrium distribution of $\Delta G$ is included in the set of constrained correlated equilibrium of $G$
-    \end{itemize}
-\end{enumerate}
-
-\end{enumerate}
-
-\end{frame}
-
-% new slide ===========================================================
-\begin{frame}
-\frametitle{Problem \& Related work}
-
-\textbf{Correlated Equilibria}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{itemize}\setlength{\itemsep}{-0.1cm}
-    \setlength{\itemindent}{.2in}
-    \item Defined in (Aumann, 1974) and (Aumann, 1987)
-    \item A second proof of existence and a generalization to infinite games in (Hart \& Schmeidler, 1989)
-    \item Defined for the extensive form in (Von Stengel \& Forges, 2008)   
-    \item Other extensions in (Forges, 2020), (Brandenburger \& Dekel, 1992) and (Grant \& Stauber, 2022)
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textbf{Constraints \& Generalized Equilibria}
-\begin{itemize}\setlength{\itemsep}{-0.1cm}
-    \setlength{\itemindent}{.2in}
-    \item (Debreu, 1952) defines the concept of generalized equilibrium
-    \item (Arrow \& Debreu, 1954) shows a proof of existence
-    \item (Rosen, 1965) considers coupled constraints and shows the existence and uniqueness of equilibria in concave games
-    \item Many other theoretical and applied contributions.
-    %under appropriate assumptions on utilities and the feasible set of joint strategies
-\end{itemize}
-
-\vspace{0.5cm}
-
-\noindent $\Rightarrow$ A solution concept combining \textbf{correlation and constraints has not yet been studied} in the literature \\
-\noindent $\Rightarrow$ We consider this problem for \textbf{finite non-cooperative games} and \textbf{propose a solution}
-
-\end{frame}
 
 % new slide ===========================================================
 \begin{frame}[t]
-\frametitle{State-of-the-art}
+\frametitle{Introduction}
 
-X
+\begin{itemize}
+\item Importance of the topic:
+	\begin{itemize}
+		\item from a research viewpoint 
+		\item practical point of view
+	\end{itemize}
+\end{itemize}
+
 
 \end{frame}
+
+
+% new slide ===========================================================
+\begin{frame}[t]
+\frametitle{State-of-the-art literature}
+
+%Copy pasting from my stored viva report from a medical science PhD viva in the UK:
+
+%The examiners further report that they have satisfied themselves that the thesis:
+
+Please tick relevant boxes
+
+\begin{itemize}\setlength{\itemsep}{-0.1cm}
+	\item is genuinely the work of the student
+	\item forms a distinct contribution to knowledge of the subject
+	\item affords evidence of originality: 1) by the discovery if new facts and/or 2) by the exercise of independent critical power
+	\item is an integrated whole and presents a coherent argument
+	\item gives critical assessment of the relevant literature
+	\item describes the method of research and its findings
+	\item includes discussion of those findings and how they advance the study
+	\item demonstrates a deep and synoptic understanding of the field of study, objectivity and the capacity for judgment in complex situations and autonomous work in that field
+	\item is satisfactory as regards literary presentation
+	\item includes a full bibliography and references
+	\item demonstrates research skills relevant to the thesis
+	\item is of a standard to merit publication in whole, in part or in a revised form
+\end{itemize}
+
+\end{frame}
+
 
 % new slide ===========================================================
 \begin{frame}[t]
 \frametitle{Motivation}
-\begin{itemize}\itemsep 0.3cm
-\item Planning, on the fly, a path from a starting position such that the \textbf{robot covers every point in an initially unknown spatial environment}.
-\item Currently,
-\begin{itemize}\itemsep 0.1cm
-\item Finding an optimal path that visits every node in a graph exactly once is \textbf{NP-hard problem}.
-\item \textbf{Approximate and heuristic solutions} are usually used for the complete coverage path planning task.
-\item Most methods rely on the \textbf{a priori knowledge of the map of the environment} and cope with unknown obstacles detected by range sensors.
-\end{itemize}
-\item Objectives:
-\begin{itemize}\itemsep 0.1cm
-\item \textbf{Partially or completely unknown environments} (i.e. exploration task).
-\item Cover as close to 100\% of the land as possible.
-\item Avoid double coverage of areas.
-\item Avoid obstacles and impassable areas.
-\item Be as efficient as possible, i.e., keep costs to a minimum to prevent unnecessary, wastage of time and resources
-\end{itemize}
-\end{itemize}
-\end{frame}
 
-% new slide ===========================================================
-\begin{frame}[t]
-\frametitle{Contributions}
+Currently,  \footnotemark
+
+\footnotetext[1]{Hart, Sergiu, and Andreu Mas‐Colell (2000). \emph{"A simple adaptive procedure leading to correlated equilibrium"}, in Econometrica}
+
 
 \end{frame}
 
@@ -533,6 +458,236 @@ In this work,
     %and characterize the equilibrium distributions 
     %\item study the equilibrium distributions when allowing randomization over correlated strategy profiles
 \end{itemize}
+
+\end{frame}
+
+% new slide ===========================================================
+\begin{frame}[t]
+
+\vspace{1.7cm}
+\vspace*{\fill}
+\begin{center}
+	{ \huge Part 1 : Learning Correlated Equilibria }
+\end{center}
+\vspace*{\fill}
+
+\end{frame}
+
+
+
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Online Learning with Regret}
+
+\begin{block}{Definition -- Regret}
+The regret player $i$ experiences at time $t$ for any pair of actions $j,k \in \mathcal{A}_i$ is
+\vspace{-0.15cm}
+\begin{align}
+\scriptstyle  R_{i}^{t}(j, k) = max\Bigg(0, \frac{1}{t} \sum\limits_{\tau \leq t : a_i^\tau = j}\left[u_{i}\left(k, \bm{a}^{\tau}_{-i}\right)-u_{i}\left(\bm{a}^{\tau}\right)\right]\Bigg) = max(0, D^t_i(j,k))
+\end{align}
+\end{block}
+
+\vspace{-0.7cm}
+\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+\column{.5\textwidth}
+\begin{table}[H]
+\normalsize
+\centering
+\begin{tabular}{c|c|c}
+ & \multicolumn{1}{c|}{\textbf{D}}  & \textbf{E} \\ \hline
+\textbf{A} & \multicolumn{1}{c|}{(2, 29)} & (16, 7)  \\ \hline
+\textbf{B} & \multicolumn{1}{c|}{(4, 7)} & (6, 13)  \\ \hline
+\textbf{C} & \multicolumn{1}{c|}{(4, 4)} & (6, 6)
+\end{tabular}
+\caption{Utility matrix.}
+\end{table}
+
+\column{.5\textwidth}
+\hspace{-0.5cm}\visible<2->{\begin{figure}[!ht]
+  \centering
+  \hspace{-0.4cm}\includegraphics[scale=0.55]{"./figures/probabilities_RM".pdf}
+  \vspace{-0.3cm}
+  \caption{Evolution of the empirical probability distribution}
+\end{figure}}
+\end{columns}
+
+\vspace{-0.1cm}
+\begin{itemize}
+\setlength{\itemindent}{2em}
+\setlength\itemsep{-0.2em}
+\item The empirical distribution does not seem to converge towards a correlated equilibrium point 
+\item We propose a new dynamic called Correlated Perturbed Regret Minimization (CPRM) which stabilizes the empirical distribution
+\end{itemize}
+\vspace{0.2cm}
+
+\footnotetext{Hart S, Mas‐Colell A. (2000). \emph{"A simple adaptive procedure leading to correlated equilibrium"}. Econometrica.}
+
+
+
+\end{frame}
+
+
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Evolution of the Empirical Probability Distribution}
+
+\begin{figure}
+\centering
+\begin{minipage}{.33\textwidth}
+  \centering
+  \vspace{-0.2cm}\includegraphics[scale=0.55]{"./figures/probabilities_PRM".pdf}
+  \vspace{0.28cm}
+  \captionof*{figure}{\textcolor{aaltoblue}{(a)} CPRM algorithm}
+\end{minipage}%
+\begin{minipage}{.33\textwidth}
+  \hspace{-1.9cm}\vspace{0.02cm}\includegraphics[scale=0.55]{"./figures/probabilities_Blackwell".pdf}
+    \captionof*{figure}{\textcolor{aaltoblue}{(b)} Regret minimizing strategy}
+\end{minipage}%
+\begin{minipage}{.33\textwidth}
+  \centering
+  \includegraphics[scale=0.55]{"./figures/probabilities_RM".pdf}
+  \vspace{0.28cm}
+  \captionof*{figure}{\textcolor{aaltoblue}{(c)} Regret-matching}
+\end{minipage}
+\caption{Evolution of the empirical distribution over action profiles.}
+\end{figure}
+
+\end{frame}
+% new slide ===========================================================
+\begin{frame}[label=simulations]
+\frametitle{Evolution of the Regrets}
+\begin{figure}
+\centering
+\begin{minipage}{.33\textwidth}
+  \centering
+  \vspace{-0.2cm}\includegraphics[scale=0.55]{"./figures/regrets_PRM".pdf}
+  \vspace{0.28cm}
+    \captionof*{figure}{\textcolor{aaltoblue}{(a)} CPRM algorithm}
+\end{minipage}%
+\begin{minipage}{.33\textwidth}
+  \centering
+  \vspace{0.0cm}\includegraphics[scale=0.55]{"./figures/regrets_Blackwell".pdf}
+    \captionof*{figure}{\textcolor{aaltoblue}{(b)} Regret minimizing strategy}
+\end{minipage}%
+\begin{minipage}{.33\textwidth}
+  \centering
+  \includegraphics[scale=0.55]{"./figures/regrets_RM".pdf}
+  \vspace{0.28cm}
+  \captionof*{figure}{\textcolor{aaltoblue}{(c)} Regret-matching}
+\end{minipage}
+\caption{Evolution of players' regrets for the three algorithms.}
+\end{figure}
+\end{frame}
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Time-varying Game}
+
+
+
+
+\begin{columns}
+\begin{column}{.5\textwidth}
+
+\begin{figure}
+\begin{table}[ht]
+\centering
+\captionsetup{justification=centering}
+\resizebox{6cm}{!}{%
+\begin{tabular}{ c}
+\begin{tabular}{c|c|c}
+ & \multicolumn{1}{c|}{\textbf{D}}  & \textbf{E} \\ \hline
+\textbf{A} & \multicolumn{1}{c|}{(2, 29)} & (16, 7)  \\ \hline
+\textbf{B} & \multicolumn{1}{c|}{(4, 7)} & (6, 13)  \\ \hline
+\textbf{C} & \multicolumn{1}{c|}{(4, 4)} & (6, 6)
+\end{tabular}
+ \\[20pt]
+ $\downarrow$
+ \\[-1pt]
+\begin{tabular}{c|c|c}
+ & \multicolumn{1}{c|}{\textbf{D}}  & \textbf{E} \\ \hline
+\textbf{A} & \multicolumn{1}{c|}{(2, 29, 2)} & (16, 7, 8)  \\ \hline
+\textbf{B} & \multicolumn{1}{c|}{(4, 7, 2)} & (6, 13, 0)  \\ \hline
+\textbf{C} & \multicolumn{1}{c|}{(4, 4, 1)} & (6, 6, 5)
+\end{tabular} \quad \begin{tabular}{c|c|c}
+ & \multicolumn{1}{c|}{\textbf{D}}  & \textbf{E} \\ \hline
+\textbf{A} & \multicolumn{1}{c|}{(9, 4, 0)} & (4, 1, 4)  \\ \hline
+\textbf{B} & \multicolumn{1}{c|}{(8, 0, 1)} & (6, 7, 2)  \\ \hline
+\textbf{C} & \multicolumn{1}{c|}{(11, 9, 3)} & (2, 0, 4)
+\end{tabular}\\[15pt]
+\textbf{X} \hspace{3.5cm} \textbf{Y}
+\\[-7pt]
+ $\downarrow$
+ \\[5pt]
+\begin{tabular}{c|c|c}
+ & \multicolumn{1}{c|}{\textbf{D}}  & \textbf{E} \\ \hline
+\textbf{A} & \multicolumn{1}{c|}{(2, 29)} & (16, 7)  \\ \hline
+\textbf{B} & \multicolumn{1}{c|}{(4, 7)} & (6, 13)  \\ \hline
+\textbf{C} & \multicolumn{1}{c|}{(4, 4)} & (6, 6)
+\end{tabular}
+\\[20pt]
+ $\downarrow$
+ \\[-3pt]
+\begin{tabular}{c|c|c}
+ & \multicolumn{1}{c|}{\textbf{D}}  & \textbf{E} \\ \hline
+\textbf{A} & \multicolumn{1}{c|}{(2, 29, 2)} & (16, 7, 8)  \\ \hline
+\textbf{B} & \multicolumn{1}{c|}{(4, 7, 2)} & (6, 13, 0)  \\ \hline
+\textbf{C} & \multicolumn{1}{c|}{(4, 4, 1)} & (6, 6, 5)
+\end{tabular} \quad \begin{tabular}{c|c|c}
+ & \multicolumn{1}{c|}{\textbf{D}}  & \textbf{E} \\ \hline
+\textbf{A} & \multicolumn{1}{c|}{(9, 4, 0)} & (4, 1, 4)  \\ \hline
+\textbf{B} & \multicolumn{1}{c|}{(8, 0, 1)} & (6, 7, 2)  \\ \hline
+\textbf{C} & \multicolumn{1}{c|}{(11, 9, 3)} & (2, 0, 4)
+\end{tabular}
+\\[15pt]
+\textbf{X} \hspace{3.5cm} \textbf{Y}
+\end{tabular}}
+\end{table}
+\captionsetup{justification=centering}
+\caption{Sequence of stage games in the dynamic case.}
+\end{figure}
+
+\end{column}
+\begin{column}{.5\textwidth}
+ 
+\begin{figure}[!ht]
+  \includegraphics[scale=0.6]{"./figures/regrets_dynamic".pdf}
+  \vspace{-0.2cm}
+  \caption{Evolution of maximal regrets}
+\end{figure}
+\vspace{-0.6cm}
+\begin{figure}[!ht]
+  \includegraphics[scale=0.6]{"./figures/probabilities_long".pdf}
+  \vspace{-0.2cm}
+  \caption{Evolution of the empirical distribution}
+\end{figure}
+ 
+\end{column}
+\end{columns}
+
+\end{frame}
+% new slide ===========================================================
+\begin{frame}[t]
+\frametitle{Discussion}
+
+Learning is fine but...
+
+Introduce the constraints topic with an example
+
+for different reasons (economical, etc.)
+
+
+\end{frame}
+
+% new slide ===========================================================
+\begin{frame}[t]
+
+
+\vspace{1.7cm}
+\vspace*{\fill}
+\begin{center}
+	{ \huge Part 2 : Constrained Correlated Equilibria }
+\end{center}
+\vspace*{\fill}
 
 
 \end{frame}
@@ -633,7 +788,7 @@ $A$ & \multicolumn{1}{c|}{10, 3} & 0, 0
 
 \end{column}
 \end{columns} 
-\vspace{-0cm}
+\vspace{0.3cm}
 
 \begin{columns}
 \begin{column}{0.5\textwidth}
@@ -643,7 +798,7 @@ $A$ & \multicolumn{1}{c|}{10, 3} & 0, 0
 \end{column}
 \begin{column}{0.5\textwidth}  %%<--- here
 \begin{center}
-\visible<3->{\textbf{Constrained extended game}}
+\textbf{Constrained extended game}
 \end{center}
 \end{column}
 \end{columns}
@@ -669,7 +824,7 @@ $A$ & \multicolumn{1}{c|}{10, 3} & 0, 0
   \label{fig:ConstrainedExtendedPayoff}
 \end{figure}
 \end{center}
- 
+
 \end{column}
 \begin{column}{0.5\textwidth}  %%<--- here
 \begin{center}
@@ -695,39 +850,6 @@ $A$ & \multicolumn{1}{c|}{10, 3} & 0, 0
 
 
 % new slide ===========================================================
-\begin{frame}[t]
-
-\vspace{1.7cm}
-\vspace*{\fill}
-\begin{center}
-	{ \huge Part 1 : Learning Correlated Equilibria }
-\end{center}
-\vspace*{\fill}
-
-\end{frame}
-
-% new slide ===========================================================
-\begin{frame}[t]
-\frametitle{Motivation}
-
-
-\end{frame}
-
-% new slide ===========================================================
-\begin{frame}[t]
-
-
-\vspace{1.7cm}
-\vspace*{\fill}
-\begin{center}
-	{ \huge Part 2 : Constrained Correlated Equilibria }
-\end{center}
-\vspace*{\fill}
-
-
-\end{frame}
-
-% new slide ===========================================================
 \begin{frame}
 \frametitle{Properties of Constrained Correlated Equilibrium Strategies}
 
@@ -737,7 +859,7 @@ $A$ & \multicolumn{1}{c|}{10, 3} & 0, 0
 
 Consider a finite non-cooperative game ${G}=(\mathcal{N},(\mathcal{A}_{i})_{i \in \mathcal{N}},(u_{i})_{i \in \mathcal{N}})$, a correlation device $d = (\Omega, (\mathcal{P}_i)_{i \in \mathcal{N}}, \bm{q})$ and a constraint set $\mathcal{R}_d \subset \mathcal{S}_d$.
 
-\vspace{0.8cm}
+\vspace{0.5cm}
 
 \textcolor{aaltoblue}{\large Proposition 1} : If $(d, \bm{\alpha}^*)$ is a correlated equilibrium and $\bm{\alpha}^* \in \mathcal{R}_d$, then $(d,\mathcal{R}_d,\bm{\alpha}^*)$ is a constrained correlated equilibrium.
 
@@ -773,13 +895,183 @@ Consider a finite non-cooperative game ${G}=(\mathcal{N},(\mathcal{A}_{i})_{i \i
     \end{equation}
     %%%%%%%%%%%%%%%%%%%
     %where ''$\lor$'' denotes the logical inclusive "or" that means that the formula is true when either or both of the arguments are true.
-
 \end{frame}
 
 % new slide ===========================================================
-\begin{frame}[t]
-\frametitle{Motivation}
+\begin{frame}
+\frametitle{Computation of Constrained Correlated Equilibria}
 
+
+
+\begin{columns}
+\column{0.5\textwidth}
+%%%%%%%%%%%%%%%%%%
+\begin{align}
+    & \text {maximize } 0 \nonumber \\
+    \text { s.t. } & \bm{p}(\bm{a}) \geq 0 \quad \forall \bm{a} \in \mathcal{A}, \quad \Sigma_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a}) = 1 \\
+                    & \forall i \in \mathcal{N}, \forall \beta_i : \mathcal{A}_i \rightarrow \mathcal{A}_i \nonumber \\
+                    & \sum\limits_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a}) \left[u_{i}(\bm{a}) - u_{i}(\beta_i(a_i), \bm{a}_{-i}) \right] \geq 0. \\ \nonumber
+    \end{align}  
+%%%%%%%%%%%%%%%%%%
+\column{0.5\textwidth}
+%%%%%%%%%%%%%%%%%%
+\begin{align}
+    & \text{maximize } 0 \nonumber \\
+    \text { s.t. } & \bm{p}(\bm{a}) \geq 0 \quad \forall \bm{a} \in \mathcal{A}, \quad \Sigma_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a}) = 1 \\
+                   & \forall i \in \mathcal{N}, \forall \beta_i : \mathcal{A}_i \rightarrow \mathcal{A}_i \textcolor{red}{\text{ s.t. } \bm{z}_{\beta_i, \bm{p}} \in \mathcal{C}} \nonumber \\
+                   & \sum\limits_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a}) \left[u_{i}(\bm{a}) - u_{i}(\beta_i(a_i), \bm{a}_{-i}) \right] \geq 0,\\
+                   & \textcolor{red}{\bm{p} \in \mathcal{C}}
+\end{align}
+%%%%%%%%%%%%%%%%%%
+\end{columns}
+
+\vspace{0.6cm}
+
+Assume linear constraints e.g., $\mathcal{C} = \{ \bm{p} \in \Delta(\mathcal{A}) \mid F\bm{p} \leq 0 \}$.
+
+\end{frame}
+
+
+
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Computation of Constrained Correlated Equilibria}
+
+\begin{center}
+    \textbf{Mixed-Integer Linear Program}
+\end{center}
+
+\vspace{0.3cm}
+
+\begin{align}
+    \boldsymbol{p} \geq 0, \Sigma_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a}) = 1, F \boldsymbol{p} \leq 0 & & \\
+    {\left[U_i-U_i B_{\beta_i}\right] \boldsymbol{p} \leq M_i \times \boldsymbol{y}_{\beta_i}} & \quad \forall i \in \mathcal{N}, \quad \forall \beta_i \\
+    F B_{\beta_i} \boldsymbol{p} \geq-K\left(1-\boldsymbol{y}_{\beta_i}\right)+\delta & \quad \forall i \in \mathcal{N}, \quad \forall \beta_i \\
+    F B_{\beta_i} \bm{p} \leq K y_{\beta_i} & \quad \forall i \in \mathcal{N}, \quad \forall \beta_i\\
+    y_{\beta_i} \in \{ 0,1 \} & \quad \forall i \in \mathcal{N}, \quad \forall \beta_i
+\end{align}
+\end{frame}
+
+
+
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Simulation Example}
+
+\begin{columns}
+\begin{column}{0.3\textwidth}
+    \begin{table}
+    \resizebox{3cm}{!}{%
+    \begin{tabular}{c|c|c}
+     & \multicolumn{1}{c|}{$P$}  & $A$ \\ \hline
+    $P$ & \multicolumn{1}{c|}{8, 8} & 3, 10  \\ \hline
+    $A$ & \multicolumn{1}{c|}{10, 3} & 0, 0
+    \end{tabular}}
+    \caption*{Game of Chicken}
+    \end{table}
+    \vspace{0.4cm}
+    \begin{itemize}\setlength{\itemsep}{-0.2cm}
+    \setlength{\itemindent}{.2in}
+        \item Feasible utilities in \textcolor{ForestGreen}{green}    
+        \item CE utilities in \textcolor{yellow}{yellow}
+        \item \textbf{CCE} utilities in \textcolor{red}{red}        
+    \end{itemize}
+\end{column}
+\begin{column}{0.6\textwidth}  %%<--- here
+\vspace{0.25cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+      \includegraphics[scale=0.43]{figures/P12.png}
+      \caption*{\centering Utilities - Constraint: Social Welfare $\geq 12$}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{column}
+\end{columns}
+\end{frame}
+
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Simulation Results}
+
+\begin{figure}
+    \centering
+    \begin{minipage}{.33\textwidth}
+      \centering
+      \includegraphics[scale=0.21]{figures/CCE_figures/P13.png}
+      \caption*{\centering Utilities - Constraint: Social Welfare $\geq 13$}
+      \label{fig:test1}
+    \end{minipage}%
+    \begin{minipage}{.33\textwidth}
+      \centering
+      \includegraphics[scale=0.21]{figures/CCE_figures/P14.png}
+      \caption*{\centering Utilities - Constraint: Social Welfare $\geq 14$}
+      \label{fig:test2}
+    \end{minipage}
+    \begin{minipage}{.33\textwidth}
+      \centering
+      \includegraphics[scale=0.21]{figures/CCE_figures/P15.png}
+      \caption*{\centering Utilities - Constraint: Social Welfare $\geq 15$}
+      \label{fig:test1}
+    \end{minipage}%
+\end{figure}
+
+\begin{itemize}\setlength{\itemsep}{-0.1cm}
+    \item The set may not be convex
+    \item There are constrained correlated equilibria outside the set of correlated equilibrium distributions
+\end{itemize}
+
+\end{frame}
+
+
+% new slide ===========================================================
+\begin{frame}[t]
+\frametitle{Discussion \& Highlight of Contributions}
+
+\begin{itemize}\setlength{\itemsep}{-0.05cm}
+\item X
+\item X
+\end{itemize}
+
+\begin{enumerate}
+    \item \underline{\textbf{Arbitrary constraints and arbitrary correlation device}}
+    \begin{enumerate}
+    \item \textbf{Characterizations of Equilibrium Strategies}
+    \begin{itemize}
+    \setlength{\itemindent}{1em}
+        \item Definition derived from the generalized Nash equilibrium and correlated equilibrium
+        \item Alternative characterizations of constrained correlated strategies
+    \end{itemize}
+    \item \textbf{Properties and relationship to (unconstrained) Correlated Equilibria}
+    \begin{itemize}
+    \setlength{\itemindent}{1em}
+        \item A feasible correlated equilibrium is a constrained correlated equilibrium 
+        \item The set of constrained correlated equilibrium distributions may not be convex
+        \item There exist constrained correlated equilibrium distributions outside the set of correlated equilibrium distributions
+    \end{itemize}
+\end{enumerate}
+\item \underline{\textbf{Constraints on probability distributions}}
+\begin{enumerate}
+    \item \textbf{Characterization of constrained correlated equilibrium distributions}
+    \begin{itemize}
+    \setlength{\itemindent}{1em}
+        \item Closed-form expression of the set of constrained correlated equilibrium distribution
+    \end{itemize}
+    \item \textbf{Sufficient Conditions of Existence}
+    \begin{itemize}
+    \setlength{\itemindent}{1em}
+        \item There does not always exist a constrained correlated equilibrium in finite games
+        \item The existence of a constrained correlated equilibrium 
+    \end{itemize}
+    \item \textbf{Constrained correlated equilibrium distributions of the mixed extension of a game}
+    \begin{itemize}
+    \setlength{\itemindent}{1em}
+        \item The set of constrained correlated equilibrium distribution of $\Delta G$ is included in the set of constrained correlated equilibrium of $G$
+    \end{itemize}
+\end{enumerate}
+
+\end{enumerate}
 
 \end{frame}
 
@@ -787,10 +1079,36 @@ Consider a finite non-cooperative game ${G}=(\mathcal{N},(\mathcal{A}_{i})_{i \i
 \begin{frame}[t]
 \frametitle{Open Perspectives}
 
-X
+\begin{itemize}
+	\item \textbf{Research questions}
+	\begin{itemize}\setlength{\itemsep}{-0.05cm}
+		\item subjective correlated equilibrium
+		\item existence conditions
+		\item extensions to infinite games
+		\item connection to Bayesian rationality
+		\item existence problem should be studied for weaker or alternative assumptions
+	\end{itemize}
+	\item \textbf{Unexplored areas}
+	\begin{itemize}\setlength{\itemsep}{-0.05cm}
+		\item Learning with constraints
+		\item X
+	\end{itemize}
+	\item \textbf{Potential applications in various fields}
+	\begin{itemize}\setlength{\itemsep}{-0.05cm}
+		\item Constrained correlated equilibria
+		\begin{itemize}\setlength{\itemsep}{-0.05cm}
+		\item A
+		\item B
+	\end{itemize}
+		\item Learning correlated equilibria
+		\begin{itemize}\setlength{\itemsep}{-0.05cm}
+		\item C
+		\item D
+	\end{itemize}
+	\end{itemize}
+\end{itemize}
 
 \end{frame}
-
 
 % new slide ===========================================================
 \frame{\frametitle{Thank you!}
