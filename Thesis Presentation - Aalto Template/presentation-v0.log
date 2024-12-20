@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.16)  19 DEC 2024 21:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.16)  20 DEC 2024 11:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2481,345 +2481,1127 @@ Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 241.
  <./Aalto_EN_ELEC_13_RGB_y1.pdf>]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 313.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 314.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [2
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <7.30005> on input line 359
-.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.30005> on input line 359.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.11> on input line 359.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <3.65002> on input line 359.
-<./figures/Aumann_Robert.jpg, id=78, 387.4475pt x 441.65pt>
-File: ./figures/Aumann_Robert.jpg Graphic file (type jpg)
-<use ./figures/Aumann_Robert.jpg>
-Package pdftex.def Info: ./figures/Aumann_Robert.jpg  used on input line 359.
-(pdftex.def)             Requested size: 135.60864pt x 154.5798pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 359.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 314.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [3
 
- <./figures/Aumann_Robert.jpg>]
+]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 404.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 314.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [4
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 463.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 314.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [5
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 476.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 314.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [6
 
 ]
-<./figures/probabilities_RM.pdf, id=113, 225.78052pt x 132.74393pt>
-File: ./figures/probabilities_RM.pdf Graphic file (type pdf)
-<use ./figures/probabilities_RM.pdf>
-Package pdftex.def Info: ./figures/probabilities_RM.pdf  used on input line 541
-.
-(pdftex.def)             Requested size: 124.17966pt x 73.00937pt.
-
-Overfull \vbox (16.71884pt too high) detected at line 541
- []
-
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 541.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 314.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
-[7
+ [7
 
- <./figures/probabilities_RM.pdf>] (./figures/learning/learning1.tex)
-(./figures/learning/learning2.tex)
+]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 570.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 314.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [8
 
-] (./figures/learning/learning7.tex)
+]
+<./figures/robert.jpg, id=109, 200.1879pt x 279.2031pt>
+File: ./figures/robert.jpg Graphic file (type jpg)
+<use ./figures/robert.jpg>
+Package pdftex.def Info: ./figures/robert.jpg  used on input line 346.
+(pdftex.def)             Requested size: 110.10367pt x 153.56216pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 590.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 346.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [9
 
-[9
-
-] (./figures/learning/learning8.tex)
-Overfull \vbox (1.2988pt too high) detected at line 601
- []
-
+ <./figures/robert.jpg>]
+File: ./figures/robert.jpg Graphic file (type jpg)
+<use ./figures/robert.jpg>
+Package pdftex.def Info: ./figures/robert.jpg  used on input line 346.
+(pdftex.def)             Requested size: 110.10367pt x 153.56216pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 601.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 346.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
-[10
+ [10
 
 ]
-<figures/process/state_dynamic_figure_1.pdf, id=163, 132.29024pt x 52.32649pt>
-File: figures/process/state_dynamic_figure_1.pdf Graphic file (type pdf)
-<use figures/process/state_dynamic_figure_1.pdf>
-Package pdftex.def Info: figures/process/state_dynamic_figure_1.pdf  used on in
-put line 634.
-(pdftex.def)             Requested size: 105.83232pt x 41.86124pt.
-<figures//process/state_dynamic_figure_2.pdf, id=164, 162.95479pt x 73.5036pt>
-File: figures//process/state_dynamic_figure_2.pdf Graphic file (type pdf)
-<use figures//process/state_dynamic_figure_2.pdf>
-Package pdftex.def Info: figures//process/state_dynamic_figure_2.pdf  used on i
-nput line 634.
-(pdftex.def)             Requested size: 130.364pt x 58.80293pt.
+File: ./figures/robert.jpg Graphic file (type jpg)
+<use ./figures/robert.jpg>
+Package pdftex.def Info: ./figures/robert.jpg  used on input line 346.
+(pdftex.def)             Requested size: 110.10367pt x 153.56216pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 634.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 346.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [11
 
- <./figures/process/state_dynamic_figure_1.pdf> <./figures//process/state_dynam
-ic_figure_2.pdf>]
-<./figures/probabilities_PRM.pdf, id=229, 223.94968pt x 132.74393pt>
-File: ./figures/probabilities_PRM.pdf Graphic file (type pdf)
-<use ./figures/probabilities_PRM.pdf>
-Package pdftex.def Info: ./figures/probabilities_PRM.pdf  used on input line 66
-3.
-(pdftex.def)             Requested size: 123.1727pt x 73.00937pt.
-<./figures/probabilities_Blackwell.pdf, id=230, 434.95801pt x 150.60867pt>
-File: ./figures/probabilities_Blackwell.pdf Graphic file (type pdf)
-<use ./figures/probabilities_Blackwell.pdf>
-Package pdftex.def Info: ./figures/probabilities_Blackwell.pdf  used on input l
-ine 663.
-(pdftex.def)             Requested size: 239.22763pt x 82.835pt.
-
-Overfull \hbox (53.71512pt too wide) in paragraph at lines 663--663
-[] [] 
- []
-
-File: ./figures/probabilities_RM.pdf Graphic file (type pdf)
-<use ./figures/probabilities_RM.pdf>
-Package pdftex.def Info: ./figures/probabilities_RM.pdf  used on input line 663
-.
-(pdftex.def)             Requested size: 124.17966pt x 73.00937pt.
+]
+File: ./figures/robert.jpg Graphic file (type jpg)
+<use ./figures/robert.jpg>
+Package pdftex.def Info: ./figures/robert.jpg  used on input line 346.
+(pdftex.def)             Requested size: 110.10367pt x 153.56216pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 663.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 346.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+
 [12
 
- <./figures/probabilities_PRM.pdf> <./figures/probabilities_Blackwell.pdf>]
-<./figures/regrets_PRM.pdf, id=278, 227.89441pt x 136.30824pt>
-File: ./figures/regrets_PRM.pdf Graphic file (type pdf)
-<use ./figures/regrets_PRM.pdf>
-Package pdftex.def Info: ./figures/regrets_PRM.pdf  used on input line 691.
-(pdftex.def)             Requested size: 125.3423pt x 74.96974pt.
-<./figures/regrets_Blackwell.pdf, id=279, 217.95628pt x 144.87726pt>
-File: ./figures/regrets_Blackwell.pdf Graphic file (type pdf)
-<use ./figures/regrets_Blackwell.pdf>
-Package pdftex.def Info: ./figures/regrets_Blackwell.pdf  used on input line 69
-1.
-(pdftex.def)             Requested size: 119.87631pt x 79.68272pt.
-<./figures/regrets_RM.pdf, id=280, 217.9593pt x 129.92941pt>
-File: ./figures/regrets_RM.pdf Graphic file (type pdf)
-<use ./figures/regrets_RM.pdf>
-Package pdftex.def Info: ./figures/regrets_RM.pdf  used on input line 691.
-(pdftex.def)             Requested size: 119.87798pt x 71.4614pt.
+]
+File: ./figures/robert.jpg Graphic file (type jpg)
+<use ./figures/robert.jpg>
+Package pdftex.def Info: ./figures/robert.jpg  used on input line 346.
+(pdftex.def)             Requested size: 110.10367pt x 153.56216pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 691.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 346.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [13
 
-[13
-
- <./figures/regrets_PRM.pdf> <./figures/regrets_Blackwell.pdf> <./figures/regre
-ts_RM.pdf>]
-<./figures/regrets_dynamic.pdf, id=366, 223.14267pt x 141.17242pt>
-File: ./figures/regrets_dynamic.pdf Graphic file (type pdf)
-<use ./figures/regrets_dynamic.pdf>
-Package pdftex.def Info: ./figures/regrets_dynamic.pdf  used on input line 778.
-
-(pdftex.def)             Requested size: 133.88663pt x 84.70409pt.
-<./figures/probabilities_long.pdf, id=367, 220.63629pt x 132.74393pt>
-File: ./figures/probabilities_long.pdf Graphic file (type pdf)
-<use ./figures/probabilities_long.pdf>
-Package pdftex.def Info: ./figures/probabilities_long.pdf  used on input line 7
-78.
-(pdftex.def)             Requested size: 132.38278pt x 79.64696pt.
-
-Overfull \vbox (7.67464pt too high) detected at line 778
- []
-
+]
+File: ./figures/robert.jpg Graphic file (type jpg)
+<use ./figures/robert.jpg>
+Package pdftex.def Info: ./figures/robert.jpg  used on input line 346.
+(pdftex.def)             Requested size: 110.10367pt x 153.56216pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 778.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 346.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
-[14
+ [14
 
- <./figures/regrets_dynamic.pdf> <./figures/probabilities_long.pdf>]
-<./figures/graph.pdf, id=424, 172.4583pt x 149.62498pt>
-File: ./figures/graph.pdf Graphic file (type pdf)
-<use ./figures/graph.pdf>
-Package pdftex.def Info: ./figures/graph.pdf  used on input line 823.
-(pdftex.def)             Requested size: 86.22893pt x 74.8123pt.
-<./figures/probas_congestion.pdf, id=425, 222.44907pt x 132.74393pt>
-File: ./figures/probas_congestion.pdf Graphic file (type pdf)
-<use ./figures/probas_congestion.pdf>
-Package pdftex.def Info: ./figures/probas_congestion.pdf  used on input line 82
-3.
-(pdftex.def)             Requested size: 133.47044pt x 79.64696pt.
-<./figures/regrets_congestion.pdf, id=426, 238.3033pt x 152.85506pt>
-File: ./figures/regrets_congestion.pdf Graphic file (type pdf)
-<use ./figures/regrets_congestion.pdf>
-Package pdftex.def Info: ./figures/regrets_congestion.pdf  used on input line 8
-23.
-(pdftex.def)             Requested size: 142.98306pt x 91.71373pt.
-
-Overfull \vbox (20.37474pt too high) detected at line 823
- []
-
+]
+File: ./figures/robert.jpg Graphic file (type jpg)
+<use ./figures/robert.jpg>
+Package pdftex.def Info: ./figures/robert.jpg  used on input line 346.
+(pdftex.def)             Requested size: 110.10367pt x 153.56216pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 823.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 346.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
-[15
+ [15
 
- <./figures/graph.pdf> <./figures/probas_congestion.pdf> <./figures/regrets_con
-gestion.pdf>]
+]
+File: ./figures/robert.jpg Graphic file (type jpg)
+<use ./figures/robert.jpg>
+Package pdftex.def Info: ./figures/robert.jpg  used on input line 346.
+(pdftex.def)             Requested size: 110.10367pt x 153.56216pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 832.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 346.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [16
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 846.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [17
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <5.6> on input line 904.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.6> on input line 904.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <3.91998> on input line 904.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <2.8> on input line 904.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 904.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [18
 
 ]
-Overfull \vbox (9.12447pt too high) detected at line 1006
- []
-
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1006.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
-[19
-
-]pdfTeX warning (ext4): destination with the same identifier (name{fig:Constrai
-nedExtendedPayoff}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1086 \end{frame}
-                  
-Overfull \vbox (1.91039pt too high) detected at line 1086
- []
-
-File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
-<use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1086.
-(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
-[20
-
-]
-Overfull \vbox (5.8747pt too high) detected at line 1135
- []
-
-File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
-<use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1135.
-(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
-[21
-
-]
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 1
-188.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/doublestroke/Udsrom.fd
-File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-)
-File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
-<use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1188.
-(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
-
-[22
+ [19
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1230.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [20
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [21
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [22
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [23
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1264.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [24
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1321.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [25
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1353.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [26
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1374.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [27
+
+[27
 
 ]
-<figures/P12.png, id=552, 395.076pt x 346.896pt>
-File: figures/P12.png Graphic file (type png)
-<use figures/P12.png>
-Package pdftex.def Info: figures/P12.png  used on input line 1413.
-(pdftex.def)             Requested size: 169.87936pt x 149.16237pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1413.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
  [28
 
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [29
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [30
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [31
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [32
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 391.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [33
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 449.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [34
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 449.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [35
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 449.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [36
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 449.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [37
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 449.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [38
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 449.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [39
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 449.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [40
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 449.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [41
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 449.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+
+[42
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 449.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [43
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 449.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [44
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 449.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [45
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 449.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [46
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 462.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [47
+
+]
+Overfull \vbox (2.77977pt too high) detected at line 501
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 501.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[48
+
+]
+Overfull \vbox (2.77977pt too high) detected at line 501
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 501.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[49
+
+]
+Overfull \vbox (2.77977pt too high) detected at line 501
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 501.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[50
+
+]
+Overfull \vbox (2.77977pt too high) detected at line 501
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 501.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[51
+
+]
+Overfull \vbox (2.77977pt too high) detected at line 501
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 501.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[52
+
+]
+Overfull \vbox (2.77977pt too high) detected at line 501
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 501.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[53
+
+]
+<./figures/probabilities_RM.pdf, id=358, 225.78052pt x 132.74393pt>
+File: ./figures/probabilities_RM.pdf Graphic file (type pdf)
+<use ./figures/probabilities_RM.pdf>
+Package pdftex.def Info: ./figures/probabilities_RM.pdf  used on input line 562
+.
+(pdftex.def)             Requested size: 124.17966pt x 73.00937pt.
+
+Overfull \vbox (6.17474pt too high) detected at line 562
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 562.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[54
+
+ <./figures/probabilities_RM.pdf>]
+File: ./figures/probabilities_RM.pdf Graphic file (type pdf)
+<use ./figures/probabilities_RM.pdf>
+Package pdftex.def Info: ./figures/probabilities_RM.pdf  used on input line 562
+.
+(pdftex.def)             Requested size: 124.17966pt x 73.00937pt.
+
+Overfull \vbox (6.17474pt too high) detected at line 562
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 562.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[55
+
+]
+File: ./figures/probabilities_RM.pdf Graphic file (type pdf)
+<use ./figures/probabilities_RM.pdf>
+Package pdftex.def Info: ./figures/probabilities_RM.pdf  used on input line 562
+.
+(pdftex.def)             Requested size: 124.17966pt x 73.00937pt.
+
+Overfull \vbox (6.17474pt too high) detected at line 562
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 562.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[56
+
+]
+File: ./figures/probabilities_RM.pdf Graphic file (type pdf)
+<use ./figures/probabilities_RM.pdf>
+Package pdftex.def Info: ./figures/probabilities_RM.pdf  used on input line 562
+.
+(pdftex.def)             Requested size: 124.17966pt x 73.00937pt.
+
+Overfull \vbox (6.17474pt too high) detected at line 562
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 562.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[57
+
+]
+File: ./figures/probabilities_RM.pdf Graphic file (type pdf)
+<use ./figures/probabilities_RM.pdf>
+Package pdftex.def Info: ./figures/probabilities_RM.pdf  used on input line 562
+.
+(pdftex.def)             Requested size: 124.17966pt x 73.00937pt.
+
+Overfull \vbox (6.17474pt too high) detected at line 562
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 562.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[58
+
+] (./figures/learning/learning1.tex
+LaTeX Font Info:    Calculating math sizes for size <7.30005> on input line 33.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.30005> on input line 33.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.11> on input line 33.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <3.65002> on input line 33.
+) (./figures/learning/learning2.tex)
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 593.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+
+[59
+
+] (./figures/learning/learning1.tex) (./figures/learning/learning2.tex)
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 593.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+
+[60
+
+] (./figures/learning/learning1.tex) (./figures/learning/learning2.tex)
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 593.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+
+[61
+
+] (./figures/learning/learning1.tex) (./figures/learning/learning2.tex)
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 593.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+
+[62
+
+] (./figures/learning/learning7.tex)
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 613.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [63
+
+] (./figures/learning/learning8.tex)
+Overfull \vbox (1.2988pt too high) detected at line 625
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 625.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[64
+
+] (./figures/learning/learning8.tex)
+Overfull \vbox (1.2988pt too high) detected at line 625
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 625.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[65
+
+]
+<figures/process/state_dynamic_figure_1.pdf, id=450, 132.29024pt x 52.32649pt>
+File: figures/process/state_dynamic_figure_1.pdf Graphic file (type pdf)
+<use figures/process/state_dynamic_figure_1.pdf>
+Package pdftex.def Info: figures/process/state_dynamic_figure_1.pdf  used on in
+put line 660.
+(pdftex.def)             Requested size: 105.83232pt x 41.86124pt.
+<figures//process/state_dynamic_figure_2.pdf, id=451, 162.95479pt x 73.5036pt>
+File: figures//process/state_dynamic_figure_2.pdf Graphic file (type pdf)
+<use figures//process/state_dynamic_figure_2.pdf>
+Package pdftex.def Info: figures//process/state_dynamic_figure_2.pdf  used on i
+nput line 660.
+(pdftex.def)             Requested size: 130.364pt x 58.80293pt.
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 660.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [66
+
+ <./figures/process/state_dynamic_figure_1.pdf> <./figures//process/state_dynam
+ic_figure_2.pdf>]
+File: figures/process/state_dynamic_figure_1.pdf Graphic file (type pdf)
+<use figures/process/state_dynamic_figure_1.pdf>
+Package pdftex.def Info: figures/process/state_dynamic_figure_1.pdf  used on in
+put line 660.
+(pdftex.def)             Requested size: 105.83232pt x 41.86124pt.
+File: figures//process/state_dynamic_figure_2.pdf Graphic file (type pdf)
+<use figures//process/state_dynamic_figure_2.pdf>
+Package pdftex.def Info: figures//process/state_dynamic_figure_2.pdf  used on i
+nput line 660.
+(pdftex.def)             Requested size: 130.364pt x 58.80293pt.
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 660.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [67
+
+]
+File: figures/process/state_dynamic_figure_1.pdf Graphic file (type pdf)
+<use figures/process/state_dynamic_figure_1.pdf>
+Package pdftex.def Info: figures/process/state_dynamic_figure_1.pdf  used on in
+put line 660.
+(pdftex.def)             Requested size: 105.83232pt x 41.86124pt.
+File: figures//process/state_dynamic_figure_2.pdf Graphic file (type pdf)
+<use figures//process/state_dynamic_figure_2.pdf>
+Package pdftex.def Info: figures//process/state_dynamic_figure_2.pdf  used on i
+nput line 660.
+(pdftex.def)             Requested size: 130.364pt x 58.80293pt.
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 660.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [68
+
+]
+File: figures/process/state_dynamic_figure_1.pdf Graphic file (type pdf)
+<use figures/process/state_dynamic_figure_1.pdf>
+Package pdftex.def Info: figures/process/state_dynamic_figure_1.pdf  used on in
+put line 660.
+(pdftex.def)             Requested size: 105.83232pt x 41.86124pt.
+File: figures//process/state_dynamic_figure_2.pdf Graphic file (type pdf)
+<use figures//process/state_dynamic_figure_2.pdf>
+Package pdftex.def Info: figures//process/state_dynamic_figure_2.pdf  used on i
+nput line 660.
+(pdftex.def)             Requested size: 130.364pt x 58.80293pt.
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 660.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [69
+
+]
+File: figures/process/state_dynamic_figure_1.pdf Graphic file (type pdf)
+<use figures/process/state_dynamic_figure_1.pdf>
+Package pdftex.def Info: figures/process/state_dynamic_figure_1.pdf  used on in
+put line 660.
+(pdftex.def)             Requested size: 105.83232pt x 41.86124pt.
+File: figures//process/state_dynamic_figure_2.pdf Graphic file (type pdf)
+<use figures//process/state_dynamic_figure_2.pdf>
+Package pdftex.def Info: figures//process/state_dynamic_figure_2.pdf  used on i
+nput line 660.
+(pdftex.def)             Requested size: 130.364pt x 58.80293pt.
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 660.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [70
+
+]
+File: figures/process/state_dynamic_figure_1.pdf Graphic file (type pdf)
+<use figures/process/state_dynamic_figure_1.pdf>
+Package pdftex.def Info: figures/process/state_dynamic_figure_1.pdf  used on in
+put line 660.
+(pdftex.def)             Requested size: 105.83232pt x 41.86124pt.
+File: figures//process/state_dynamic_figure_2.pdf Graphic file (type pdf)
+<use figures//process/state_dynamic_figure_2.pdf>
+Package pdftex.def Info: figures//process/state_dynamic_figure_2.pdf  used on i
+nput line 660.
+(pdftex.def)             Requested size: 130.364pt x 58.80293pt.
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 660.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [71
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 679.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [72
+
+]
+<./figures/probabilities_PRM.pdf, id=546, 223.94968pt x 132.74393pt>
+File: ./figures/probabilities_PRM.pdf Graphic file (type pdf)
+<use ./figures/probabilities_PRM.pdf>
+Package pdftex.def Info: ./figures/probabilities_PRM.pdf  used on input line 70
+9.
+(pdftex.def)             Requested size: 123.1727pt x 73.00937pt.
+<./figures/probabilities_Blackwell.pdf, id=547, 434.95801pt x 150.60867pt>
+File: ./figures/probabilities_Blackwell.pdf Graphic file (type pdf)
+<use ./figures/probabilities_Blackwell.pdf>
+Package pdftex.def Info: ./figures/probabilities_Blackwell.pdf  used on input l
+ine 709.
+(pdftex.def)             Requested size: 239.22763pt x 82.835pt.
+
+Overfull \hbox (53.71512pt too wide) in paragraph at lines 709--709
+[] [] 
+ []
+
+File: ./figures/probabilities_RM.pdf Graphic file (type pdf)
+<use ./figures/probabilities_RM.pdf>
+Package pdftex.def Info: ./figures/probabilities_RM.pdf  used on input line 709
+.
+(pdftex.def)             Requested size: 124.17966pt x 73.00937pt.
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 709.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[73
+
+ <./figures/probabilities_PRM.pdf> <./figures/probabilities_Blackwell.pdf>]
+<./figures/regrets_PRM.pdf, id=597, 227.89441pt x 136.30824pt>
+File: ./figures/regrets_PRM.pdf Graphic file (type pdf)
+<use ./figures/regrets_PRM.pdf>
+Package pdftex.def Info: ./figures/regrets_PRM.pdf  used on input line 737.
+(pdftex.def)             Requested size: 125.3423pt x 74.96974pt.
+<./figures/regrets_Blackwell.pdf, id=598, 217.95628pt x 144.87726pt>
+File: ./figures/regrets_Blackwell.pdf Graphic file (type pdf)
+<use ./figures/regrets_Blackwell.pdf>
+Package pdftex.def Info: ./figures/regrets_Blackwell.pdf  used on input line 73
+7.
+(pdftex.def)             Requested size: 119.87631pt x 79.68272pt.
+<./figures/regrets_RM.pdf, id=599, 217.9593pt x 129.92941pt>
+File: ./figures/regrets_RM.pdf Graphic file (type pdf)
+<use ./figures/regrets_RM.pdf>
+Package pdftex.def Info: ./figures/regrets_RM.pdf  used on input line 737.
+(pdftex.def)             Requested size: 119.87798pt x 71.4614pt.
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 737.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+
+[74
+
+ <./figures/regrets_PRM.pdf> <./figures/regrets_Blackwell.pdf> <./figures/regre
+ts_RM.pdf>]
+<./figures/regrets_dynamic.pdf, id=683, 223.14267pt x 141.17242pt>
+File: ./figures/regrets_dynamic.pdf Graphic file (type pdf)
+<use ./figures/regrets_dynamic.pdf>
+Package pdftex.def Info: ./figures/regrets_dynamic.pdf  used on input line 821.
+
+(pdftex.def)             Requested size: 133.88663pt x 84.70409pt.
+<./figures/probabilities_long.pdf, id=684, 220.63629pt x 132.74393pt>
+File: ./figures/probabilities_long.pdf Graphic file (type pdf)
+<use ./figures/probabilities_long.pdf>
+Package pdftex.def Info: ./figures/probabilities_long.pdf  used on input line 8
+21.
+(pdftex.def)             Requested size: 132.38278pt x 79.64696pt.
+
+Overfull \vbox (7.67464pt too high) detected at line 821
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 821.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[75
+
+ <./figures/regrets_dynamic.pdf> <./figures/probabilities_long.pdf>]
+<./figures/graph.pdf, id=741, 172.4583pt x 149.62498pt>
+File: ./figures/graph.pdf Graphic file (type pdf)
+<use ./figures/graph.pdf>
+Package pdftex.def Info: ./figures/graph.pdf  used on input line 867.
+(pdftex.def)             Requested size: 86.22893pt x 74.8123pt.
+<./figures/probas_congestion.pdf, id=742, 222.44907pt x 132.74393pt>
+File: ./figures/probas_congestion.pdf Graphic file (type pdf)
+<use ./figures/probas_congestion.pdf>
+Package pdftex.def Info: ./figures/probas_congestion.pdf  used on input line 86
+7.
+(pdftex.def)             Requested size: 133.47044pt x 79.64696pt.
+<./figures/regrets_congestion.pdf, id=743, 238.3033pt x 152.85506pt>
+File: ./figures/regrets_congestion.pdf Graphic file (type pdf)
+<use ./figures/regrets_congestion.pdf>
+Package pdftex.def Info: ./figures/regrets_congestion.pdf  used on input line 8
+67.
+(pdftex.def)             Requested size: 142.98306pt x 91.71373pt.
+
+Overfull \vbox (14.68428pt too high) detected at line 867
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 867.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[76
+
+ <./figures/graph.pdf> <./figures/probas_congestion.pdf> <./figures/regrets_con
+gestion.pdf>]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 880.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [77
+
+]
+LaTeX Font Info:    Calculating math sizes for size <5.6> on input line 940.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.6> on input line 940.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <3.91998> on input line 940.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <2.8> on input line 940.
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 940.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [78
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 940.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [79
+
+]
+Overfull \vbox (9.12447pt too high) detected at line 1044
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1044.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[80
+
+]
+Overfull \vbox (9.12447pt too high) detected at line 1044
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1044.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[81
+
+]pdfTeX warning (ext4): destination with the same identifier (name{fig:Constrai
+nedExtendedPayoff}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1125 \end{frame}
+                  
+Overfull \vbox (1.91039pt too high) detected at line 1125
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1125.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[82
+
+]
+Overfull \vbox (1.91039pt too high) detected at line 1125
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1125.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[83
+
+]
+Overfull \vbox (5.8747pt too high) detected at line 1182
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1182.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[84
+
+]
+Overfull \vbox (5.8747pt too high) detected at line 1182
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1182.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[85
+
+]
+Overfull \vbox (5.8747pt too high) detected at line 1182
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1182.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[86
+
+]
+Overfull \vbox (5.8747pt too high) detected at line 1182
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1182.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[87
+
+]
+Overfull \vbox (5.8747pt too high) detected at line 1182
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1182.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[88
+
+]
+LaTeX Font Info:    Trying to load font information for U+dsrom on input line 1
+234.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/doublestroke/Udsrom.fd
+File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
+)
+Overfull \vbox (4.54643pt too high) detected at line 1234
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1234.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[89
+
+]
+Overfull \vbox (4.54643pt too high) detected at line 1234
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1234.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[90
+
+]
+Overfull \vbox (4.54643pt too high) detected at line 1234
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1234.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[91
+
+]
+Overfull \vbox (4.54643pt too high) detected at line 1234
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1234.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[92
+
+]
+Overfull \vbox (4.54643pt too high) detected at line 1234
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1234.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[93
+
+]
+Overfull \vbox (4.54643pt too high) detected at line 1234
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1234.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[94
+
+]
+Overfull \vbox (4.54643pt too high) detected at line 1234
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1234.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[95
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [96
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [97
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [98
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [99
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [100
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [101
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [102
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [103
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [104
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1335.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [105
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1335.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [106
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1335.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [107
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1335.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+
+[108
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1335.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [109
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1335.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [110
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1370.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [111
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1370.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [112
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1370.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [113
+
+]
+<figures/P12.png, id=998, 395.076pt x 346.896pt>
+File: figures/P12.png Graphic file (type png)
+<use figures/P12.png>
+Package pdftex.def Info: figures/P12.png  used on input line 1412.
+(pdftex.def)             Requested size: 169.87936pt x 149.16237pt.
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1412.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [114
+
  <./figures/P12.png>]
-<figures/CCE_figures/P13.png, id=560, 658.46pt x 658.46pt>
+<figures/CCE_figures/P13.png, id=1006, 658.46pt x 658.46pt>
 File: figures/CCE_figures/P13.png Graphic file (type png)
 <use figures/CCE_figures/P13.png>
 Package pdftex.def Info: figures/CCE_figures/P13.png  used on input line 1446.
@@ -2829,7 +3611,7 @@ Overfull \hbox (6.82823pt too wide) in paragraph at lines 1446--1446
  [][] 
  []
 
-<figures/CCE_figures/P14.png, id=561, 658.46pt x 658.46pt>
+<figures/CCE_figures/P14.png, id=1007, 658.46pt x 658.46pt>
 File: figures/CCE_figures/P14.png Graphic file (type png)
 <use figures/CCE_figures/P14.png>
 Package pdftex.def Info: figures/CCE_figures/P14.png  used on input line 1446.
@@ -2839,7 +3621,7 @@ Overfull \hbox (6.82823pt too wide) in paragraph at lines 1446--1446
  [][] 
  []
 
-<figures/CCE_figures/P15.png, id=562, 658.46pt x 658.46pt>
+<figures/CCE_figures/P15.png, id=1008, 658.46pt x 658.46pt>
 File: figures/CCE_figures/P15.png Graphic file (type png)
 <use figures/CCE_figures/P15.png>
 Package pdftex.def Info: figures/CCE_figures/P15.png  used on input line 1446.
@@ -2857,7 +3639,7 @@ File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
 Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1446.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
-[29
+[115
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:test1}) h
 as been already used, duplicate ignored
@@ -2867,56 +3649,167 @@ as been already used, duplicate ignored
 l.1446 \end{frame}
                    <./figures/CCE_figures/P13.png> <./figures/CCE_figures/P14.p
 ng> <./figures/CCE_figures/P15.png>]
+File: figures/CCE_figures/P13.png Graphic file (type png)
+<use figures/CCE_figures/P13.png>
+Package pdftex.def Info: figures/CCE_figures/P13.png  used on input line 1446.
+(pdftex.def)             Requested size: 138.28069pt x 138.28069pt.
+
+Overfull \hbox (6.82823pt too wide) in paragraph at lines 1446--1446
+ [][] 
+ []
+
+File: figures/CCE_figures/P14.png Graphic file (type png)
+<use figures/CCE_figures/P14.png>
+Package pdftex.def Info: figures/CCE_figures/P14.png  used on input line 1446.
+(pdftex.def)             Requested size: 138.28069pt x 138.28069pt.
+
+Overfull \hbox (6.82823pt too wide) in paragraph at lines 1446--1446
+ [][] 
+ []
+
+File: figures/CCE_figures/P15.png Graphic file (type png)
+<use figures/CCE_figures/P15.png>
+Package pdftex.def Info: figures/CCE_figures/P15.png  used on input line 1446.
+(pdftex.def)             Requested size: 138.28069pt x 138.28069pt.
+
+Overfull \hbox (6.82823pt too wide) in paragraph at lines 1446--1446
+ [][] 
+ []
+
+
+Overfull \vbox (2.86331pt too high) detected at line 1446
+ []
+
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1473.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1446.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [30
+[116
+
+]
+File: figures/CCE_figures/P13.png Graphic file (type png)
+<use figures/CCE_figures/P13.png>
+Package pdftex.def Info: figures/CCE_figures/P13.png  used on input line 1446.
+(pdftex.def)             Requested size: 138.28069pt x 138.28069pt.
+
+Overfull \hbox (6.82823pt too wide) in paragraph at lines 1446--1446
+ [][] 
+ []
+
+File: figures/CCE_figures/P14.png Graphic file (type png)
+<use figures/CCE_figures/P14.png>
+Package pdftex.def Info: figures/CCE_figures/P14.png  used on input line 1446.
+(pdftex.def)             Requested size: 138.28069pt x 138.28069pt.
+
+Overfull \hbox (6.82823pt too wide) in paragraph at lines 1446--1446
+ [][] 
+ []
+
+File: figures/CCE_figures/P15.png Graphic file (type png)
+<use figures/CCE_figures/P15.png>
+Package pdftex.def Info: figures/CCE_figures/P15.png  used on input line 1446.
+(pdftex.def)             Requested size: 138.28069pt x 138.28069pt.
+
+Overfull \hbox (6.82823pt too wide) in paragraph at lines 1446--1446
+ [][] 
+ []
+
+
+Overfull \vbox (2.86331pt too high) detected at line 1446
+ []
+
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1446.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[117
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1518.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1493.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [31
+ [118
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1553.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1493.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [32
-
-]
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7.30005> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 1591
-.
-File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
-<use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1591.
-(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [33
+ [119
 
 ]
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1602.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1493.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [34
+ [120
 
 ]
-<figures/questions.jpg, id=601, 301.125pt x 401.5pt>
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1522.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [121
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1522.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [122
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1522.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [123
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1522.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [124
+
+]
+<figures/questions.jpg, id=1067, 301.125pt x 401.5pt>
 File: figures/questions.jpg Graphic file (type jpg)
 <use figures/questions.jpg>
-Package pdftex.def Info: figures/questions.jpg  used on input line 1655.
+Package pdftex.def Info: figures/questions.jpg  used on input line 1544.
 (pdftex.def)             Requested size: 90.03493pt x 120.04659pt.
 File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
 <use Aalto_EN_ELEC_13_RGB_y1.pdf>
-Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1655.
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1544.
 (pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
- [35
+ [125
 
  <./figures/questions.jpg>]
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7.30005> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 1586
+.
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1586.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+[126
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1604.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [127
+
+]
+File: Aalto_EN_ELEC_13_RGB_y1.pdf Graphic file (type pdf)
+<use Aalto_EN_ELEC_13_RGB_y1.pdf>
+Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1660.
+(pdftex.def)             Requested size: 145.00746pt x 9.95863pt.
+ [128
+
+]
 \tf@nav=\write9
 \openout9 = `presentation-v0.nav'.
 
@@ -2926,11 +3819,11 @@ Package pdftex.def Info: Aalto_EN_ELEC_13_RGB_y1.pdf  used on input line 1655.
 \tf@snm=\write11
 \openout11 = `presentation-v0.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1662.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1662.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1671.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1671.
  (./presentation-v0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1662.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1662.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1671.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1671.
 
 Package rerunfilecheck Info: File `presentation-v0.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -2943,15 +3836,15 @@ Package logreq Info: Writing requests to 'presentation-v0.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50279 strings out of 480608
- 1166537 string characters out of 5903630
- 2062736 words of memory out of 5000000
- 65073 multiletter control sequences out of 15000+600000
+ 50575 strings out of 480608
+ 1170536 string characters out of 5903630
+ 2065773 words of memory out of 5000000
+ 65170 multiletter control sequences out of 15000+600000
  790574 words of font info for 279 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,22n,117p,2336b,1208s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/loca
-l/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020
+ 67i,22n,117p,2336b,1259s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2020
 /texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dis
 t/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/en
 c/dvips/lm/lm-mathex.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public
@@ -2995,10 +3888,10 @@ sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam5.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.p
 fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
 7.pfb>
-Output written on presentation-v0.pdf (35 pages, 1418577 bytes).
+Output written on presentation-v0.pdf (128 pages, 2460328 bytes).
 PDF statistics:
- 734 PDF objects out of 1000 (max. 8388607)
- 592 compressed objects within 6 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 1261 PDF objects out of 1440 (max. 8388607)
+ 1021 compressed objects within 11 object streams
+ 265 named destinations out of 1000 (max. 500000)
  243 words of extra memory for PDF output out of 10000 (max. 10000000)
 

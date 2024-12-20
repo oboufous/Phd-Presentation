@@ -276,32 +276,33 @@ title={\strut#1}
 % new slide ===========================================================
 \begin{frame}
 \frametitle{Presentation Outline}
-
+\pause
 \begin{enumerate}
     \item \textbf{Background \& Preliminaries}
     \begin{enumerate}\setlength{\itemsep}{-0.05cm}
-    	\item Introduction
-        \item Related Work \& Research Questions
+    	\item Introduction \pause
+        \item Related Work \pause
         %\item Highlight of contributions
-        \item Notations \& Model
+        \item Notations \& Model \pause
     \end{enumerate}
     \item \textbf{Learning Correlated Equilibria}
     \begin{enumerate}\setlength{\itemsep}{-0.05cm}
         \item Online Learning with Regret 
         \item Algorithm Description
         \item Stochastic Model
-        \item Application to a Congestion Game
         \item Simulation Results
-    \end{enumerate}
-    \item \textbf{Constrained Correlated Equilibrium Strategies}
+        \item Time-varying Game
+        \item Application to a Congestion Game
+    \end{enumerate}\pause
+    \item \textbf{Constrained Correlated Equilibria}
     \begin{enumerate}\setlength{\itemsep}{-0.05cm}
-        \item Definition \& Examples
+        \item Definition \& Example
         	\item Properties of Constrained Correlated Equilibrium Strategies
 	\item Canonical Representation and Existence of Constrained Correlated Equilibria
 	\item Computation of Constrained Correlated Equilibria
 	\item Simulation Results
-    \end{enumerate}
-     \item \textbf{Conclusions \& Perspectives}
+    \end{enumerate}\pause
+     \item \textbf{Conclusions \& Possible Directions of Research}
 \end{enumerate}
 
 %    \item \textbf{Correlated Equilibria \& Properties}
@@ -320,38 +321,24 @@ title={\strut#1}
 
 \begin{columns}
 \begin{column}{0.56\textwidth}
-
-\begin{itemize}
-\item Importance of the topic:
-	\begin{itemize}
-		\item from a research viewpoint 
-		\item practical point of view
-	\end{itemize}
-\end{itemize}
-
-
-\textbf{Correlated Equilibria}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{itemize}\setlength{\itemsep}{-0.1cm}
-    \setlength{\itemindent}{.2in}
-    \item A \textbf{generalization} of Nash equilibria (Aumann, 74)(Aumann, 87) resulting from Bayesian rationality 
-    \item A solution concept with appealing \textbf{computational properties} 
-    \item \textbf{Regret-learning} dynamics naturally lead to correlated equilibria (Hart \& Mas-Colell, 00) 
-    \item Many other theoretical and applied contributions in engineering, economics, etc. 
+\pause
+\begin{itemize} \setlength{\itemindent}{.2in}
+    \item A \textbf{generalization} of Nash equilibria with strong connections to Bayesian rationality introduced by Aumann \pause
+    \item A solution concept with appealing \textbf{computational properties}  \pause
+    \item Basic \textbf{learning dynamics} naturally lead to correlated equilibria \pause
     %\item A second proof of existence and a generalization to infinite games in 
-    \item Extensions to extensive form (Von Stengel \& Forges, 08) and infinite games (Hart \& Schmeidler, 89) 
-    \item Other generalizations in (Forges, 20), (Brandenburger \& Dekel, 92) and (Grant \& Stauber, 22) 
+    \item \textbf{Canonical} form characterizing the set of correlated equilibrium distributions \pause
+    \item Simple \textbf{implementation} using a correlation device  \pause
+    \item Many \textbf{applications} in engineering, economics, etc.  \pause
 \end{itemize}
-
-
 
 \end{column}
 \begin{column}{0.46\textwidth}  %%<--- here
-\begin{figure}[!ht]
+\visible<2->{\begin{figure}[!ht]
   \centering
-  \includegraphics[scale=0.35]{"./figures/Aumann_Robert.jpg}
-  \caption{Robert John Aumann}
-\end{figure}
+  \includegraphics[scale=0.55]{"./figures/robert.jpg}
+  \caption{\visible<2->{Robert John Aumann}}
+\end{figure}}
 \end{column}
 \end{columns}
 
@@ -361,45 +348,45 @@ title={\strut#1}
 \begin{frame}
 \frametitle{Related Work}
 
-\textbf{Correlated Equilibria}
+\textbf{Correlated Equilibria} \pause
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{itemize}\setlength{\itemsep}{-0.1cm}
     \setlength{\itemindent}{.2in}
-    \item Defined in (Aumann, 1974) and (Aumann, 1987)
-    \item A proof of existence and a generalization to infinite games in (Hart \& Schmeidler, 1989)
-    \item Extensive form correlated equilibrium defined in (Von Stengel \& Forges, 2008)   
-    \item Other extensions in (Forges, 2020), (Brandenburger \& Dekel, 1992) and (Grant \& Stauber, 2022)
+    \item Defined in (Aumann, 1974) and (Aumann, 1987) \pause
+    \item A proof of existence and a generalization to infinite games in (Hart \& Schmeidler, 1989) \pause
+    \item Extensive form correlated equilibrium defined in (Von Stengel \& Forges, 2008) \pause
+    \item Other extensions in (Forges, 2020), (Brandenburger \& Dekel, 1992) and (Grant \& Stauber, 2022) \pause
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textbf{Learning Correlated Equilibria}
+\textbf{Learning Correlated Equilibria} \pause
 \begin{itemize}\setlength{\itemsep}{-0.1cm}
     \setlength{\itemindent}{.2in}
     %\item Regret Matching (Hart \& Mas-Colell, 2000) converging to the set of correlated equilibrium distributions 
-	\item Regret-matching (Hart \& Mas-Colell, 2000) implying the convergence to the \underline{set} of correlated equilibria 
-	\item Correlated Q-learning for selection of specific correlated equilibrium points (Greenwald \& Hall, 2003) 
-	\item Convergence to the social welfare maximizing correlated equilibrium (Borowski et al., 2015) 
-	\item Learning algorithms for specific applications e.g., resource allocation game (Cigler \& Faltings, 2011)
+	\item Regret-matching (Hart \& Mas-Colell, 2000) implying the convergence to the \underline{set} of correlated equilibria \pause
+	\item Correlated Q-learning for selection of specific correlated equilibrium points (Greenwald \& Hall, 2003) \pause
+	\item Convergence to the social welfare maximizing correlated equilibrium (Borowski et al., 2015) \pause
+	\item Learning algorithms for specific applications e.g., resource allocation game (Cigler \& Faltings, 2011) \pause
     %under appropriate assumptions on utilities and the feasible set of joint strategies
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textbf{Constraints \& Correlated Equilibria}
+\textbf{Constraints \& Correlated Equilibria} \pause
 \begin{itemize}\setlength{\itemsep}{-0.1cm}
     \setlength{\itemindent}{.2in}
-    \item (Debreu, 1952) defines the concept of generalized equilibrium
-    \item (Arrow \& Debreu, 1954) shows a proof of existence
-    \item (Rosen, 1965) shows existence and uniqueness of equilibria in concave games with coupled constraints
-    \item (Bernasconi et al., 23) introduces the concept of constrained Phi-equilibrium
+    \item (Debreu, 1952) defines the concept of generalized equilibrium \pause
+    \item (Arrow \& Debreu, 1954) shows a proof of existence \pause
+    \item (Rosen, 1965) shows existence and uniqueness of equilibria in concave games with coupled constraints \pause
+    \item (Bernasconi et al., 23) introduces the concept of constrained Phi-equilibrium \pause
     %under appropriate assumptions on utilities and the feasible set of joint strategies
 \end{itemize}
 
-\textbf{Many Other Theoretical and Applied Contributions}
+\textbf{Many Other Theoretical and Applied Contributions} \pause
 \begin{itemize}\setlength{\itemsep}{-0.1cm}
     \setlength{\itemindent}{.2in}
-    \item \textcolor{red}{XXX} (Debreu, 1952)
-    \item \textcolor{red}{XXX} (Arrow \& Debreu, 1954)
+    \item Applications in energy systems and smart grids (Kulkarni, 2017), resource allocation problems (Pang et al., 2008) (Nowak et al., 2018)
 \end{itemize}
+
 
 \end{frame}
 
@@ -409,54 +396,53 @@ title={\strut#1}
 \frametitle{Model \& Definitions}
 \vspace{0.3cm}
 
+\pause
+
 \begin{columns}
 \begin{column}{0.56\textwidth}
 \; \quad Finite non-cooperative game  $G  = (\mathcal{N}, (\mathcal{A}_i)_{i \in \mathcal{N}}, (u_i)_{i \in \mathcal{N}})$ 
 \begin{itemize}
+\pause
 \setlength{\itemindent}{2.5em}
 \setlength\itemsep{-0.35em}
-\item Set of players $\mathcal{N}$  
-\item Action set $\mathcal{A}_i$ for each $i \in \mathcal{N}$  
-\item Utility function $u_i : {\scriptscriptstyle \prod\limits_{i \in \mathcal{N}}}\mathcal{A}_i = \mathcal{A} \rightarrow \mathbb{R}$  
+\item Set of players $\mathcal{N}$  \pause
+\item Action set $\mathcal{A}_i$ for each $i \in \mathcal{N}$   \pause
+\item Utility function $u_i : {\scriptscriptstyle \prod\limits_{i \in \mathcal{N}}}\mathcal{A}_i = \mathcal{A} \rightarrow \mathbb{R}$  \pause 
 \end{itemize}
 \end{column}
 \begin{column}{0.46\textwidth}  %%<--- here
-Correlation device  $d = (\Omega, (\mathcal{P}_i)_{i \in \mathcal{N}}, \bm{q})$ 
+Correlation device  $d = (\Omega, (\mathcal{P}_i)_{i \in \mathcal{N}}, \bm{q})$  \pause
 \begin{itemize}
 \setlength{\itemindent}{1.2em}
 \setlength\itemsep{-0.35em}
-\item A sample space $\Omega$  
-\item Partition $\mathcal{P}_i$ of $\Omega$  for each $i \in \mathcal{N}$   
-\item Probability distribution $\bm{q}$ over $\Omega$  $\textcolor{white}{{\scriptscriptstyle \prod\limits_{i \in \mathcal{N}}}}$  
+\item A sample space $\Omega$ \pause
+\item Partition $\mathcal{P}_i$ of $\Omega$  for each $i \in \mathcal{N}$    \pause
+\item Probability distribution $\bm{q}$ over $\Omega$  $\textcolor{white}{{\scriptscriptstyle \prod\limits_{i \in \mathcal{N}}}}$  \pause
 \end{itemize}
 \end{column}
 \end{columns}
 \vspace{0.2cm}
-Player \textbf{$i$'s set of strategies} is $\mathcal{S}_{i, d} = \{ f_i : \Omega \rightarrow \mathcal{A}_i \text{  s.t. }  f_i \text{ is } \mathcal{P}_i\text{-measurable} \}$ and the \textbf{set of strategy profiles} is $\mathcal{S}_{d} = \mathcal{S}_{1, d} \times  ... \times \mathcal{S}_{n, d}$. 
+Player \textbf{$i$'s set of strategies} is $\mathcal{S}_{i, d} = \{ f_i : \Omega \rightarrow \mathcal{A}_i \text{  s.t. }  f_i \text{ is } \mathcal{P}_i\text{-measurable} \}$ and the \textbf{set of strategy profiles} is $\mathcal{S}_{d} = \mathcal{S}_{1, d} \times  ... \times \mathcal{S}_{n, d}$. \pause
 \vspace{-0cm}
-\begin{block}{Definition 1 -- Correlated equilibrium (Aumann, 1974)} 
+\begin{block}{Definition 1 -- Correlated equilibrium (Aumann, 1974)\pause} 
 \vspace{-0.1cm}
 A correlated equilibrium of $G$ is a pair $(d, \bm{\alpha}^*)$ where $\bm{\alpha}^* : \Omega \rightarrow \mathcal{A}$ is a correlated strategy profile such that  
 \vspace{-0.2cm}
 \begin{align}
-\forall i \in \mathcal{N}, \forall \alpha_i^\prime : \Omega \rightarrow \mathcal{A}_i \quad  \sum_{\omega\in \Omega} \bm{q}(\omega) u_i(\bm{\alpha}^*_i(\omega), \bm{\alpha}^*_{-i}(\omega)) \geq  \sum_{\omega\in \Omega} \bm{q}(\omega) u_i(\alpha^\prime_i(\omega), \bm{\alpha}^*_{-i}(\omega))
-\end{align}
+\forall i \in \mathcal{N}, \forall \alpha_i^\prime \in \mathcal{S}_{i, d} \quad  \sum_{\omega\in \Omega} \bm{q}(\omega) u_i(\bm{\alpha}^*_i(\omega), \bm{\alpha}^*_{-i}(\omega)) \geq  \sum_{\omega\in \Omega} \bm{q}(\omega) u_i(\alpha^\prime_i(\omega), \bm{\alpha}^*_{-i}(\omega))
+\end{align}\pause
 \end{block}
 \vspace{-0.1cm} 
 %Given a \textbf{constraint set} $\mathcal{R}_d \subseteq \mathcal{S}_d$, we define a constrained correlated equilibrium,
 \vspace{-0cm}
-\begin{block}{Definition 2 -- Correlated equilibrium distribution (Forges, 2020)}%\textsuperscript{$2$}  
-\vspace{-0.1cm}
-A correlated equilibrium distribution of $G$ is a probability distribution $\bm{p} \in \Delta(\mathcal{A})$ such that,
-\vspace{-0.3cm}
+A correlated equilibrium distribution of $G$ (Forges, 2020) is a probability distribution $\bm{p} \in \Delta(\mathcal{A})$ such that,
+\vspace{-0.15cm}
 \begin{align}
 \forall i \in \mathcal{N},
 \forall \beta_i : \mathcal{A}_i \rightarrow \mathcal{A}_i
 \quad
 \sum_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a}) u_i(\bm{a}_i, \bm{a}_{-i}) \geq  \sum_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a}) u_i(\beta_i(a_i), \bm{a}_{-i})
 \end{align} 
-\vspace{-0.1cm}
-\end{block} 
 \vspace{-0.1cm}
 %\customfootnotetext{$1$}{Aumann, R. J. (1974). {''\emph{Subjectivity and correlation in randomized strategies}''}. Journal of mathematical Economics.}
 %\customfootnotetext{$2$}{Boufous, O., El-Azouzi, R., Touati, M., Altman, E., Bouhtou, M., (2023). {''\emph{Constrained Correlated Equilibria}''}. ArXiv (to appear).}
@@ -479,9 +465,10 @@ A correlated equilibrium distribution of $G$ is a probability distribution $\bm{
 % new slide ===========================================================
 \begin{frame}
 \frametitle{Online Learning with Regret}
+\pause
 
 \vspace{0.3cm}
-A finite game $G$ is played repeatedly through time $t= 1, 2, 3, ...$
+The game $G$ is played repeatedly through time $t= 1, 2, 3, ...$. Each step $t$, action profile $\bm{a}^t = (a_1^t, ..., a_n^)$ is played \pause
 
 \vspace{0.1cm}
 
@@ -489,12 +476,44 @@ A finite game $G$ is played repeatedly through time $t= 1, 2, 3, ...$
 The regret player $i$ experiences at time $t$ for any pair of actions $j,k \in \mathcal{A}_i$ is
 \vspace{-0.15cm}
 \begin{align}
-\scriptstyle  R_{i}^{t}(j, k) = max\Bigg(0, \frac{1}{t} \sum\limits_{\tau \leq t : a_i^\tau = j}\left[u_{i}\left(k, \bm{a}^{\tau}_{-i}\right)-u_{i}\left(\bm{a}^{\tau}\right)\right]\Bigg)
+\scriptstyle  R_{i}^{t}(j, k) = max\Bigg(0, \frac{1}{t} \sum\limits_{\tau \leq t : a_i^\tau = j}\left[u_{i}\left(k, \bm{a}^{\tau}_{-i}\right)-u_{i}\left(\bm{a}^{\tau}\right)\right]\Bigg) = max\Bigg(0, D_i^t(j,k)\Bigg)
 \end{align}
 \end{block}
 \vspace{-0.2cm}
+\pause
 
-\textbf{Regret-Matching algorithm (Hart \& Mas-Colell, 2000) applied to a 3-by-2 game}
+\textbf{Regret-Matching algorithm} (Hart \& Mas‐Colell, 2000)
+\pause
+$$\left\{\begin{array}{l}
+p^{t+1}_i(k) = \frac{1}{\mu} R_i^t(j, k), \\
+p^{t+1}_i(j) = 1-\sum_{k \in \mathcal{A}_i: k \neq j} p^{t+1}_i(k) .
+\end{array}\right.$$
+
+\pause
+
+\begin{block}{Proposition 1 (Hart \& Mas‐Colell, 2000)}
+Let $(\bm{a}^t)_{t=1,2, \ldots}$ be a sequence of plays (i.e., $\bm{a}^t \in \mathcal{A}$ for all $\left.t\right)$ and let $\varepsilon \geq 0$. Then: $\limsup _{t \rightarrow \infty} R^t_i(j, k) \leq \varepsilon$ for every $i \in \mathcal{N}$ and every $j, k \in \mathcal{A}_i$ with $j \neq k$, if and only if the sequence of empirical distributions $\bm{q}^t$ converges to the set of correlated $\varepsilon$-equilibria.
+\end{block}
+\vspace{-0.2cm}
+
+
+
+\end{frame}
+
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Online Learning with Regret}
+
+\vspace{0.3cm}
+\textbf{Regret-Matching algorithm} (Hart \& Mas‐Colell, 2000)
+
+$$\left\{\begin{array}{l}
+p^{t+1}_i(k) = \frac{1}{\mu} R_i^t(j, k), \\
+p^{t+1}_i(j) = 1-\sum_{k \in \mathcal{A}_i: k \neq j} p^{t+1}_i(k) .
+\end{array}\right.$$
+\pause
+\vspace{0.15cm}
+\textbf{Regret-Matching algorithm applied to a 3-by-2 game}
 
 \vspace{-0.2cm}
 \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
@@ -510,7 +529,7 @@ The regret player $i$ experiences at time $t$ for any pair of actions $j,k \in \
 \end{tabular}
 \caption{Utility matrix.}
 \end{table}
-
+\pause
 \column{.6\textwidth}
 %\hspace{-0.5cm}\visible<2->{\begin{figure}[!ht]
 %  \centering
@@ -518,37 +537,41 @@ The regret player $i$ experiences at time $t$ for any pair of actions $j,k \in \
 %  \vspace{-0.3cm}
 %  \caption{Evolution of the empirical probability distribution}
 %\end{figure}}
-\hspace{-0.5cm}\begin{figure}[!ht]
+\hspace{-0.5cm}\visible<3->{\begin{figure}[!ht]
   \centering
   \hspace{-0.4cm}\includegraphics[scale=0.55]{"./figures/probabilities_RM".pdf}
   \vspace{-0.3cm}
   \caption{Evolution of the empirical probability distribution.}
-\end{figure}
+\end{figure}}
 \end{columns}
+\pause
 
 \vspace{-0.1cm}
 \begin{itemize}
 \setlength{\itemindent}{2em}
 \setlength\itemsep{-0.2em}
-\item The empirical distribution does not seem to converge towards a correlated equilibrium point 
-\item We propose a new dynamic called Correlated Perturbed Regret Minimization (CPRM)
+\item The empirical distribution does not seem to converge towards a correlated equilibrium point  \pause
+\item We propose a new dynamic called Correlated Perturbed Regret Minimization (CPRM) 
 \end{itemize}
 \vspace{0.2cm}
 
 %\footnotetext{Hart Sergiu, Andreu Mas‐Colell. (2000). \emph{"A simple adaptive procedure leading to correlated equilibrium"}. Econometrica.}
 
 
+
 \end{frame}
 
-
 %===============================================================================
-\begin{frame}{CPRM algorithm}
+\begin{frame}{CPRM Algorithm}
+
+\pause
 
 Inspired from the learning algorithm introduced in (Young, H. P., 2009) for learning pure Nash equilibria.
+\pause
 
 \vspace{0.3cm}
 
-At time $t$, each player $i$ is characterized by a mood $m_i^t \in \{ \textcolor{red}{syn}, \; \textcolor{blue}{asyn} \}$
+At time $t$, each player $i$ is characterized by a mood $m_i^t \in \{ \textcolor{red}{syn}, \; \textcolor{blue}{asyn} \}$ \pause
 \vspace{1cm}
 
 \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
@@ -569,7 +592,7 @@ At time $t$, each player $i$ is characterized by a mood $m_i^t \in \{ \textcolor
 %Young, H. P. (2009). \emph{''Learning by trial and error''}. Games and economic behavior.
 \end{frame}
 %===============================================================================
-\begin{frame}{CPRM algorithm}
+\begin{frame}{CPRM Algorithm}
 \begin{figure}[h!]
 \hspace{-0.2cm} \scalebox{0.8}{\input{figures/learning/learning7.tex}}
 %\caption{Agent $i$ state dynamics}
@@ -589,11 +612,12 @@ Players play the actions drawn\\from the empirical distribution
 \end{columns}
 \end{frame}
 %===============================================================================
-\begin{frame}{CPRM algorithm}
+\begin{frame}{CPRM Algorithm}
 \begin{figure}[h!]
 \hspace{-0.2cm} \scalebox{0.8}{\input{figures/learning/learning8.tex}}
 %\caption{Agent $i$ state dynamics}
 \end{figure}
+\pause
 
 \textbf{In the long run}\\
 $\hookrightarrow$ We expect players to play the action profiles drawn from the current empirical distributions to stabilize the play at an equilibrium point.
@@ -602,7 +626,7 @@ $\hookrightarrow$ We expect players to play the action profiles drawn from the c
 % new slide ===========================================================
 \begin{frame}{Algorithm Analysis}
 \vspace{0.4cm}
-\textbf{Mood Dynamics}
+\textbf{Mood dynamics}
 \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 \column{.5\textwidth}
 \begin{figure}[H]
@@ -616,15 +640,17 @@ $\hookrightarrow$ We expect players to play the action profiles drawn from the c
 \end{figure}
 \end{columns}
 \vspace{0.4cm}
-\textbf{Characteristics of The Stochastic Process}
+\pause
+
+\textbf{Characteristics of the stochastic process} \pause
 \begin{itemize}
 \setlength{\itemindent}{1.8em}
 \setlength\itemsep{-0.1em}
-\item Transition probabilities depend on the regrets and a perturbation parameter $\varepsilon > 0$ 
-\item The stochastic process $\bm{X}^t = (\bm{X}^t_1, ..., \bm{X}^t_n)$ describing players' states is a perturbed non-homogeneous Markov chain 
-\item \textcolor{red}{X X X X X X X}
+\item Transition probabilities depend on the regrets and a perturbation parameter $\varepsilon > 0$ \pause
+\item The stochastic process $\bm{X}^t = (\bm{X}^t_1, ..., \bm{X}^t_n)$ describing players' states is a perturbed non-homogeneous Markov chain \pause
+\item The Markov chain is defined over a infinitely countable state spaces \pause
 %\item Currently studying the long run behaviour of the process 
-\item For a regularly perturbed homogenous Markov chain, the process spends almost all time in the stochastically stable states when $\varepsilon \to 0$
+\item For a regularly perturbed homogenous Markov chain, the process spends almost all time in the stochastically stable states when $\varepsilon \to 0$ 
 \end{itemize}
 \vspace{0.4cm}
 
@@ -635,7 +661,27 @@ $\hookrightarrow$ We expect players to play the action profiles drawn from the c
 
 % new slide ===========================================================
 \begin{frame}
-\frametitle{Evolution of the Empirical Probability Distribution}
+\frametitle{Simulation Results}
+
+
+\begin{table}[H]
+\normalsize
+\centering
+\begin{tabular}{c|c|c}
+ & \multicolumn{1}{c|}{\textbf{D}}  & \textbf{E} \\ \hline
+\textbf{A} & \multicolumn{1}{c|}{(2, 29)} & (16, 7)  \\ \hline
+\textbf{B} & \multicolumn{1}{c|}{(4, 7)} & (6, 13)  \\ \hline
+\textbf{C} & \multicolumn{1}{c|}{(4, 4)} & (6, 6)
+\end{tabular}
+\caption{Utility matrix.}
+\end{table}
+
+\end{frame}
+
+
+% new slide ===========================================================
+\begin{frame}
+\frametitle{Simulation Results}
 
 \vspace{0.6cm}
 
@@ -663,7 +709,7 @@ $\hookrightarrow$ We expect players to play the action profiles drawn from the c
 \end{frame}
 % new slide ===========================================================
 \begin{frame}[label=simulations]
-\frametitle{Evolution of the Regrets}
+\frametitle{Simulation Results}
 
 \vspace{0.6cm}
 
@@ -692,9 +738,6 @@ $\hookrightarrow$ We expect players to play the action profiles drawn from the c
 % new slide ===========================================================
 \begin{frame}
 \frametitle{Time-varying Game}
-
-
-
 
 \begin{columns}
 \begin{column}{.5\textwidth}
@@ -779,8 +822,9 @@ $\hookrightarrow$ We expect players to play the action profiles drawn from the c
 
 % new slide ===========================================================
 \begin{frame}[t]
-\frametitle{An application to a congestion game}
+\frametitle{Application to a Congestion Game}
 
+\vspace{-0.2cm}
 
 \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 \column{.5\textwidth}
@@ -823,16 +867,6 @@ $\hookrightarrow$ We expect players to play the action profiles drawn from the c
 \end{frame}
 % new slide ===========================================================
 \begin{frame}[t]
-\frametitle{Is this a coincidence ?}
-
-
-Statistics
-
-
-\end{frame}
-
-% new slide ===========================================================
-\begin{frame}[t]
 
 
 \vspace{1.7cm}
@@ -849,14 +883,16 @@ Statistics
 \begin{frame}
 \frametitle{Constrained Correlated Equilibrium Strategies}
 
-\begin{block}{Definition 1 -- Correlated equilibrium (Forges, 2020)}
+\begin{block}{Definition 1 -- Correlated equilibrium (Aumann, 1974)}
 \vspace{-0.1cm}
 A correlated equilibrium of $G$ is a pair $(d, \bm{\alpha}^*)$ where $\bm{\alpha}^* : \Omega \rightarrow \mathcal{A}$ is a correlated strategy profile such that  
-\vspace{-0.2cm}
+\vspace{-0.1cm}
 \begin{align}
-\forall i \in \mathcal{N}, \forall \alpha_i^\prime : \Omega \rightarrow \mathcal{A}_i \quad  \sum_{\omega\in \Omega} \bm{q}(\omega) u_i(\bm{\alpha}^*_i(\omega), \bm{\alpha}^*_{-i}(\omega)) \geq  \sum_{\omega\in \Omega} \bm{q}(\omega) u_i(\alpha^\prime_i(\omega), \bm{\alpha}^*_{-i}(\omega))
+\forall i \in \mathcal{N}, \forall \alpha_i^\prime \in \mathcal{S}_{i,d} \quad  \sum_{\omega\in \Omega} \bm{q}(\omega) u_i(\bm{\alpha}^*_i(\omega), \bm{\alpha}^*_{-i}(\omega)) \geq  \sum_{\omega\in \Omega} \bm{q}(\omega) u_i(\alpha^\prime_i(\omega), \bm{\alpha}^*_{-i}(\omega))
 \end{align}
 \end{block}
+
+\pause
 
 \begin{columns}
 \begin{column}{0.5\textwidth}
@@ -946,6 +982,8 @@ $A$ & \multicolumn{1}{c|}{10, 3} & 0, 0
 \end{columns} 
 \vspace{-0.2cm}
 
+\pause
+
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{center}
@@ -998,7 +1036,7 @@ $A$ & \multicolumn{1}{c|}{10, 3} & 0, 0
     \makecell{${H\textcolor{white}{^c} \mapsto P}$\\${H^c \mapsto A}$}  &   \cellcolor{gray!20}\textcolor{gray}{\xcancel{$9.33, 4.67$}}        &       $1, 3.33$               &     \cellcolor{gray!20}\textcolor{gray}{\xcancel{$6, 3.67$}}          &     \cellcolor{green!15}$4.33, 4.33$        \\
     %$\begin{cases} \bm{H \mapsto A}\\ \bm{H^c \mapsto P}\end{cases}$ & b & c & d & e
     \end{tabular}}
-    \caption{Constrained extension of the game of Chicken.}
+    \caption*{\textcolor{aaltoblue}{Table 2:} Constrained extension of the game of Chicken.}
     \end{figure}
 \end{center}
 \end{column}
@@ -1043,7 +1081,7 @@ $A$ & \multicolumn{1}{c|}{10, 3} & 0, 0
     \makecell{${H\textcolor{white}{^c} \mapsto P}$\\${H^c \mapsto A}$}  &   $9.33, 4.67$        &       $1, 3.33$               &     $6, 3.67$          &     $4.33, 4.33$        \\
     %$\begin{cases} \bm{H \mapsto A}\\ \bm{H^c \mapsto P}\end{cases}$ & b & c & d & e
     \end{tabular}}
-    \caption{Extension of the game of Chicken.}
+    \caption*{\textcolor{aaltoblue}{Figure 13:} Extension of the game of Chicken.}
   \label{fig:ConstrainedExtendedPayoff}
 \end{figure}
 \end{center}
@@ -1065,12 +1103,13 @@ $A$ & \multicolumn{1}{c|}{10, 3} & 0, 0
     \makecell{${H\textcolor{white}{^c} \mapsto P}$\\${H^c \mapsto A}$}  &   \cellcolor{gray!20}\textcolor{gray}{\xcancel{$9.33, 4.67$}}        &       $1, 3.33$               &     \cellcolor{gray!20}\textcolor{gray}{\xcancel{$6, 3.67$}}          &     \cellcolor{green!15}$4.33, 4.33$        \\
     %$\begin{cases} \bm{H \mapsto A}\\ \bm{H^c \mapsto P}\end{cases}$ & b & c & d & e
     \end{tabular}}
-    \caption{Constrained extension of the game of Chicken.}
+    \caption*{\textcolor{aaltoblue}{Figure 14:} Constrained extension of the game of Chicken.}
     \end{figure}
 \end{center}
 \end{column}
 \end{columns}
 
+\pause
 
 \vspace{0.6cm}
 
@@ -1090,15 +1129,21 @@ A correlated equilibrium of $G$ is a pair $(d, \bm{\alpha}^*)$ where $\bm{\alpha
 \begin{frame}
 \frametitle{Properties of Constrained Correlated Equilibrium Strategies}
 
+\pause
+
 %Given a finite non-cooperative game $G$, a correlation device $d$ and a set of feasible correlated strategies $\mathcal{R}_d$, we have,
 
 \vspace{0.3cm}
 
 Consider a finite non-cooperative game ${G}=(\mathcal{N},(\mathcal{A}_{i})_{i \in \mathcal{N}},(u_{i})_{i \in \mathcal{N}})$, a correlation device $d = (\Omega, (\mathcal{P}_i)_{i \in \mathcal{N}}, \bm{q})$ and a constraint set $\mathcal{R}_d \subset \mathcal{S}_d$.
 
+\pause
+
 \vspace{0.5cm}
 
 \textcolor{aaltoblue}{\large Proposition 1} : If $(d, \bm{\alpha}^*)$ is a correlated equilibrium and $\bm{\alpha}^* \in \mathcal{R}_d$, then $(d,\mathcal{R}_d,\bm{\alpha}^*)$ is a constrained correlated equilibrium.
+
+\pause
 
 \vspace{0.8cm}
 
@@ -1112,6 +1157,8 @@ Consider a finite non-cooperative game ${G}=(\mathcal{N},(\mathcal{A}_{i})_{i \i
     \end{equation}
     %%%%%%%%%%%%%%%%%%%%%
     then $(d,\mathcal{R}_d,\bm{\alpha}^*)$ is a constrained correlated equilibrium.
+
+\pause
 
 \vspace{0.8cm}
 
@@ -1134,31 +1181,28 @@ Consider a finite non-cooperative game ${G}=(\mathcal{N},(\mathcal{A}_{i})_{i \i
     %where ''$\lor$'' denotes the logical inclusive "or" that means that the formula is true when either or both of the arguments are true.
 \end{frame}
 
-
-
 % new slide ===========================================================
 \begin{frame}
 \frametitle{Constraints induced by a set of feasible probability distributions}
 
+\pause
 
 \begin{itemize}
-\setlength\itemsep{-0.2em}
+\setlength\itemsep{-0.3em}
 \setlength{\itemindent}{1em}
     \item Let $\mathcal{C} \subseteq \Delta(\mathcal{A})$ be a set of probability distributions. For each correlation device $d$,
     \begin{align}
         \mathcal{R}_d = \{  \bm{\alpha}  \in \mathcal{S}_d \mid \bm{p}_{\bm{\alpha}} \in \mathcal{C} \} 
-    \end{align}
-    \item Performance measures in many applications can be expressed in terms of probability distribution  over action profiles. Examples include applications in smart grids, wireless networks, etc. 
+    \end{align} \pause
+    \item Performance measures in many applications can be expressed in terms of probability distribution  over action profiles. Examples include applications in smart grids, wireless networks, etc.  \pause
     \begin{itemize}
-    \setlength\itemsep{-0.2em}
+    \setlength\itemsep{-0.3em}
     \setlength{\itemindent}{2em}
-    \item  Constraints on the social welfare : $\sum_{i \in \mathcal{N}}\sum_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a})u_i(\bm{a}) \geq D_1$ 
+    \item  Constraints on the social welfare : $\sum_{i \in \mathcal{N}}\sum_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a})u_i(\bm{a}) \geq D_1$ \pause
     \item Constraints on the Nash product :
-    $\prod_{i \in \mathcal{N}}\left( \sum_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a})u_i(\bm{a}) \right) \geq D_2$
+    $\prod_{i \in \mathcal{N}}\left( \sum_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a})u_i(\bm{a}) \right) \geq D_2$ \pause
     \end{itemize} 
 \end{itemize}
-
-
 
 \textcolor{aaltoblue}{\large Theorem 1 -- Characterization of the Set of Constrained Correlated Equilibrium Distributions}\\
     Let $G$ be a finite non-cooperative game and $\mathcal{C}$ a set of  feasible probability distributions. 
@@ -1182,16 +1226,19 @@ Consider a finite non-cooperative game ${G}=(\mathcal{N},(\mathcal{A}_{i})_{i \i
 where $\bm{z}_{\beta_i, \bm{p}}(\bm{a}) 
     = 
     \Sigma_{b_i \in \mathcal{A}_i} \bm{p}(b_i, \bm{a}_{-i}) \mathds{1}_{\beta_i(b_i) = a_i}$ for any $\bm{a} \in \mathcal{A}$ is the distribution resulting from player $i$'s unilateral deviation $\beta_i$.
-    
-    
+\pause
+
+%\vspace{0.1cm}
+%$\rightarrow$ Constrained correlated equilibrium distributions are obtained using the class of canonical correlation devices.
 
 \end{frame}
 
 % new slide ===========================================================
 \begin{frame}
 \frametitle{Existence of Constrained Correlated Equilibria}
+\pause
 \vspace{0.2cm}
-Consider the following two-player game: 
+Consider the following two-player game: \pause
 \vspace{-0.2cm}
 %%%%%%%%%%%%%%%%%%%
 \begin{figure}[H]
@@ -1207,113 +1254,80 @@ Consider the following two-player game:
     \label{tab:2x2game}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%
+\pause
 
-Let $\mathcal{C} \subset \Delta(\mathcal{A})$ feasible set of probability distributions such that,
+Let $\mathcal{C} \subset \Delta(\mathcal{A})$ be a feasible set of probability distributions such that, \pause
 \begin{align}
-    \mathcal{C} = \{ \bm{p} \in \Delta(\mathcal{A}) \mid \bm{p}(U,L) = 1 \text{ or } \bm{p}(U,R) = 1 \text{ or } \bm{p}(D,L) = 1 \text{ or } \bm{p}(D,R) = 1\}
+    \mathcal{C} = \{ \bm{p} \in \Delta(\mathcal{A}) \mid \bm{p}(U,L) = 1 \text{ or } \bm{p}(U,R) = 1 \text{ or } \bm{p}(D,L) = 1 \text{ or } \bm{p}(D,R) = 1\} 
 \end{align}
+\pause
 %%%%%%%%%%%%%%%%%
 \begin{itemize}\setlength{\itemsep}{-0.1cm}
     \setlength{\itemindent}{1em}
-    \item The set of feasible strategies is the set of pure action profiles 
-    \item The players must play a correlated strategy profile inducing a pure action profile in $G$. 
-    \item There does not exist a constrained correlated equilibrium for this game 
+    \item The set of feasible strategies is the set of pure action profiles  \pause
+    \item The players must play a correlated strategy profile inducing a pure action profile in $G$ \pause
+    \item There does not exist a constrained correlated equilibrium for this game \pause
 \end{itemize}
 %%%%%%%%%%%%%%%%%
 \vspace{0.3cm}
 
 \textcolor{aaltoblue}{\large Theorem 2 - Existence of Constrained Correlated Equilibria}\\
-    Let $G$ be a finite non-cooperative game and $\mathcal{C}$ a feasible set of probability distributions. 
-    If $\mathcal{C}$ is \textbf{non-empty}, \textbf{compact} and \textbf{convex}, then a constrained correlated equilibrium of $G$ exists.
+Let $G$ be a finite non-cooperative game and $\mathcal{C}$ a feasible set of probability distributions.
+If the intersection of $\mathcal{C}$ with the set of correlated equilibrium distributions of the game $G$ is non-empty, then a constrained correlated equilibrium of $G$ exists.
 
 
 \end{frame}
 
 % new slide ===========================================================
 \begin{frame}
-\frametitle{Computation of Constrained Correlated Equilibria}
-
-
-
-\begin{columns}
-\column{0.5\textwidth}
-%%%%%%%%%%%%%%%%%%
-\begin{align}
-    & \text {maximize } 0 \nonumber \\
-    \text { s.t. } & \bm{p}(\bm{a}) \geq 0 \quad \forall \bm{a} \in \mathcal{A}, \quad \Sigma_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a}) = 1 \\
-                    & \forall i \in \mathcal{N}, \forall \beta_i : \mathcal{A}_i \rightarrow \mathcal{A}_i \nonumber \\
-                    & \sum\limits_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a}) \left[u_{i}(\bm{a}) - u_{i}(\beta_i(a_i), \bm{a}_{-i}) \right] \geq 0. \\ \nonumber
-    \end{align}  
-%%%%%%%%%%%%%%%%%%
-\column{0.5\textwidth}
-%%%%%%%%%%%%%%%%%%
-\begin{align}
-    & \text{maximize } 0 \nonumber \\
-    \text { s.t. } & \bm{p}(\bm{a}) \geq 0 \quad \forall \bm{a} \in \mathcal{A}, \quad \Sigma_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a}) = 1 \\
-                   & \forall i \in \mathcal{N}, \forall \beta_i : \mathcal{A}_i \rightarrow \mathcal{A}_i \textcolor{red}{\text{ s.t. } \bm{z}_{\beta_i, \bm{p}} \in \mathcal{C}} \nonumber \\
-                   & \sum\limits_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a}) \left[u_{i}(\bm{a}) - u_{i}(\beta_i(a_i), \bm{a}_{-i}) \right] \geq 0,\\
-                   & \textcolor{red}{\bm{p} \in \mathcal{C}}
-\end{align}
-%%%%%%%%%%%%%%%%%%
-\end{columns}
-
-\vspace{0.6cm}
-
-Assume linear constraints e.g., $\mathcal{C} = \{ \bm{p} \in \Delta(\mathcal{A}) \mid F\bm{p} \leq 0 \}$.
-
-\end{frame}
-
-% new slide ===========================================================
-\begin{frame}
-\frametitle{Constraints induced by a set of feasible probability distributions}
-
-Let $\mathcal{C} \subseteq \Delta(\mathcal{A})$ be a set of probability distributions, called {feasible set of probability distributions} and for each correlation device $d$, define the coupled constraint set $\mathcal{R}_d$ generated by $\mathcal{C}$ such that, 
-%%%%%%%%%%%%%%%%%%%
-\begin{equation}\label{eq:RdInducedByFeasibleDistributions}
-    \mathcal{R}_d = \{  \bm{\alpha}  \in \mathcal{S}_d \mid \bm{p}_{\bm{\alpha}} \in \mathcal{C} \}
-\end{equation}
-%%%%%%%%%%%%%%%%%%%
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textcolor{aaltoblue}{\large Theorem 1} :
-    Let $G$ be a finite non-cooperative game and $\mathcal{C}$ a set of feasible probability distributions. 
-    The distribution $\bm{p}\in\Delta(\mathcal{A})$ is a constrained correlated equilibrium distribution 
-    if and only if 
-    for any player $i\in\mathcal{N}$,
-    for any strategy $\beta_i : {\mathcal{A}_i} \rightarrow {\mathcal{A}_i}$, 
-    if 
-    $\bm{z}_{\beta_i,\bm{p}} \in \mathcal{C}$, 
-    then
-    \vspace{-0.1cm}
-    %%%%%%%%%%%%%%%%%%%
-    \begin{align}
-        \sum\limits_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a})
-        \left[
-            u_{i}(a_i, \bm{a}_{-i}) - u_{i}(\beta_i(a_i), \bm{a}_{-i}) 
-        \right] 
-        \geq 0 
-        \label{eq:defnCanonical}
-    \end{align}
-    %%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{-0.3cm}
-
-$\rightarrow$ The set of constrained correlated equilibrium distributions is obtained using the class of canonical correlation devices.
+\frametitle{Constrained Correlated Equilibria of the Mixed Extension}
+\pause
 
 \vspace{0.5cm}
 
-Define the mixed extension $\Delta G$, 
+Define the mixed extension of $G$ by the game $\Delta G = (\mathcal{N}, (\Delta(\mathcal{A}_i))_{i \in \mathcal{N}}, (u_i)_{i \in \mathcal{N}})$ where $\Delta(\mathcal{A}_i) = \{\bm{p}\in \mathbb{R}^{|\mathcal{A}_i|}_+ \mid \sum_{a_i\in\mathcal{A}_i}\bm{p}(a_i) = 1\}$ is the set of probability distributions on $\mathcal{A}_i$. \pause
+\vspace{0.15cm}
+ 
+Let $d$ be a correlation device and $\Delta G_d$ be the extension of $\Delta G$ by $d$. The set of strategies of player $i$ in $\Delta G_d$ is
+%%%%%%%%%%%%%%%%%%%%%
+\begin{equation}
+    \tilde{\mathcal{S}}_{i, d} = \{ \gamma_i : \Omega \rightarrow \Delta(\mathcal{A}_i)
+    \mid 
+    \gamma_i
+    \text{  is }
+    \mathcal{P}_i\text{-measurable} \} \label{eq:mixedCorrelatedStrategy}
+\end{equation}
+%%%%%%%%%%%%%%%%%%%%%
+\pause
 
-\vspace{0.2cm}
+\vspace{0.1cm}
+
+For any correlated strategy profile 
+$\bm{\gamma} \in \tilde{\mathcal{S}}_d = \times_{i\in\mathcal{N}}\tilde{\mathcal{S}}_{i, d}$, the utility function of player 
+$i$ is 
+$
+    \tilde{u}_i:\tilde{\mathcal{S}}_d \rightarrow \mathbb{R}
+$ 
+such that,
+%%%%%%%%%%%%%%%%%%%
+\begin{align}
+     \tilde{u}_i(\gamma_i, \bm{\gamma}_{-i})
+     &=
+     \sum_{\omega \in \Omega}
+     \bm{q}(\omega)
+     u_i(\gamma_i(\omega),\bm{\alpha}_{-i}(\omega))
+\end{align}
+%%%%%%%%%%%%%%%%%%%
+\pause
+\vspace{0.1cm}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \textcolor{aaltoblue}{\large Theorem 2} :
     %Let $G$ be a finite non-cooperative game and 
     Let $G$ be a finite non-cooperative game, $\mathcal{C}$ a feasible set of probability distributions, $d$ a correlation device and $\bm{\gamma}^*\in\tilde{\mathcal{S}}_d$ a correlated strategy profile.  
     If $(d,\tilde{\mathcal{R}}_d,\bm{\gamma}^*)$ is a constrained correlated equilibrium of $\Delta G$, then it exists a constrained correlated equilibrium $(d^\prime,\mathcal{R}_{d^\prime},\bm{\alpha}^*)$ of $G$ such that $\bm{p}_{\bm{\gamma}^*} = \bm{p}_{\bm{\alpha}^*}$.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\pause
 \vspace{0.3cm}
 
 $\rightarrow$ The set of constrained correlated equilibrium distributions of the game $\Delta G$ is included in the set of constrained correlated equilibrium distributions of $G$.
@@ -1336,6 +1350,8 @@ $\rightarrow$ The set of constrained correlated equilibrium distributions of the
 %%%%%%%%%%%%%%%%%%
 \column{0.5\textwidth}
 %%%%%%%%%%%%%%%%%%
+\pause
+
 \begin{align}
     & \text{maximize } 0 \nonumber \\
     \text { s.t. } & \bm{p}(\bm{a}) \geq 0 \quad \forall \bm{a} \in \mathcal{A}, \quad \Sigma_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a}) = 1 \\
@@ -1347,33 +1363,11 @@ $\rightarrow$ The set of constrained correlated equilibrium distributions of the
 \end{columns}
 
 \vspace{0.6cm}
+\pause
 
-Assume linear constraints e.g., $\mathcal{C} = \{ \bm{p} \in \Delta(\mathcal{A}) \mid F\bm{p} \leq 0 \}$.
+Assuming linear constraints e.g., $\mathcal{C} = \{ \bm{p} \in \Delta(\mathcal{A}) \mid F\bm{p} \leq 0 \}$, we show that the problem of computing a constrained correlated equilibrium distribution \textbf{can be formulated as a Mixed-Integer Linear Program}. 
 
 \end{frame}
-
-
-
-% new slide ===========================================================
-\begin{frame}
-\frametitle{Computation of Constrained Correlated Equilibria}
-
-\begin{center}
-    \textbf{Mixed-Integer Linear Program}
-\end{center}
-
-\vspace{0.3cm}
-
-\begin{align}
-    \boldsymbol{p} \geq 0, \Sigma_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a}) = 1, F \boldsymbol{p} \leq 0 & & \\
-    {\left[U_i-U_i B_{\beta_i}\right] \boldsymbol{p} \leq M_i \times \boldsymbol{y}_{\beta_i}} & \quad \forall i \in \mathcal{N}, \quad \forall \beta_i \\
-    F B_{\beta_i} \boldsymbol{p} \geq-K\left(1-\boldsymbol{y}_{\beta_i}\right)+\delta & \quad \forall i \in \mathcal{N}, \quad \forall \beta_i \\
-    F B_{\beta_i} \bm{p} \leq K y_{\beta_i} & \quad \forall i \in \mathcal{N}, \quad \forall \beta_i\\
-    y_{\beta_i} \in \{ 0,1 \} & \quad \forall i \in \mathcal{N}, \quad \forall \beta_i
-\end{align}
-\end{frame}
-
-
 
 % new slide ===========================================================
 \begin{frame}
@@ -1388,9 +1382,14 @@ Assume linear constraints e.g., $\mathcal{C} = \{ \bm{p} \in \Delta(\mathcal{A})
     $P$ & \multicolumn{1}{c|}{8, 8} & 3, 10  \\ \hline
     $A$ & \multicolumn{1}{c|}{10, 3} & 0, 0
     \end{tabular}}
-    \caption{Game of Chicken}
+    \caption*{\textcolor{aaltoblue}{Table 3:} Game of Chicken}
     \end{table}
-    \vspace{0.4cm}
+    \vspace{0.1cm}
+    \begin{align}
+    	SW(\bm{q}) = \sum_{i\in\mathcal{N}} u_i(\bm{q}) 
+    \end{align}
+    where $\scriptstyle u_i(\bm{q}) = \sum_{\bm{a} \in \mathcal{A}} \bm{q}(\bm{a}) u_i(\bm{a})$
+    \vspace{0.3cm}
     \begin{itemize}\setlength{\itemsep}{-0.2cm}
     \setlength{\itemindent}{.2in}
         \item Feasible utilities in \textcolor{ForestGreen}{green}    
@@ -1404,7 +1403,7 @@ Assume linear constraints e.g., $\mathcal{C} = \{ \bm{p} \in \Delta(\mathcal{A})
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
       \includegraphics[scale=0.43]{figures/P12.png}
-      \caption{Utilities - Constraint: Social Welfare $\geq 12$}
+      \caption{Sets of Utilities of the two players with $SW \geq 12$}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1421,171 +1420,167 @@ Assume linear constraints e.g., $\mathcal{C} = \{ \bm{p} \in \Delta(\mathcal{A})
     \begin{minipage}{.33\textwidth}
       \centering
       \includegraphics[scale=0.21]{figures/CCE_figures/P13.png}
-      \caption*{\centering Utilities - Constraint: Social Welfare $\geq 13$}
+      \caption{\centering Sets of Utilities of the two players with $SW \geq 13$}
       \label{fig:test1}
     \end{minipage}%
     \begin{minipage}{.33\textwidth}
       \centering
       \includegraphics[scale=0.21]{figures/CCE_figures/P14.png}
-      \caption*{\centering Utilities - Constraint: Social Welfare $\geq 14$}
+      \caption{\centering Sets of Utilities of the two players with $SW \geq 14$}
       \label{fig:test2}
     \end{minipage}
     \begin{minipage}{.33\textwidth}
       \centering
       \includegraphics[scale=0.21]{figures/CCE_figures/P15.png}
-      \caption*{\centering Utilities - Constraint: Social Welfare $\geq 15$}
+      \caption{\centering Sets of Utilities of the two players with $SW \geq 15$}
       \label{fig:test1}
     \end{minipage}%
 \end{figure}
+\pause
 
 \begin{itemize}\setlength{\itemsep}{-0.1cm}
-    \item The set may not be convex
+    \item The set may not be convex \pause
     \item There are constrained correlated equilibria outside the set of correlated equilibrium distributions
 \end{itemize}
 
 \end{frame}
 
 
+
 % new slide ===========================================================
-\begin{frame}[t]
+\begin{frame}
 \frametitle{Conclusion \& Highlight of Contributions}
 
-
-\begin{enumerate}
+\begin{itemize}\setlength{\itemsep}{-0.1cm}
+    \item \underline{\textbf{A learning rule to converge towards a correlated equilibrium distribution}}
+    \begin{itemize}\setlength{\itemsep}{-0.05cm}\setlength{\itemindent}{1em}
+        \item Empirical evidence of convergence of the distribution to a constrained correlated equilibrium
+        \item A Markov chain models the learning algorithm 
+        \item The algorithm is adaptive to changes in games e.g., payoff functions or number of players
+    \end{itemize} \pause
     \item \underline{\textbf{Arbitrary constraints and arbitrary correlation device}}
-    \begin{enumerate}
+    \begin{itemize}\setlength{\itemsep}{-0.05cm}
     \item \textbf{Characterizations of Equilibrium Strategies}
-    \begin{itemize}
-    \setlength{\itemindent}{1em}
+    \begin{itemize}\setlength{\itemsep}{-0.05cm}\setlength{\itemindent}{1em}
         \item Definition through generalized Nash equilibrium and correlated equilibrium with alternative characterizations
     \end{itemize}
     \item \textbf{Properties and relationship to (unconstrained) Correlated Equilibria}
-    \begin{itemize}
-    \setlength{\itemindent}{1em}
+    \begin{itemize}\setlength{\itemsep}{-0.05cm}\setlength{\itemindent}{1em}
         \item A feasible correlated equilibrium is a constrained correlated equilibrium 
         \item The set of constrained correlated equilibrium distributions may not be convex
         \item There exist constrained correlated equilibrium distributions outside the set of correlated equilibrium distributions
-    \end{itemize}
-    \end{enumerate}
-     \item X
-\end{enumerate}
-
-\end{frame}
-
-
-% new slide ===========================================================
-\begin{frame}[t]
-\frametitle{Conclusion \& Highlight of Contributions}
-
-\begin{enumerate}
-    \item \underline{\textbf{Arbitrary constraints and arbitrary correlation device}}
-    \begin{enumerate}
-    \item \textbf{Characterizations of Equilibrium Strategies}
-    \begin{itemize}
-    \setlength{\itemindent}{1em}
-        \item Definition through generalized Nash equilibrium and correlated equilibrium with alternative characterizations
-    \end{itemize}
-    \item \textbf{Properties and relationship to (unconstrained) Correlated Equilibria}
-    \begin{itemize}
-    \setlength{\itemindent}{1em}
-        \item A feasible correlated equilibrium is a constrained correlated equilibrium 
-        \item The set of constrained correlated equilibrium distributions may not be convex
-        \item There exist constrained correlated equilibrium distributions outside the set of correlated equilibrium distributions
-    \end{itemize}
-\end{enumerate}
-\item \underline{\textbf{Constraints on probability distributions}}
-\begin{enumerate}
+    \end{itemize}\pause
+\end{itemize}
+\item \underline{\textbf{Constraints on probability distributions}} \setlength{\itemsep}{-0.05cm}
+\begin{itemize}\setlength{\itemsep}{-0.05cm}
     \item \textbf{Characterization of constrained correlated equilibrium distributions}
-    \begin{itemize}
-    \setlength{\itemindent}{1em}
+    \begin{itemize}\setlength{\itemsep}{-0.05cm}\setlength{\itemindent}{1em}
         \item Closed-form expression of the set of constrained correlated equilibrium distribution
     \end{itemize}
     \item \textbf{Conditions of Existence}
-    \begin{itemize}
-    \setlength{\itemindent}{1em}
+    \begin{itemize}\setlength{\itemsep}{-0.05cm}\setlength{\itemindent}{1em}
         \item There does not always exist a constrained correlated equilibrium in finite games
     \end{itemize}
     \item \textbf{Constrained correlated equilibrium distributions of the mixed extension of a game}
-    \begin{itemize}
-    \setlength{\itemindent}{1em}
+    \begin{itemize}\setlength{\itemsep}{-0.05cm}\setlength{\itemindent}{1em}
         \item Every constrained correlated equilibrium distribution of $\Delta G$ is a constrained correlated equilibrium distribution of $G$
     \end{itemize}
     \item \textbf{Computation of linearly constrained correlated equilibria}
-\end{enumerate}
+\end{itemize}
 
-\end{enumerate}
+\end{itemize}
 
 \end{frame}
 
 % new slide ===========================================================
 \begin{frame}[t]
 \frametitle{Open Perspectives}
-
+\pause
 \begin{itemize}
-	\item \textbf{Research questions}
+	\item \textbf{Research Questions}
 	\begin{itemize}\setlength{\itemsep}{-0.05cm}
-		\item subjective correlated equilibrium
-		\item existence conditions
-		\item extensions to infinite games
-		\item connection to Bayesian rationality
-		\item existence problem should be studied for weaker or alternative assumptions
-	\end{itemize}
-	\item \textbf{Unexplored areas}
+	        \item Are there any theoretical guarantees of convergence to the a correlated equilibrium distribution?
+		\item Connection to Bayesian rationality still holds in the presence of constraints ?
+		\item What happens in the case of infinite games ?
+		\item Existence problem should be studied for weaker or alternative assumptions
+		\item Study of the problem of computing constrained correlated equilibria (complexity, feasbility)
+	\end{itemize} \pause
+	\item \textbf{Some Unexplored Topics}
 	\begin{itemize}\setlength{\itemsep}{-0.05cm}
+		\item Learning rule leading to a specific correlated equilibrium (e.g., social welfare maximizing) 
 		\item Learning with constraints
-		\item X
-	\end{itemize}
-	\item \textbf{Potential applications in various fields}
+		\item Subjective correlated equilibrium
+	\end{itemize} \pause
+	\item \textbf{Potential applications of constrained correlated equilibria and learning correlated equilibria in various fields}
 	\begin{itemize}\setlength{\itemsep}{-0.05cm}
-		\item Constrained correlated equilibria
-		\begin{itemize}\setlength{\itemsep}{-0.05cm}
-		\item A
-		\item B
-	\end{itemize}
-		\item Learning correlated equilibria
-		\begin{itemize}\setlength{\itemsep}{-0.05cm}
-		\item C
-		\item D
-	\end{itemize}
+		\item Mobile Edge Computing Systems
+		\item Wireless Networks with constraints
+		\item Engineering and beyond
 	\end{itemize}
 \end{itemize}
 
 \end{frame}
+
+% new slide ===========================================================
+\frame{\frametitle{Thank you!}
+\vspace{-0.31cm}
+\begin{columns}
+\begin{column}{4cm}
+\begin{center}
+\includegraphics[scale=0.299]{figures/questions} \\[-0.6cm]
+\textbf{Questions?} 
+\end{center}
+\end{column}
+\begin{column}{6.1cm}
+  \begin{flushright}
+    \textbf{For more information:}\\[0.1cm]
+    {\footnotesize
+    \textcolor{blue}{\url{omar.t.boufous@gmail.com}}} 
+   
+ \vskip0.5cm
+  \end{flushright}
+\end{column}
+\end{columns}
+}
+
+
 % new slide ===========================================================
 \begin{frame}[t]
 \frametitle{Bibliography}
 
 { \small R. J. Aumann. \emph{Subjectivity and correlation in randomized strategies}. Journal of Mathematical Economics, 1974.}
-\vspace{0.1cm}
+\vspace{0.15cm}
 
 {\small R. J. Aumann. \emph{Correlated equilibrium as an expression of bayesian rationality}. Econometrica, 1987. }
-\vspace{0.1cm}
+\vspace{0.15cm}
 
 { \small S. Hart \& D. Schmeidler. \emph{Existence of correlated equilibria}. Mathematics of Operations Research, 1989.}
-\vspace{0.1cm}
+\vspace{0.15cm}
 
 { \small B. von Stengel \& F. Forges. \emph{Extensive-form correlated equilibrium: Definition and computational complexity}. Mathematics of Operations Research, 2008.}
-\vspace{0.1cm}
+\vspace{0.15cm}
 
 { \small F. Forges. \emph{Correlated equilibria and communication in games}. Complex Social and Behavioral Systems: Game Theory and Agent-Based Models, 2020.}
-\vspace{0.1cm}
+\vspace{0.15cm}
 
 {\small A. Brandenburger, E. Dekel, and John Geanakoplos. \emph{Correlated equilibrium with generalized information structures}. Games and Economic Behavior, 1992.}
-\vspace{0.1cm}
+\vspace{0.15cm}
 
 {\small S. Grant and R. Stauber. \emph{Delegation and ambiguity in correlated equilibrium}. Games and Economic Behavior, 2022.}
-\vspace{0.1cm}
+\vspace{0.15cm}
 
 {\small G. Debreu. \emph{A social equilibrium existence theorem}. Proceedings of the National Academy of Sciences, 1952.}
-\vspace{0.1cm}
+\vspace{0.15cm}
 
 {\small K. J. Arrow and G Debreu. \emph{Existence of an equilibrium for a competitive economy}. Econometrica: Journal of the Econometric Society, 1954.}
-\vspace{0.1cm}
+\vspace{0.15cm}
 
 {\small J. B. Rosen. \emph{Existence and Uniqueness of Equilibrium Points for Concave N-Person Games}. Econometrica, 1965.}
-\vspace{0.1cm}
+\vspace{0.15cm}
 
 {\small Young, H. P. (2009). \emph{Learning by trial and error}. Games and economic behavior.}
+\vspace{0.15cm}
+
 
 
 \end{frame}
@@ -1595,7 +1590,14 @@ Assume linear constraints e.g., $\mathcal{C} = \{ \bm{p} \in \Delta(\mathcal{A})
 \frametitle{Bibliography}
 
 
+{\small Ankur A Kulkarni. \emph{Games and teams with shared constraints}. Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 375(2100):20160302, 2017.}
+\vspace{0.15cm}
 
+{\small Jong-Shi Pang, Gesualdo Scutari, Francisco Facchinei, and Chaoxiong Wang. \emph{Distributed power allocation with rate constraints in gaussian parallel interference channels}. IEEE Transactions on Information Theory, 54(8):3471–3489, 2008.}
+\vspace{0.15cm}
+
+{\small Daniel Nowak, Tobias Mahn, Hussein Al-Shatri, Alexandra Schwartz, and Anja Klein. \emph{A generalized nash game for mobile edge computation offloading}. In 2018 6th IEEE International Conference on Mobile Cloud Computing, Services, and Engineering (MobileCloud), pages 95–102. IEEE, 2018.}
+\vspace{0.15cm}
 
 
 
@@ -1632,27 +1634,34 @@ Assume linear constraints e.g., $\mathcal{C} = \{ \bm{p} \in \Delta(\mathcal{A})
 %\end{frame}
 %
 
+
+
+
+
+
+
 % new slide ===========================================================
-\frame{\frametitle{Thank you!}
-\vspace{-0.31cm}
-\begin{columns}
-\begin{column}{4cm}
+\begin{frame}
+\frametitle{Computation of Constrained Correlated Equilibria}
+
 \begin{center}
-\includegraphics[scale=0.299]{figures/questions} \\[-0.6cm]
-\textbf{Questions?} 
+    \textbf{Mixed-Integer Linear Program}
 \end{center}
-\end{column}
-\begin{column}{6.1cm}
-  \begin{flushright}
-    \textbf{For more information:}\\[0.1cm]
-    {\footnotesize
-    \textcolor{blue}{\url{omar.t.boufous@gmail.com}}} 
-   
- \vskip0.5cm
-  \end{flushright}
-\end{column}
-\end{columns}
-}
+
+\vspace{0.3cm}
+
+\begin{align}
+    \boldsymbol{p} \geq 0, \Sigma_{\bm{a} \in \mathcal{A}} \bm{p}(\bm{a}) = 1, F \boldsymbol{p} \leq 0 & & \\
+    {\left[U_i-U_i B_{\beta_i}\right] \boldsymbol{p} \leq M_i \times \boldsymbol{y}_{\beta_i}} & \quad \forall i \in \mathcal{N}, \quad \forall \beta_i \\
+    F B_{\beta_i} \boldsymbol{p} \geq-K\left(1-\boldsymbol{y}_{\beta_i}\right)+\delta & \quad \forall i \in \mathcal{N}, \quad \forall \beta_i \\
+    F B_{\beta_i} \bm{p} \leq K y_{\beta_i} & \quad \forall i \in \mathcal{N}, \quad \forall \beta_i\\
+    y_{\beta_i} \in \{ 0,1 \} & \quad \forall i \in \mathcal{N}, \quad \forall \beta_i
+\end{align}
+\end{frame}
+
+
+
+
 
 % ===================================================================
 %
