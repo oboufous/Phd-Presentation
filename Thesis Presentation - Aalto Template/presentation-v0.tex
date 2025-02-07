@@ -1048,9 +1048,6 @@ $A$ & \multicolumn{1}{c|}{10, 3} & 0, 0
 \frametitle{Constrained Correlated Equilibrium Strategies}
 
 
-
-
-
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{center}
@@ -1111,15 +1108,23 @@ $A$ & \multicolumn{1}{c|}{10, 3} & 0, 0
 
 \pause
 
-\vspace{0.6cm}
+\vspace{0.3cm}
 
 \begin{block}{Definition 4 -- Constrained Correlated equilibrium (Boufous et al., 2024)}
 \vspace{-0.1cm}
-A correlated equilibrium of $G$ is a pair $(d, \bm{\alpha}^*)$ where $\bm{\alpha}^* : \Omega \rightarrow \mathcal{A}$ is a correlated strategy profile such that  
-\vspace{-0.2cm}
-\begin{align}
-\forall i \in \mathcal{N}, \forall \alpha_i^\prime : \Omega \rightarrow \mathcal{A}_i \quad  \sum_{\omega\in \Omega} \bm{q}(\omega) u_i(\bm{\alpha}^*_i(\omega), \bm{\alpha}^*_{-i}(\omega)) \geq  \sum_{\omega\in \Omega} \bm{q}(\omega) u_i(\alpha^\prime_i(\omega), \bm{\alpha}^*_{-i}(\omega))
-\end{align}
+A constrained correlated equilibrium of $G$ is a triplet $(d,\mathcal{R}_d,\bm{\alpha}^*)$ where $d$ is a correlation device, $\mathcal{R}_d$ is a coupled constraint set in $G_d$ and $\bm{\alpha}^*$ a correlated strategy profile such that, $\bm{\alpha}^* \in \mathcal{R}_d$ and for any 
+    $i \in \mathcal{N}$, for any $\alpha^\prime_{i} \in \mathcal{S}_{i,d}$ such that $(\alpha_i^\prime, \bm{\alpha}^*_{-i}) \in \mathcal{R}_d$,
+    \vspace{-0cm}
+    %%%%%%%%%%%%%%%%%%%
+    \begin{equation}
+        \sum 
+        \limits_{\omega \in \Omega} 
+        \bm{q}(\omega) 
+        \left[ 
+        u_{i}({\alpha}_i^*(\omega), \bm{\alpha}_{-i}^*(\omega)) - u_{i}(\alpha^\prime_{i}(\omega), \bm{\alpha}^*_{-i}(\omega)) 
+        \right] 
+        \geq 0  
+    \end{equation}
 \end{block}
 
 \end{frame}
